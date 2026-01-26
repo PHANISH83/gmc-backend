@@ -1,0 +1,8 @@
+flask
+flask-cors
+google-auth
+google-api-python-client
+python-dotenv
+requests
+pandas
+schedule

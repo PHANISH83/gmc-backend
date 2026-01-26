@@ -1,0 +1,40 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+dist/
+build/
+
+# Environment
+.env
+.venv
+venv/
+ENV/
+
+# Sensitive files
+service_account.json
+
+# Database
+*.db
+gmc_state.db
+
+# Logs
+*.log
+push_debug.log
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.bak

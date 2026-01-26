@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>[STORE_NAME] | Catalog</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        /* Add Search & Pagination Styles */
+        .controls {
+            max-width: 600px;
+            margin: 0 auto 40px;
+            text-align: center;
+        }
+
+        .search-bar {
+            width: 100%;
+            padding: 15px;
+            font-size: 16px;
+            border: 2px solid #eee;
+            border-radius: 30px;
+            outline: none;
+            transition: 0.3s;
+        }
+
+        .search-bar:focus {
+            border-color: #000;
+        }
+
+        .load-more-container {
+            text-align: center;
+            margin-top: 50px;
+        }
+
+        .btn-load {
+            background: #fff;
+            border: 2px solid #000;
+            color: #000;
+            padding: 12px 40px;
+            font-weight: bold;
+            cursor: pointer;
+            transition: 0.2s;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .btn-load:hover {
+            background: #000;
+            color: #fff;
+        }
+
+        .hidden {
+            display: none;
+        }
+
+        .stats {
+            color: #888;
+            font-size: 12px;
+            margin-top: 10px;
+        }
+
+        /* Anti-flicker & Layout */
+        .grid {
+            contain: layout style paint;
+            min-height: 400px;
+            opacity: 1;
+            transition: opacity 0.3s ease-in-out;
+        }
+
+        .grid.loading {
+            opacity: 0.7;
+        }
+
+        img {
+            content-visibility: auto;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+        <header>
+            <a href="index.html" class="brand">[STORE_NAME]</a>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Collection</a></li>
+                    <li><a href="shipping.html">Shipping</a></li>
+                    <li><a href="contact.html">Support</a></li>
+                    <li><a href="../upload" style="color:#007bff; font-weight:700;">📤 Admin</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <div style="text-align: center; margin-bottom: 40px;">
+            <h1>Excellence in Every Package.</h1>
+            <p>Browse our extensive collection of premium goods.</p>
+        </div>
+
+        <div class="controls">
+            <input type="text" id="searchInput" class="search-bar" placeholder="🔍 Search 10,000+ products...">
+            <div class="stats" id="resultStats"></div>
+        </div>
+
+        <div class="grid loading" id="catalog">
+            <!-- Skeleton placeholders for initial load -->
+            <div class="skeleton-card">
+                <div class="skeleton-img"></div>
+                <div class="skeleton-text"></div>
+            </div>
+            <div class="skeleton-card">
+                <div class="skeleton-img"></div>
+                <div class="skeleton-text"></div>
+            </div>
+            <div class="skeleton-card">
+                <div class="skeleton-img"></div>
+                <div class="skeleton-text"></div>
+            </div>
+            <div class="skeleton-card">
+                <div class="skeleton-img"></div>
+                <div class="skeleton-text"></div>
+            </div>
+        </div>
+
+        <div class="load-more-container">
+            <button id="loadMoreBtn" class="btn-load hidden" onclick="loadMore()">Load More Products</button>
+        </div>
+
+        <footer>
+            <p>&copy; 2026 [STORE_NAME]. All Rights Reserved.</p>
+        </footer>
+    </div>
+
+    <script>
+        // --- CONFIGURATION ---
+        let allProducts = [];     // Store all 10k items here
+        let filteredProducts = []; // Items matching search
+        let currentPage = 0;
+        const ITEMS_PER_PAGE = 24; // Show 24 items at a time
+        const API_URL = 'http://localhost:5000';
+
+        // 1. Fetch Data
+        async function init() {
+            try {
+                // Try API first, fallback to JSON
+                let data;
+                try {
+                    const res = await fetch(`${API_URL}/api/products`);
+                    if (!res.ok) throw new Error("API failed");
+                    data = await res.json();
+                } catch (e) {
+                    console.log("Using local JSON fallback");
+                    const res = await fetch('products.json');
+                    data = await res.json();
+                }
+
+                // Handle structure (direct list vs {products: []})
+                allProducts = data.products || data;
+
+                // Initial Render
+                filteredProducts = allProducts;
+
+                // Remove skeleton loading state
+                document.getElementById('catalog').classList.remove('loading');
+
+                renderGrid(true); // true = reset grid
+
+                // Enable Inputs
+                document.getElementById('searchInput').addEventListener('input', handleSearch);
+
+            } catch (err) {
+                console.error(err);
+                document.getElementById('catalog').classList.remove('loading');
+                document.getElementById('catalog').innerHTML = `
+                <div style="text-align:center; grid-column: 1/-1;">
+                    <p>Unable to load products.</p>
+                    <a href="../upload" style="color:#007bff">Go to Admin Upload</a>
+                </div>`;
+            }
+        }
+
+        // 2. Render Function (The Smart Part)
+        function renderGrid(reset = false) {
+            const grid = document.getElementById('catalog');
+            const btn = document.getElementById('loadMoreBtn');
+            const stats = document.getElementById('resultStats');
+
+            if (reset) {
+                grid.innerHTML = '';
+                currentPage = 0;
+            }
+
+            // Calculate slice
+            const start = currentPage * ITEMS_PER_PAGE;
+            const end = start + ITEMS_PER_PAGE;
+            const itemsToShow = filteredProducts.slice(start, end);
+
+            // Generate HTML (Text Only)
+            const html = itemsToShow.map(item => `
+            <div class="item" style="padding: 20px; display: flex; flex-direction: column; justify-content: space-between; height: 100%;">
+                <a href="product.html?id=${item.code}" style="text-decoration:none; color:inherit; height: 100%; display: flex; flex-direction: column;">
+                    <div class="item-title" style="font-size: 16px; margin-bottom: 10px;">${item.productname}</div>
+                    <div style="margin-top: auto;">
+                        <div class="price" style="font-size: 18px;">₹${item.minprice}</div>
+                        <small style="color:#bbb; font-size:11px; display:block; margin-top:5px;">SKU: ${item.code}</small>
+                    </div>
+                </a>
+            </div>
+        `).join('');
+
+            // Use requestAnimationFrame for smooth appending
+            requestAnimationFrame(() => {
+                grid.insertAdjacentHTML('beforeend', html);
+
+                // Update UI State
+                stats.innerText = `Showing ${Math.min(end, filteredProducts.length)} of ${filteredProducts.length} products`;
+
+                // Show/Hide "Load More" button
+                if (end >= filteredProducts.length) {
+                    btn.classList.add('hidden');
+                } else {
+                    btn.classList.remove('hidden');
+                }
+            });
+        }
+
+        // 3. Search Handler with Debounce
+        let debounceTimer;
+        function handleSearch(e) {
+            clearTimeout(debounceTimer);
+            debounceTimer = setTimeout(() => {
+                const query = e.target.value.toLowerCase();
+
+                // Filter the master list
+                filteredProducts = allProducts.filter(p =>
+                    p.productname.toLowerCase().includes(query) ||
+                    String(p.code).toLowerCase().includes(query)
+                );
+
+                renderGrid(true); // Reset view with new results
+            }, 150); // 150ms delay
+        }
+
+        // 4. Load More Handler
+        function loadMore() {
+            currentPage++;
+            renderGrid(false); // Append next batch
+        }
+
+        // Start
+        init();
+    </script>
+
+</body>
+
+</html>

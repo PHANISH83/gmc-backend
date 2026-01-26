@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Item Details</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <header>
+            <a href="index.html" class="brand">[STORE_NAME]</a>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Back to Catalog</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <div id="app">Initializing...</div>
+    </div>
+
+    <script>
+        const params = new URLSearchParams(window.location.search);
+        const skuCode = params.get('id'); // This is now the 'code' (e.g. PRD-00001)
+        const curr = params.get('currency') || 'INR';
+
+        const rates = { 'USD': 0.012, 'AUD': 0.018, 'INR': 1 };
+        const syms = { 'USD': '$', 'AUD': 'A$', 'INR': '₹' };
+
+        fetch('products.json')
+            .then(response => response.json())
+            .then(data => {
+                const products = data.products || [];
+                // Find product where code matches the URL ID
+                const obj = products.find(p => p.code === skuCode);
+
+                if (obj) {
+                    const r = rates[curr] || 1;
+                    const cost = (obj.minprice * r).toFixed(2);
+                    const s = syms[curr] || '₹';
+
+                    document.getElementById('app').innerHTML = `
+                    <div class="split-view">
+                        <div class="main-image">
+                            <img src="${obj.featured_img}" onerror="this.src='https://via.placeholder.com/400?text=No+Image'">
+                        </div>
+                        <div class="details">
+                            <small style="color:#888; text-transform:uppercase; font-size:10px; letter-spacing:1px;">SKU: ${obj.code}</small>
+                            <h1 style="margin-top:10px;">${obj.productname}</h1>
+                            <p>${obj.indepthdescn || obj.briedfdescn || 'Premium quality product.'}</p>
+                            
+                            <div style="font-size: 24px; font-weight: bold; margin: 30px 0;">
+                                ${s}${cost} <span style="font-size:12px; color:#999;">${curr}</span>
+                            </div>
+                            
+                            <button class="btn-primary">Add to Order</button>
+                            
+                            <div style="margin-top: 40px; border-top: 1px solid #eee; padding-top: 20px;">
+                                <p style="font-size:12px;">✓ Brand: ${obj.brand || 'Generic'}</p>
+                                <p style="font-size:12px;">✓ Category: ${obj.category || 'General'}</p>
+                                ${obj.free_shipping ? '<p style="font-size:12px; color:green;">✓ Free Shipping</p>' : ''}
+                            </div>
+                        </div>
+                    </div>
+                `;
+                } else {
+                    document.getElementById('app').innerHTML = "<h2>Product not found.</h2>";
+                }
+            });
+    </script>
+
+</body>
+
+</html>

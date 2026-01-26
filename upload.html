@@ -1,0 +1,489 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GMC CSV Upload</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, system-ui, sans-serif;
+            background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+            min-height: 100vh;
+            padding: 40px;
+            margin: 0;
+        }
+
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+            background: white;
+            padding: 40px;
+            border-radius: 16px;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+        }
+
+        h1 {
+            margin: 0 0 10px;
+            font-size: 24px;
+            color: #333;
+        }
+
+        p.subtitle {
+            color: #666;
+            margin-bottom: 30px;
+            font-size: 14px;
+        }
+
+        .upload-area {
+            border: 2px dashed #ddd;
+            border-radius: 12px;
+            padding: 40px;
+            text-align: center;
+            margin-bottom: 20px;
+            transition: all 0.3s;
+            cursor: pointer;
+        }
+
+        .upload-area:hover {
+            border-color: #007bff;
+            background: #f8f9fa;
+        }
+
+        .upload-area.dragover {
+            border-color: #28a745;
+            background: #e8f5e9;
+        }
+
+        .upload-area input {
+            display: none;
+        }
+
+        .upload-icon {
+            font-size: 48px;
+            margin-bottom: 10px;
+        }
+
+        .file-name {
+            font-size: 14px;
+            color: #28a745;
+            margin-top: 10px;
+            font-weight: 600;
+        }
+
+        .btn-upload {
+            width: 100%;
+            padding: 14px;
+            background: linear-gradient(135deg, #007bff, #0056b3);
+            color: white;
+            border: none;
+            border-radius: 8px;
+            font-size: 16px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.2s;
+        }
+
+        .btn-upload:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(0, 123, 255, 0.4);
+        }
+
+        .btn-upload:disabled {
+            background: #ccc;
+            cursor: not-allowed;
+            transform: none;
+        }
+
+        .result {
+            margin-top: 20px;
+            padding: 15px;
+            border-radius: 8px;
+            display: none;
+        }
+
+        .result.success {
+            background: #d4edda;
+            color: #155724;
+            display: block;
+        }
+
+        .result.error {
+            background: #f8d7da;
+            color: #721c24;
+            display: block;
+        }
+
+        .format-example {
+            background: #f8f9fa;
+            border-radius: 8px;
+            padding: 20px;
+            margin-top: 30px;
+        }
+
+        .format-example h3 {
+            margin: 0 0 10px;
+            font-size: 14px;
+            color: #666;
+        }
+
+        .format-example pre {
+            background: #2d2d2d;
+            color: #f8f8f2;
+            padding: 15px;
+            border-radius: 6px;
+            overflow-x: auto;
+            font-size: 12px;
+            margin: 0;
+        }
+
+        .status-bar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 15px;
+            background: #f8f9fa;
+            border-radius: 8px;
+            margin-bottom: 20px;
+            font-size: 13px;
+        }
+
+        .status-dot {
+            width: 8px;
+            height: 8px;
+            border-radius: 50%;
+            display: inline-block;
+            margin-right: 6px;
+        }
+
+        .status-dot.online {
+            background: #28a745;
+        }
+
+        .status-dot.offline {
+            background: #dc3545;
+        }
+
+        /* Progress Section */
+        .progress-section {
+            display: none;
+            margin-top: 20px;
+            padding: 20px;
+            background: #f0f4f8;
+            border-radius: 12px;
+        }
+
+        .progress-section.active {
+            display: block;
+        }
+
+        .progress-header {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 10px;
+            font-size: 14px;
+            font-weight: 600;
+        }
+
+        .progress-bar-container {
+            background: #ddd;
+            border-radius: 10px;
+            height: 20px;
+            overflow: hidden;
+            margin-bottom: 15px;
+        }
+
+        .progress-bar {
+            background: linear-gradient(135deg, #28a745, #20c997);
+            height: 100%;
+            width: 0%;
+            transition: width 0.3s ease;
+            border-radius: 10px;
+        }
+
+        .progress-stats {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 10px;
+            text-align: center;
+        }
+
+        .stat-box {
+            padding: 10px;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        .stat-box .value {
+            font-size: 24px;
+            font-weight: bold;
+            color: #333;
+        }
+
+        .stat-box .label {
+            font-size: 11px;
+            color: #666;
+            margin-top: 2px;
+        }
+
+        .stat-box.success .value {
+            color: #28a745;
+        }
+
+        .stat-box.fail .value {
+            color: #dc3545;
+        }
+
+        .stat-box.skip .value {
+            color: #ffc107;
+        }
+
+        .current-sku {
+            text-align: center;
+            font-size: 12px;
+            color: #666;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+        <h1>📤 GMC CSV Upload</h1>
+        <p class="subtitle">Upload a CSV file to sync products to Google Merchant Center</p>
+
+        <div class="status-bar">
+            <span><span class="status-dot" id="serverDot"></span><span id="serverText">Checking server...</span></span>
+            <span id="productCount"></span>
+        </div>
+
+        <div class="upload-area" id="uploadArea">
+            <div class="upload-icon">📁</div>
+            <div>Drag & drop your CSV file here</div>
+            <div style="color:#999; margin-top:5px;">or click to browse</div>
+            <input type="file" id="fileInput" accept=".csv">
+            <div class="file-name" id="fileName"></div>
+        </div>
+
+        <button class="btn-upload" id="uploadBtn" disabled>Upload & Sync</button>
+
+        <!-- Progress Section -->
+        <div class="progress-section" id="progressSection">
+            <div class="progress-header">
+                <span id="progressStatus">Processing...</span>
+                <span id="progressPercent">0%</span>
+            </div>
+            <div class="progress-bar-container">
+                <div class="progress-bar" id="progressBar"></div>
+            </div>
+            <div class="progress-stats">
+                <div class="stat-box">
+                    <div class="value" id="statTotal">0</div>
+                    <div class="label">Total</div>
+                </div>
+                <div class="stat-box success">
+                    <div class="value" id="statSuccess">0</div>
+                    <div class="label">Success</div>
+                </div>
+                <div class="stat-box fail">
+                    <div class="value" id="statFail">0</div>
+                    <div class="label">Failed</div>
+                </div>
+                <div class="stat-box skip">
+                    <div class="value" id="statSkip">0</div>
+                    <div class="label">Skipped</div>
+                </div>
+            </div>
+            <div class="current-sku" id="currentSku"></div>
+        </div>
+
+        <div class="result" id="result"></div>
+
+        <div class="format-example">
+            <h3>📋 Required CSV Format:</h3>
+            <pre>SKU,USD,AUD,GMC_Active
+PRD-00001,3.36,5.04,TRUE
+PRD-00002,1.80,2.70,FALSE
+PRD-00003,3.84,5.76,TRUE</pre>
+            <p style="margin: 10px 0 0; font-size: 12px; color: #666;">
+                <strong>GMC_Active:</strong> TRUE = Sync to Google | FALSE = Skip
+            </p>
+        </div>
+    </div>
+
+    <script>
+        const API_URL = 'http://localhost:5000';
+        let selectedFile = null;
+        let pollInterval = null;
+
+        // Check server health
+        async function checkServer() {
+            const dot = document.getElementById('serverDot');
+            const text = document.getElementById('serverText');
+            const count = document.getElementById('productCount');
+
+            try {
+                const res = await fetch(`${API_URL}/health`);
+                const data = await res.json();
+
+                dot.className = 'status-dot online';
+                text.textContent = 'Server Online';
+
+                // Show job state if processing
+                if (data.job_state === 'PROCESSING') {
+                    count.textContent = '⏳ Processing...';
+                } else {
+                    count.textContent = '';
+                }
+            } catch (e) {
+                dot.className = 'status-dot offline';
+                text.textContent = 'Server Offline';
+                count.textContent = '';
+            }
+        }
+        checkServer();
+        setInterval(checkServer, 10000);
+
+        // File handling
+        const uploadArea = document.getElementById('uploadArea');
+        const fileInput = document.getElementById('fileInput');
+        const fileName = document.getElementById('fileName');
+        const uploadBtn = document.getElementById('uploadBtn');
+        const result = document.getElementById('result');
+
+        uploadArea.addEventListener('click', () => fileInput.click());
+
+        uploadArea.addEventListener('dragover', (e) => {
+            e.preventDefault();
+            uploadArea.classList.add('dragover');
+        });
+
+        uploadArea.addEventListener('dragleave', () => {
+            uploadArea.classList.remove('dragover');
+        });
+
+        uploadArea.addEventListener('drop', (e) => {
+            e.preventDefault();
+            uploadArea.classList.remove('dragover');
+            if (e.dataTransfer.files.length) {
+                handleFile(e.dataTransfer.files[0]);
+            }
+        });
+
+        fileInput.addEventListener('change', (e) => {
+            if (e.target.files.length) {
+                handleFile(e.target.files[0]);
+            }
+        });
+
+        function handleFile(file) {
+            if (!file.name.endsWith('.csv')) {
+                alert('Please upload a CSV file');
+                return;
+            }
+            selectedFile = file;
+            fileName.textContent = `✓ ${file.name} (${(file.size / 1024).toFixed(1)} KB)`;
+            uploadBtn.disabled = false;
+        }
+
+        // Poll status
+        async function pollStatus() {
+            try {
+                const res = await fetch(`${API_URL}/status`);
+                const data = await res.json();
+
+                updateProgress(data);
+
+                if (data.state === 'COMPLETED' || data.state === 'ERROR') {
+                    clearInterval(pollInterval);
+                    pollInterval = null;
+
+                    if (data.state === 'COMPLETED') {
+                        showResult('success', `✅ <strong>Completed!</strong> ${data.success_count} products synced, ${data.skip_count} skipped, ${data.fail_count} failed.`);
+                    } else {
+                        showResult('error', `❌ <strong>Error:</strong> ${data.last_error}`);
+                    }
+
+                    uploadBtn.textContent = 'Upload & Sync';
+                    uploadBtn.disabled = false;
+                }
+            } catch (e) {
+                console.error('Poll error:', e);
+            }
+        }
+
+        function updateProgress(data) {
+            const section = document.getElementById('progressSection');
+            section.classList.add('active');
+
+            const total = data.total_rows || 1;
+            const processed = data.processed_count || 0;
+            const percent = Math.round((processed / total) * 100);
+
+            document.getElementById('progressBar').style.width = percent + '%';
+            document.getElementById('progressPercent').textContent = percent + '%';
+            document.getElementById('progressStatus').textContent = data.state === 'COMPLETED' ? '✅ Complete' : '⏳ Processing...';
+
+            document.getElementById('statTotal').textContent = total;
+            document.getElementById('statSuccess').textContent = data.success_count || 0;
+            document.getElementById('statFail').textContent = data.fail_count || 0;
+            document.getElementById('statSkip').textContent = data.skip_count || 0;
+
+            if (data.current_sku) {
+                document.getElementById('currentSku').textContent = `Current: ${data.current_sku}`;
+            }
+        }
+
+        function showResult(type, message) {
+            result.className = `result ${type}`;
+            result.innerHTML = message;
+        }
+
+        // Upload
+        uploadBtn.addEventListener('click', async () => {
+            if (!selectedFile) return;
+
+            uploadBtn.disabled = true;
+            uploadBtn.textContent = '⏳ Uploading...';
+            result.className = 'result';
+            result.style.display = 'none';
+
+            // Reset progress
+            document.getElementById('progressSection').classList.remove('active');
+
+            const formData = new FormData();
+            formData.append('file', selectedFile);
+
+            try {
+                const res = await fetch(`${API_URL}/upload-csv`, {
+                    method: 'POST',
+                    body: formData
+                });
+
+                const data = await res.json();
+
+                if (data.status === 'accepted') {
+                    // Start polling
+                    uploadBtn.textContent = '⏳ Processing...';
+                    pollInterval = setInterval(pollStatus, 500);
+                    pollStatus(); // Immediate first poll
+                } else if (data.error) {
+                    throw new Error(data.error);
+                }
+            } catch (e) {
+                showResult('error', `❌ <strong>Error:</strong> ${e.message}`);
+                uploadBtn.textContent = 'Upload & Sync';
+                uploadBtn.disabled = false;
+            }
+        });
+    </script>
+
+</body>
+
+</html>

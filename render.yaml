@@ -1,0 +1,13 @@
+services:
+  - type: web
+    name: gmc-backend
+    env: python
+    region: oregon
+    plan: free
+    buildCommand: pip install -r requirements.txt
+    startCommand: python server.py
+    envVars:
+      - key: GMC_MERCHANT_ID
+        sync: false
+      - key: PORT
+        value: 10000

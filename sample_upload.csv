@@ -1,0 +1,6 @@
+SKU,Product Name,Description,USD,AUD,GMC_Active
+PRD-00051,New Product 51,Test Desc 51,10.00,15.00,TRUE
+PRD-00052,New Product 52,Test Desc 52,12.00,18.00,TRUE
+PRD-00053,New Product 53,Test Desc 53,14.00,21.00,TRUE
+PRD-00054,New Product 54,Test Desc 54,16.00,24.00,FALSE
+PRD-00055,New Product 55,Test Desc 55,20.00,30.00,TRUE

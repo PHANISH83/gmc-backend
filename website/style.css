@@ -1,0 +1,237 @@
+/* Clean Slate Design */
+body {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #222;
+    line-height: 1.6;
+    background-color: #fff;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Header */
+header {
+    background: #fff;
+    border-bottom: 1px solid #e1e1e1;
+    padding: 20px 0;
+    margin-bottom: 40px;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0;
+}
+
+.brand {
+    font-size: 22px;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #000;
+    text-decoration: none;
+    text-shadow: none;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+    margin: 0;
+    padding: 0;
+}
+
+nav a {
+    text-decoration: none;
+    color: #666;
+    font-size: 13px;
+    font-weight: 600;
+    text-transform: uppercase;
+    transition: color 0.2s;
+}
+
+nav a:hover {
+    color: #000;
+    transform: none;
+    text-shadow: none;
+}
+
+/* Text Styles */
+h1 {
+    font-size: 28px;
+    letter-spacing: -0.5px;
+    margin-bottom: 15px;
+}
+
+h2 {
+    font-size: 20px;
+    margin-top: 40px;
+    border-bottom: 2px solid #f4f4f4;
+    padding-bottom: 10px;
+}
+
+h3 {
+    font-size: 16px;
+    margin-top: 25px;
+    font-weight: 700;
+    color: #333;
+}
+
+p,
+li {
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 15px;
+}
+
+/* Grid Layout */
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 40px;
+    min-height: 400px;
+    /* Prevent collapse */
+    content-visibility: auto;
+    contain-intrinsic-size: 1000px;
+    transition: opacity 0.2s;
+}
+
+.grid.loading {
+    opacity: 0.7;
+}
+
+/* Product Card (Text Only Mode) */
+.item {
+    margin-bottom: 20px;
+    transition: transform 0.2s;
+    height: 100%;
+    /* Uniform height */
+    background: #fff;
+    border: 1px solid #eee;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+}
+
+.item:hover {
+    transform: translateY(-5px);
+    border-color: #000;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.item img {
+    width: 100%;
+    height: 300px;
+    /* FIXED HEIGHT FOR IMAGES */
+    object-fit: cover;
+    background: #f0f0f0;
+    border-radius: 4px;
+}
+
+.item-title {
+    font-weight: 600;
+    font-size: 14px;
+    margin-top: 10px;
+    height: 40px;
+    overflow: hidden;
+    line-height: 1.4;
+}
+
+/* Skeleton Loader */
+.skeleton-card {
+    background: #fff;
+    border-radius: 4px;
+}
+
+.skeleton-img {
+    height: 300px;
+    background: #eee;
+    margin-bottom: 10px;
+    animation: pulse 1.5s infinite;
+}
+
+.skeleton-text {
+    height: 20px;
+    background: #eee;
+    margin-bottom: 5px;
+    width: 80%;
+    animation: pulse 1.5s infinite;
+}
+
+@keyframes pulse {
+    0% {
+        opacity: 0.6;
+    }
+
+    50% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0.6;
+    }
+}
+
+.price {
+    font-weight: bold;
+    color: #000;
+    font-size: 16px;
+    margin-top: 5px;
+}
+
+/* Product Page */
+.split-view {
+    display: flex;
+    gap: 60px;
+    margin-top: 40px;
+}
+
+.main-image {
+    width: 50%;
+    background: #fafafa;
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.main-image img {
+    max-width: 100%;
+}
+
+.details {
+    width: 50%;
+}
+
+.btn-primary {
+    background: #000;
+    color: #fff;
+    padding: 15px 30px;
+    width: 100%;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-top: 20px;
+}
+
+/* Footer */
+footer {
+    margin-top: 80px;
+    padding-top: 40px;
+    border-top: 1px solid #eaeaea;
+    text-align: center;
+    font-size: 12px;
+    color: #999;
+}
+
+footer a {
+    color: #666;
+    margin: 0 10px;
+    text-decoration: none;
+}
