@@ -25,15 +25,25 @@ print("=" * 60)
 print("GMC INFINITE-BATCH SERVER - One-Way Push Mode")
 print("=" * 60)
 
-gmc_bot = None
+# INITIALIZATION
+# Initialize Database
+database.init_db()
 
+# Initialize GMC Manager
+gmc_manager = None
 try:
-    if MERCHANT_ID and MERCHANT_ID != 'YOUR_GMC_ID_HERE':
-        gmc_bot = GMCManager(MERCHANT_ID, 'service_account.json')
-    else:
-        print("[WARNING] GMC_MERCHANT_ID not set!")
+    if os.getenv('GOOGLE_CREDENTIALS'):
+        # Create temp file from env var
+        with open('service_account.json', 'w') as f:
+            f.write(os.getenv('GOOGLE_CREDENTIALS'))
+    
+    # Strictly require service account
+    gmc_manager = GMCManager(MERCHANT_ID, 'service_account.json')
+    print("✅ GMC Manager initialized successfully")
 except Exception as e:
-    print(f"[ERROR] GMC Init failed: {e}")
+    print(f"❌ GMC Init failed: {e}")
+    # We still allow server to start but key features will fail
+
 
 # GLOBAL STATE (To track the background job)
 job_status = {
@@ -263,12 +273,14 @@ def serve_root_files(filename):
 
 # --- API ENDPOINTS (for website) ---
 @app.route('/api/products', methods=['GET'])
+@app.route('/api/products', methods=['GET'])
 def api_products():
     try:
         with open('products.json', 'r', encoding='utf-8') as f:
             data = json.load(f)
             return jsonify({'products': data.get('products', [])})
-    except:
+    except Exception as e:
+        print(f"Error reading products: {e}")
         return jsonify({'products': []})
 
 if __name__ == '__main__':
