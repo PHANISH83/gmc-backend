@@ -30,7 +30,7 @@ print("=" * 60)
 database.init_db()
 
 # Initialize GMC Manager
-gmc_manager = None
+gmc_bot = None
 try:
     if os.getenv('GOOGLE_CREDENTIALS'):
         # Create temp file from env var
@@ -38,7 +38,7 @@ try:
             f.write(os.getenv('GOOGLE_CREDENTIALS'))
     
     # Strictly require service account
-    gmc_manager = GMCManager(MERCHANT_ID, 'service_account.json')
+    gmc_bot = GMCManager(MERCHANT_ID, 'service_account.json')
     print("✅ GMC Manager initialized successfully")
 except Exception as e:
     print(f"❌ GMC Init failed: {e}")
