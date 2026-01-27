@@ -110,6 +110,12 @@ class GMCManager:
                 'service': 'Standard Shipping',
                 'price': {'value': '14.99', 'currency': 'AUD'}
             }]
+        elif country == 'GB':
+            shipping = [{
+                'country': 'GB',
+                'service': 'Standard Shipping',
+                'price': {'value': '7.99', 'currency': 'GBP'}
+            }]
 
         body = {
             'offerId': offer_id,

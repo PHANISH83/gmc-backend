@@ -81,17 +81,32 @@ def main():
     for p in active_products:
         product_data = get_product_data(p)
         
-        # Calculate USD price
+        # === US Market ===
         inr_price = float(p.get('minprice', 0))
         usd_price = round(inr_price * EXCHANGE_RATE_USD, 2)
         product_data['price'] = usd_price
         
-        # Format for US market
-        body = gmc.format_product(product_data, 'US', 'USD')
-        body['price']['value'] = str(usd_price)
-        product_bodies.append(body)
+        body_us = gmc.format_product(product_data, 'US', 'USD')
+        body_us['price']['value'] = str(usd_price)
+        product_bodies.append(body_us)
+        
+        # === UK Market ===
+        uk_price = float(p.get('uk_price', inr_price * 1.2))
+        uk_price_converted = round(uk_price * EXCHANGE_RATE_USD * 0.79, 2)  # USD to GBP approx
+        product_data['price'] = uk_price_converted
+        
+        body_uk = gmc.format_product(product_data, 'GB', 'GBP')
+        body_uk['price']['value'] = str(uk_price_converted)
+        # Add UK shipping
+        body_uk['shipping'] = [{
+            'country': 'GB',
+            'service': 'Standard Shipping',
+            'price': {'value': '7.99', 'currency': 'GBP'}
+        }]
+        product_bodies.append(body_uk)
     
-    print(f"[INFO] Prepared {len(product_bodies)} products for batch upload")
+    print(f"[INFO] Prepared {len(product_bodies)} products for batch upload (US + UK)")
+
     
     # Push using batch API
     print("\n" + "-" * 60)

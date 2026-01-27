@@ -125,7 +125,8 @@
           "updated_dt": "2024-01-01"
         }
       ],
-      "gmc_active": "yes"
+      "gmc_active": "yes",
+      "uk_price": 336.0
     },
     {
       "id": 2,
@@ -218,7 +219,8 @@
           "updated_dt": "2024-02-02"
         }
       ],
-      "gmc_active": "yes"
+      "gmc_active": "yes",
+      "uk_price": 180.0
     },
     {
       "id": 3,
@@ -338,7 +340,8 @@
           "updated_dt": "2024-03-03"
         }
       ],
-      "gmc_active": "yes"
+      "gmc_active": "yes",
+      "uk_price": 384.0
     },
     {
       "id": 4,
@@ -431,7 +434,8 @@
           "updated_dt": "2024-04-04"
         }
       ],
-      "gmc_active": "yes"
+      "gmc_active": "yes",
+      "uk_price": 144.0
     },
     {
       "id": 5,
@@ -551,7 +555,8 @@
           "updated_dt": "2024-05-05"
         }
       ],
-      "gmc_active": "yes"
+      "gmc_active": "yes",
+      "uk_price": 480.0
     },
     {
       "id": 6,
@@ -671,7 +676,8 @@
           "updated_dt": "2024-06-06"
         }
       ],
-      "gmc_active": "yes"
+      "gmc_active": "yes",
+      "uk_price": 360.0
     },
     {
       "id": 7,
@@ -764,7 +770,8 @@
           "updated_dt": "2024-07-07"
         }
       ],
-      "gmc_active": "yes"
+      "gmc_active": "yes",
+      "uk_price": 180.0
     },
     {
       "id": 8,
@@ -884,7 +891,8 @@
           "updated_dt": "2024-08-08"
         }
       ],
-      "gmc_active": "yes"
+      "gmc_active": "yes",
+      "uk_price": 384.0
     },
     {
       "id": 9,
@@ -977,7 +985,8 @@
           "updated_dt": "2024-09-09"
         }
       ],
-      "gmc_active": "yes"
+      "gmc_active": "yes",
+      "uk_price": 144.0
     },
     {
       "id": 10,
@@ -1097,7 +1106,8 @@
           "updated_dt": "2024-10-10"
         }
       ],
-      "gmc_active": "yes"
+      "gmc_active": "yes",
+      "uk_price": 480.0
     },
     {
       "id": 11,
@@ -1217,7 +1227,8 @@
           "updated_dt": "2024-11-11"
         }
       ],
-      "gmc_active": "yes"
+      "gmc_active": "yes",
+      "uk_price": 336.0
     },
     {
       "id": 12,
@@ -1310,7 +1321,8 @@
           "updated_dt": "2024-12-12"
         }
       ],
-      "gmc_active": "yes"
+      "gmc_active": "yes",
+      "uk_price": 180.0
     },
     {
       "id": 13,
@@ -1430,7 +1442,8 @@
           "updated_dt": "2024-01-13"
         }
       ],
-      "gmc_active": "yes"
+      "gmc_active": "yes",
+      "uk_price": 384.0
     },
     {
       "id": 14,
@@ -1523,7 +1536,8 @@
           "updated_dt": "2024-02-14"
         }
       ],
-      "gmc_active": "yes"
+      "gmc_active": "yes",
+      "uk_price": 144.0
     },
     {
       "id": 15,
@@ -1643,7 +1657,8 @@
           "updated_dt": "2024-03-15"
         }
       ],
-      "gmc_active": "yes"
+      "gmc_active": "yes",
+      "uk_price": 480.0
     },
     {
       "id": 16,
@@ -1763,7 +1778,8 @@
           "updated_dt": "2024-04-16"
         }
       ],
-      "gmc_active": "yes"
+      "gmc_active": "yes",
+      "uk_price": 336.0
     },
     {
       "id": 17,
@@ -1856,7 +1872,8 @@
           "updated_dt": "2024-05-17"
         }
       ],
-      "gmc_active": "yes"
+      "gmc_active": "yes",
+      "uk_price": 180.0
     },
     {
       "id": 18,
@@ -1976,7 +1993,8 @@
           "updated_dt": "2024-06-18"
         }
       ],
-      "gmc_active": "yes"
+      "gmc_active": "yes",
+      "uk_price": 384.0
     },
     {
       "id": 19,
@@ -2069,7 +2087,8 @@
           "updated_dt": "2024-07-19"
         }
       ],
-      "gmc_active": "yes"
+      "gmc_active": "yes",
+      "uk_price": 144.0
     },
     {
       "id": 20,
@@ -2189,7 +2208,8 @@
           "updated_dt": "2024-08-20"
         }
       ],
-      "gmc_active": "yes"
+      "gmc_active": "yes",
+      "uk_price": 480.0
     },
     {
       "id": 21,
@@ -2309,7 +2329,8 @@
           "updated_dt": "2024-09-21"
         }
       ],
-      "gmc_active": "yes"
+      "gmc_active": "yes",
+      "uk_price": 336.0
     },
     {
       "id": 22,
@@ -2402,7 +2423,8 @@
           "updated_dt": "2024-10-22"
         }
       ],
-      "gmc_active": "yes"
+      "gmc_active": "yes",
+      "uk_price": 180.0
     },
     {
       "id": 23,
@@ -2522,7 +2544,8 @@
           "updated_dt": "2024-11-23"
         }
       ],
-      "gmc_active": "yes"
+      "gmc_active": "yes",
+      "uk_price": 384.0
     },
     {
       "id": 24,
@@ -2615,7 +2638,8 @@
           "updated_dt": "2024-12-24"
         }
       ],
-      "gmc_active": "yes"
+      "gmc_active": "yes",
+      "uk_price": 144.0
     },
     {
       "id": 25,
@@ -2735,7 +2759,8 @@
           "updated_dt": "2024-01-25"
         }
       ],
-      "gmc_active": "yes"
+      "gmc_active": "yes",
+      "uk_price": 480.0
     },
     {
       "id": 26,
@@ -2855,7 +2880,8 @@
           "updated_dt": "2024-02-26"
         }
       ],
-      "gmc_active": "yes"
+      "gmc_active": "yes",
+      "uk_price": 336.0
     },
     {
       "id": 27,
@@ -2948,7 +2974,8 @@
           "updated_dt": "2024-03-27"
         }
       ],
-      "gmc_active": "no"
+      "gmc_active": "no",
+      "uk_price": 180.0
     },
     {
       "id": 28,
@@ -3068,7 +3095,8 @@
           "updated_dt": "2024-04-28"
         }
       ],
-      "gmc_active": "yes"
+      "gmc_active": "yes",
+      "uk_price": 384.0
     },
     {
       "id": 29,
@@ -3161,7 +3189,8 @@
           "updated_dt": "2024-05-01"
         }
       ],
-      "gmc_active": "no"
+      "gmc_active": "no",
+      "uk_price": 144.0
     },
     {
       "id": 30,
@@ -3281,7 +3310,8 @@
           "updated_dt": "2024-06-02"
         }
       ],
-      "gmc_active": "no"
+      "gmc_active": "no",
+      "uk_price": 480.0
     },
     {
       "id": 31,
@@ -3401,7 +3431,8 @@
           "updated_dt": "2024-07-03"
         }
       ],
-      "gmc_active": "no"
+      "gmc_active": "no",
+      "uk_price": 336.0
     },
     {
       "id": 32,
@@ -3494,7 +3525,8 @@
           "updated_dt": "2024-08-04"
         }
       ],
-      "gmc_active": "no"
+      "gmc_active": "no",
+      "uk_price": 180.0
     },
     {
       "id": 33,
@@ -3614,7 +3646,8 @@
           "updated_dt": "2024-09-05"
         }
       ],
-      "gmc_active": "no"
+      "gmc_active": "no",
+      "uk_price": 384.0
     },
     {
       "id": 34,
@@ -3707,7 +3740,8 @@
           "updated_dt": "2024-10-06"
         }
       ],
-      "gmc_active": "no"
+      "gmc_active": "no",
+      "uk_price": 144.0
     },
     {
       "id": 35,
@@ -3827,7 +3861,8 @@
           "updated_dt": "2024-11-07"
         }
       ],
-      "gmc_active": "no"
+      "gmc_active": "no",
+      "uk_price": 480.0
     },
     {
       "id": 36,
@@ -3947,7 +3982,8 @@
           "updated_dt": "2024-12-08"
         }
       ],
-      "gmc_active": "no"
+      "gmc_active": "no",
+      "uk_price": 336.0
     },
     {
       "id": 37,
@@ -4040,7 +4076,8 @@
           "updated_dt": "2024-01-09"
         }
       ],
-      "gmc_active": "no"
+      "gmc_active": "no",
+      "uk_price": 180.0
     },
     {
       "id": 38,
@@ -4160,7 +4197,8 @@
           "updated_dt": "2024-02-10"
         }
       ],
-      "gmc_active": "no"
+      "gmc_active": "no",
+      "uk_price": 384.0
     },
     {
       "id": 39,
@@ -4253,7 +4291,8 @@
           "updated_dt": "2024-03-11"
         }
       ],
-      "gmc_active": "no"
+      "gmc_active": "no",
+      "uk_price": 144.0
     },
     {
       "id": 40,
@@ -4373,7 +4412,8 @@
           "updated_dt": "2024-04-12"
         }
       ],
-      "gmc_active": "no"
+      "gmc_active": "no",
+      "uk_price": 480.0
     },
     {
       "id": 41,
@@ -4493,7 +4533,8 @@
           "updated_dt": "2024-05-13"
         }
       ],
-      "gmc_active": "no"
+      "gmc_active": "no",
+      "uk_price": 336.0
     },
     {
       "id": 42,
@@ -4586,7 +4627,8 @@
           "updated_dt": "2024-06-14"
         }
       ],
-      "gmc_active": "no"
+      "gmc_active": "no",
+      "uk_price": 180.0
     },
     {
       "id": 43,
@@ -4706,7 +4748,8 @@
           "updated_dt": "2024-07-15"
         }
       ],
-      "gmc_active": "no"
+      "gmc_active": "no",
+      "uk_price": 384.0
     },
     {
       "id": 44,
@@ -4799,7 +4842,8 @@
           "updated_dt": "2024-08-16"
         }
       ],
-      "gmc_active": "no"
+      "gmc_active": "no",
+      "uk_price": 144.0
     },
     {
       "id": 45,
@@ -4919,7 +4963,8 @@
           "updated_dt": "2024-09-17"
         }
       ],
-      "gmc_active": "no"
+      "gmc_active": "no",
+      "uk_price": 480.0
     },
     {
       "id": 46,
@@ -5039,7 +5084,8 @@
           "updated_dt": "2024-10-18"
         }
       ],
-      "gmc_active": "no"
+      "gmc_active": "no",
+      "uk_price": 336.0
     },
     {
       "id": 47,
@@ -5132,7 +5178,8 @@
           "updated_dt": "2024-11-19"
         }
       ],
-      "gmc_active": "no"
+      "gmc_active": "no",
+      "uk_price": 180.0
     },
     {
       "id": 48,
@@ -5252,7 +5299,8 @@
           "updated_dt": "2024-12-20"
         }
       ],
-      "gmc_active": "no"
+      "gmc_active": "no",
+      "uk_price": 384.0
     },
     {
       "id": 49,
@@ -5345,7 +5393,8 @@
           "updated_dt": "2024-01-21"
         }
       ],
-      "gmc_active": "yes"
+      "gmc_active": "yes",
+      "uk_price": 144.0
     },
     {
       "id": 50,
@@ -5465,7 +5514,8 @@
           "updated_dt": "2024-02-22"
         }
       ],
-      "gmc_active": "no"
+      "gmc_active": "no",
+      "uk_price": 480.0
     },
     {
       "id": 51,
@@ -5585,7 +5635,8 @@
           "updated_dt": "2024-01-01"
         }
       ],
-      "gmc_active": "no"
+      "gmc_active": "no",
+      "uk_price": 181.2
     },
     {
       "id": 52,
@@ -5705,7 +5756,8 @@
           "updated_dt": "2024-01-01"
         }
       ],
-      "gmc_active": "no"
+      "gmc_active": "no",
+      "uk_price": 182.4
     },
     {
       "id": 53,
@@ -5825,7 +5877,8 @@
           "updated_dt": "2024-01-01"
         }
       ],
-      "gmc_active": "no"
+      "gmc_active": "no",
+      "uk_price": 183.6
     },
     {
       "id": 54,
@@ -5945,7 +5998,8 @@
           "updated_dt": "2024-01-01"
         }
       ],
-      "gmc_active": "no"
+      "gmc_active": "no",
+      "uk_price": 184.8
     },
     {
       "id": 55,
@@ -6065,7 +6119,8 @@
           "updated_dt": "2024-01-01"
         }
       ],
-      "gmc_active": "no"
+      "gmc_active": "no",
+      "uk_price": 186.0
     },
     {
       "code": "PRD-NEW-01",
@@ -6086,7 +6141,8 @@
           "featured_img": "https://images.unsplash.com/photo-1536304993881-ff6e9eefa2a6?w=800&h=800&fit=crop&fm=jpg"
         }
       ],
-      "gmc_active": "no"
+      "gmc_active": "no",
+      "uk_price": 18.0
     },
     {
       "code": "PRD-NEW-02",
@@ -6107,7 +6163,8 @@
           "featured_img": "https://images.unsplash.com/photo-1596040033229-a9821ebd058d?w=800&h=800&fit=crop&fm=jpg"
         }
       ],
-      "gmc_active": "no"
+      "gmc_active": "no",
+      "uk_price": 15.0
     },
     {
       "code": "PRD-NEW-03",
@@ -6128,7 +6185,8 @@
           "featured_img": "https://images.unsplash.com/photo-1509358271058-aedd22b2da55?w=800&h=800&fit=crop&fm=jpg"
         }
       ],
-      "gmc_active": "no"
+      "gmc_active": "no",
+      "uk_price": 6.0
     }
   ]
 }
