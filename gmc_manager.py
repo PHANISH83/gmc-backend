@@ -117,12 +117,18 @@ class GMCManager:
                 'price': {'value': '7.99', 'currency': 'GBP'}
             }]
 
+        # Get additional images
+        additional_images = data.get('additional_images', [])
+        # Filter out the main image and limit to 10 additional images
+        additional_image_links = [img for img in additional_images if img and img != image][:10]
+
         body = {
             'offerId': offer_id,
             'title': title,
             'description': data.get('description', data.get('briedfdescn', data.get('indepthdescn', title))),
             'link': link,
             'imageLink': image,
+            'additionalImageLinks': additional_image_links,  # NEW: Multiple images
             'contentLanguage': 'en',
             'targetCountry': country,
             'channel': 'online',

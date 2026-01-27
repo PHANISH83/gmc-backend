@@ -33,6 +33,7 @@ def get_product_data(product):
         'price': product.get('minprice', 0),
         'image': product.get('featured_img', ''),
         'featured_img': product.get('featured_img', ''),
+        'additional_images': product.get('additional_images', []),  # NEW: Multiple images
         'brand': product.get('brand', 'Generic'),
         'slug': product.get('produrltitle', product['code']),
         'produrltitle': product.get('produrltitle', product['code']),
