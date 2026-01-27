@@ -26,11 +26,16 @@ def get_product_data(product):
     return {
         'objectID': product['code'],
         'title': product['productname'],
+        'productname': product['productname'],
         'description': product.get('indepthdescn', product.get('briedfdescn', '')),
+        'briedfdescn': product.get('briedfdescn', ''),
+        'indepthdescn': product.get('indepthdescn', ''),
         'price': product.get('minprice', 0),
         'image': product.get('featured_img', ''),
+        'featured_img': product.get('featured_img', ''),
         'brand': product.get('brand', 'Generic'),
         'slug': product.get('produrltitle', product['code']),
+        'produrltitle': product.get('produrltitle', product['code']),
         'weight': weight
     }
 

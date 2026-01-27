@@ -60,29 +60,61 @@ class GMCManager:
         """Format Algolia data for Google Merchant Center."""
         offer_id = f"{data['objectID']}-{country}"
         
-        # Get title (use 'name' field from Algolia, fallback to 'title')
-        title = data.get('name', data.get('title', 'Unknown Product'))
+        # Get title (use 'name' field from Algolia, fallback to 'title' or 'productname')
+        title = data.get('name', data.get('title', data.get('productname', 'Unknown Product')))
         
         # Get price from Algolia's pre-calculated prices
         price = self._get_price_from_algolia(data, country, currency)
         
-        # Link with currency parameter
-        slug = data.get('slug', data['objectID'])
-        link = f"https://thedesifood.com/product/{slug}?currency={currency}"
+        # FIXED: Use the verified GMC domain
+        store_domain = "https://gmc-dashboard.vercel.app"
+        slug = data.get('slug', data.get('produrltitle', data['objectID']))
+        link = f"{store_domain}/products/{data['objectID']}"
 
-        # Build image URL
-        image = data.get('image', '')
-        if image and not image.startswith('http'):
-            image = f"https://thedesifood.com{image}"
+        # FIXED: Build image URL - use direct image links
+        image = data.get('image', data.get('featured_img', ''))
+        
+        # Handle Unsplash URLs - convert to direct format
+        if 'unsplash.com' in image:
+            # Remove query params and use direct format
+            if '?' in image:
+                base_url = image.split('?')[0]
+                image = f"{base_url}?w=800&h=800&fit=crop&fm=jpg"
+        elif image and not image.startswith('http'):
+            image = f"{store_domain}{image}"
+        
+        # If no valid image, use a placeholder
+        if not image or 'example.com' in image:
+            image = "https://images.unsplash.com/photo-1606923829579-0cb981a83e2e?w=800&h=800&fit=crop&fm=jpg"
 
         # Extract weight
         variant_label = data.get('variant_label', '')
         weight_value, weight_unit = self.extract_weight_from_label(variant_label)
+        
+        # If no variant label, try to get weight from data
+        if weight_value == '500' and 'weight' in data:
+            weight_value = str(int(float(data.get('weight', 500)) * 1000))  # Convert kg to g
+            weight_unit = 'g'
+
+        # FIXED: Add shipping information for each country
+        shipping = []
+        if country == 'US':
+            shipping = [{
+                'country': 'US',
+                'service': 'Standard Shipping',
+                'price': {'value': '9.99', 'currency': 'USD'}
+            }]
+        elif country == 'AU':
+            shipping = [{
+                'country': 'AU', 
+                'service': 'Standard Shipping',
+                'price': {'value': '14.99', 'currency': 'AUD'}
+            }]
 
         body = {
             'offerId': offer_id,
             'title': title,
-            'description': data.get('description', title),
+            'description': data.get('description', data.get('briedfdescn', data.get('indepthdescn', title))),
             'link': link,
             'imageLink': image,
             'contentLanguage': 'en',
@@ -90,14 +122,15 @@ class GMCManager:
             'channel': 'online',
             'availability': 'in stock',
             'condition': 'new',
-            'brand': data.get('brand', 'Unknown'),
+            'brand': data.get('brand', 'Generic'),
             'price': {
                 'value': f"{price:.2f}",
                 'currency': currency
             },
             'shippingWeight': {'value': weight_value, 'unit': weight_unit},
+            'shipping': shipping,  # ADDED: Shipping info
             'itemGroupId': slug.split('-')[0] if slug else data['objectID'],
-            'identifierExists': 'no'  # No GTIN per founder's instruction
+            'identifierExists': False  # FIXED: Use boolean instead of string
         }
 
         return body
