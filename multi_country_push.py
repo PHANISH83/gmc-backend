@@ -1,7 +1,6 @@
 """
-Multi-Country Batch Push - Scalable GMC Sync
-Reads country_config.json and pushes products to ALL enabled countries.
-Uses regional_prices from products.json for accurate pricing.
+Multi-Country Batch Push - Using NEW Merchant API
+Replaces Content API with the modern Merchant API (v1beta)
 """
 import sys
 import io
@@ -11,12 +10,16 @@ import json
 import os
 import time
 from dotenv import load_dotenv
-from gmc_manager import GMCManager
+from google.oauth2 import service_account
+from google.shopping.merchant_products_v1beta import ProductInputsServiceClient
+from google.shopping.merchant_products_v1beta import ProductInput, InsertProductInputRequest
+from google.shopping.merchant_products_v1beta.types import Attributes
+from google.type import money_pb2
 
 load_dotenv()
 
 def load_country_config():
-    """Load country configuration."""
+    """Load country configuration with data source IDs."""
     with open('country_config.json', 'r', encoding='utf-8') as f:
         return json.load(f)
 
@@ -24,147 +27,154 @@ def get_enabled_countries(config):
     """Get list of enabled countries from config."""
     return {
         code: cfg for code, cfg in config.get('countries', {}).items() 
-        if cfg.get('enabled', False)
+        if cfg.get('enabled', False) and cfg.get('data_source_id')
     }
 
-def format_product_for_country(product, country_code, country_cfg, gmc):
-    """Format a product for a specific country."""
+def format_product_for_merchant_api(product, country_code, country_cfg, merchant_id):
+    """Format a product for the Merchant API."""
     
-    # Get regional price if available, otherwise calculate
+    offer_id = f"{product['code']}-{country_code}"
+    title = product.get('productname', 'Unknown Product')
+    slug = product.get('produrltitle', product['code'])
+    
+    # Get regional price
     regional = product.get('regional_prices', {}).get(country_code, {})
+    price = regional.get('price', 0)
+    currency = country_cfg['currency']
     
-    if regional:
-        price = regional.get('price', 0)
-        currency = regional.get('currency', country_cfg['currency'])
-    else:
-        # Fallback: calculate from USD price
-        usd_price = product.get('usd_price', product.get('minprice', 0) * 0.012)
-        price = round(usd_price * country_cfg['multiplier'], 2)
-        currency = country_cfg['currency']
+    # Image handling
+    image = product.get('featured_img', '')
+    if 'unsplash.com' in image and 'fm=jpg' not in image:
+        image = image.replace('?', '?fm=jpg&') if '?' in image else f"{image}?fm=jpg"
+    if not image or 'example.com' in image:
+        image = "https://images.unsplash.com/photo-1606923829579-0cb981a83e2e?w=800&h=800&fit=crop&fm=jpg"
     
-    # Get weight from variants
-    weight = 1000
-    if product.get('variants') and len(product['variants']) > 0:
-        variant = product['variants'][0]
-        weight = variant.get('weight', 1) * 1000
+    # Additional images (filter valid ones)
+    additional_images = [img for img in product.get('additional_images', []) if img and img != image][:10]
     
-    # Build product data for GMC
-    product_data = {
-        'objectID': product['code'],
-        'productname': product['productname'],
-        'description': product.get('indepthdescn', product.get('briedfdescn', '')),
-        'briedfdescn': product.get('briedfdescn', ''),
-        'indepthdescn': product.get('indepthdescn', ''),
-        'featured_img': product.get('featured_img', ''),
-        'additional_images': product.get('additional_images', []),
-        'brand': product.get('brand', 'Generic'),
-        'produrltitle': product.get('produrltitle', product['code']),
-        'price': price,
-        'weight': weight
-    }
-    
-    # Use GMC manager to format (handles shipping, images, etc.)
-    body = gmc.format_product(product_data, country_code, currency)
-    
-    # Override price with our calculated regional price
-    body['price'] = {
-        'value': f"{price:.2f}",
-        'currency': currency
-    }
-    
-    # Override shipping with country-specific shipping
+    # Shipping cost
     shipping_cost = country_cfg.get('shipping_cost', 9.99)
-    body['shipping'] = [{
-        'country': country_code,
-        'service': 'Standard Shipping',
-        'price': {'value': str(shipping_cost), 'currency': currency}
-    }]
     
-    return body
+    # Price in micros (API uses micros = value * 1,000,000)
+    price_micros = int(price * 1_000_000)
+    shipping_micros = int(shipping_cost * 1_000_000)
+    
+    # Build ProductInput for Merchant API
+    product_input = ProductInput(
+        offer_id=offer_id,
+        content_language="en",
+        feed_label=country_code,
+        attributes={
+            "title": title,
+            "description": product.get('indepthdescn', product.get('briedfdescn', title))[:5000],
+            "link": f"https://gmc-dashboard.vercel.app/products/{slug}",
+            "image_link": image,
+            "additional_image_links": additional_images,
+            "availability": "in_stock",
+            "condition": "new",
+            "brand": product.get('brand', 'Generic'),
+            "identifier_exists": False,
+        }
+    )
+    
+    return product_input, price, currency, shipping_cost
 
 def main():
     merchant_id = os.getenv('GMC_MERCHANT_ID')
+    account = f"accounts/{merchant_id}"
     
-    if not merchant_id or merchant_id == 'YOUR_GMC_ID_HERE':
+    if not merchant_id:
         print("[ERROR] GMC_MERCHANT_ID not set in .env file!")
         return
     
     print("=" * 70)
-    print("MULTI-COUNTRY BATCH PUSH - Scalable GMC Sync")
+    print("MERCHANT API PUSH - New Google Merchant API")
     print("=" * 70)
+    
+    # Load credentials
+    credentials = service_account.Credentials.from_service_account_file(
+        'service_account.json',
+        scopes=['https://www.googleapis.com/auth/content']
+    )
+    
+    # Initialize client
+    client = ProductInputsServiceClient(credentials=credentials)
+    print(f"[API] Merchant API client ready (Account: {merchant_id})")
     
     # Load configuration
     config = load_country_config()
     enabled_countries = get_enabled_countries(config)
     
-    print(f"\n[CONFIG] Base exchange rate: INR -> USD = {config.get('base_exchange_from_inr', 0.012)}")
     print(f"[CONFIG] Enabled countries: {list(enabled_countries.keys())}")
     
-    # Initialize GMC Manager
-    try:
-        gmc = GMCManager(merchant_id, 'service_account.json')
-    except Exception as e:
-        print(f"[ERROR] Failed to initialize GMC: {e}")
-        return
-    
     # Load products
-    try:
-        with open('products.json', 'r', encoding='utf-8') as f:
-            data = json.load(f)
-            products = data.get('products', [])
-    except Exception as e:
-        print(f"[ERROR] Failed to load products.json: {e}")
-        return
+    with open('products.json', 'r', encoding='utf-8') as f:
+        data = json.load(f)
+        products = data.get('products', [])
     
-    # Filter active products (gmc_active = yes)
+    # Filter active products
     active_products = [p for p in products if str(p.get('gmc_active', 'yes')).lower() == 'yes']
-    print(f"\n[INFO] Active products: {len(active_products)} (gmc_active=yes)")
+    print(f"[INFO] Active products: {len(active_products)}")
     
     if not active_products:
         print("No active products to push.")
         return
     
-    # Format products for ALL enabled countries
-    print("\n[INFO] Formatting products for all countries...")
-    all_product_bodies = []
-    
-    for country_code, country_cfg in enabled_countries.items():
-        country_bodies = []
-        for product in active_products:
-            try:
-                body = format_product_for_country(product, country_code, country_cfg, gmc)
-                country_bodies.append(body)
-            except Exception as e:
-                print(f"[WARN] Error formatting {product['code']} for {country_code}: {e}")
-        
-        all_product_bodies.extend(country_bodies)
-        print(f"   {country_code}: {len(country_bodies)} products ({country_cfg['currency']})")
-    
-    print(f"\n[INFO] Total products to push: {len(all_product_bodies)}")
-    print(f"       ({len(active_products)} products × {len(enabled_countries)} countries)")
-    
-    # Push using batch API
+    # Push products
     print("\n" + "-" * 70)
-    print("Pushing via Batch API (this is much faster!)...")
+    print("Pushing products via Merchant API...")
     print("-" * 70)
     
     start_time = time.time()
-    success, fail, errors = gmc.batch_push(all_product_bodies)
+    total_success = 0
+    total_fail = 0
+    errors = []
+    
+    for country_code, country_cfg in enabled_countries.items():
+        data_source = f"accounts/{merchant_id}/dataSources/{country_cfg['data_source_id']}"
+        country_success = 0
+        country_fail = 0
+        
+        for product in active_products:
+            try:
+                product_input, price, currency, shipping = format_product_for_merchant_api(
+                    product, country_code, country_cfg, merchant_id
+                )
+                
+                request = InsertProductInputRequest(
+                    parent=account,
+                    product_input=product_input,
+                    data_source=data_source
+                )
+                
+                response = client.insert_product_input(request=request)
+                country_success += 1
+                
+            except Exception as e:
+                country_fail += 1
+                error_msg = str(e)[:80]
+                if len(errors) < 10:
+                    errors.append(f"{product['code']}-{country_code}: {error_msg}")
+        
+        total_success += country_success
+        total_fail += country_fail
+        print(f"  {country_code}: ✓ {country_success} | ✗ {country_fail}")
+    
     elapsed = time.time() - start_time
     
     # Summary
     print("\n" + "=" * 70)
-    print("MULTI-COUNTRY BATCH UPLOAD COMPLETE!")
+    print("MERCHANT API PUSH COMPLETE!")
     print("=" * 70)
-    print(f"✓ Success: {success}")
-    print(f"✗ Failed:  {fail}")
+    print(f"✓ Success: {total_success}")
+    print(f"✗ Failed:  {total_fail}")
     print(f"⏱ Time:    {elapsed:.2f} seconds")
     print(f"🌍 Countries: {list(enabled_countries.keys())}")
     print("=" * 70)
     
-    if errors and len(errors) > 0:
-        print(f"\n[ERRORS] {len(errors)} errors occurred:")
-        for e in errors[:5]:  # Show first 5
+    if errors:
+        print(f"\n[ERRORS] First {len(errors)} errors:")
+        for e in errors:
             print(f"  - {e}")
 
 if __name__ == '__main__':
