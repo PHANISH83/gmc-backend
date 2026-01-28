@@ -1,0 +1,44 @@
+{
+  "US": {
+    "id": "10598499052",
+    "name": "accounts/5701870248/dataSources/10598499052",
+    "display_name": "Content API",
+    "feed_label": "US"
+  },
+  "AU": {
+    "id": "10604464770",
+    "name": "accounts/5701870248/dataSources/10604464770",
+    "display_name": "Content API",
+    "feed_label": "AU"
+  },
+  "AE": {
+    "id": "10607377520",
+    "name": "accounts/5701870248/dataSources/10607377520",
+    "display_name": "Content API",
+    "feed_label": "AE"
+  },
+  "CA": {
+    "id": "10607377523",
+    "name": "accounts/5701870248/dataSources/10607377523",
+    "display_name": "Content API",
+    "feed_label": "CA"
+  },
+  "FR": {
+    "id": "10607381066",
+    "name": "accounts/5701870248/dataSources/10607381066",
+    "display_name": "Content API",
+    "feed_label": "FR"
+  },
+  "GB": {
+    "id": "10607441521",
+    "name": "accounts/5701870248/dataSources/10607441521",
+    "display_name": "Content API",
+    "feed_label": "GB"
+  },
+  "DE": {
+    "id": "10607805145",
+    "name": "accounts/5701870248/dataSources/10607805145",
+    "display_name": "Content API",
+    "feed_label": "DE"
+  }
+}
