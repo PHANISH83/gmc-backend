@@ -132,7 +132,101 @@
         "https://images.unsplash.com/photo-1536304993881-ff6e9eefa2a6?w=800&h=800&fit=crop&fm=jpg",
         "https://images.unsplash.com/photo-1594756202469-9ff9799b2e4e?w=800&h=800&fit=crop&fm=jpg",
         "https://images.unsplash.com/photo-1550828520-4cb496926fc9?w=800&h=800&fit=crop&fm=jpg"
-      ]
+      ],
+      "usd_price": 3.36,
+      "regional_prices": {
+        "US": {
+          "price": 3.36,
+          "currency": "USD",
+          "symbol": "$",
+          "formatted": "$3.36",
+          "shipping": 9.99
+        },
+        "GB": {
+          "price": 3.19,
+          "currency": "GBP",
+          "symbol": "\u00a3",
+          "formatted": "\u00a33.19",
+          "shipping": 7.99
+        },
+        "AU": {
+          "price": 5.21,
+          "currency": "AUD",
+          "symbol": "$",
+          "formatted": "$5.21",
+          "shipping": 14.99
+        },
+        "CA": {
+          "price": 4.64,
+          "currency": "CAD",
+          "symbol": "$",
+          "formatted": "$4.64",
+          "shipping": 12.99
+        },
+        "DE": {
+          "price": 3.09,
+          "currency": "EUR",
+          "symbol": "\u20ac",
+          "formatted": "\u20ac3.09",
+          "shipping": 11.99
+        },
+        "FR": {
+          "price": 3.09,
+          "currency": "EUR",
+          "symbol": "\u20ac",
+          "formatted": "\u20ac3.09",
+          "shipping": 11.99
+        },
+        "IT": {
+          "price": 3.09,
+          "currency": "EUR",
+          "symbol": "\u20ac",
+          "formatted": "\u20ac3.09",
+          "shipping": 11.99
+        },
+        "ES": {
+          "price": 3.09,
+          "currency": "EUR",
+          "symbol": "\u20ac",
+          "formatted": "\u20ac3.09",
+          "shipping": 11.99
+        },
+        "AE": {
+          "price": 12.33,
+          "currency": "AED",
+          "symbol": "\u062f.\u0625",
+          "formatted": "\u062f.\u062512.33",
+          "shipping": 19.99
+        },
+        "SG": {
+          "price": 4.54,
+          "currency": "SGD",
+          "symbol": "$",
+          "formatted": "$4.54",
+          "shipping": 12.99
+        },
+        "NZ": {
+          "price": 5.64,
+          "currency": "NZD",
+          "symbol": "$",
+          "formatted": "$5.64",
+          "shipping": 15.99
+        },
+        "JP": {
+          "price": 517.44,
+          "currency": "JPY",
+          "symbol": "\u00a5",
+          "formatted": "\u00a5517.44",
+          "shipping": 1499
+        },
+        "IN": {
+          "price": 280.56,
+          "currency": "INR",
+          "symbol": "\u20b9",
+          "formatted": "\u20b9280.56",
+          "shipping": 99
+        }
+      }
     },
     {
       "id": 2,
@@ -232,7 +326,101 @@
         "https://images.unsplash.com/photo-1544025162-d76978e8e5a4?w=800&h=800&fit=crop&fm=jpg",
         "https://images.unsplash.com/photo-1628627256541-a9eb3b1d1c4e?w=800&h=800&fit=crop&fm=jpg",
         "https://images.unsplash.com/photo-1599940824399-b87987ceb72a?w=800&h=800&fit=crop&fm=jpg"
-      ]
+      ],
+      "usd_price": 1.8,
+      "regional_prices": {
+        "US": {
+          "price": 1.8,
+          "currency": "USD",
+          "symbol": "$",
+          "formatted": "$1.8",
+          "shipping": 9.99
+        },
+        "GB": {
+          "price": 1.71,
+          "currency": "GBP",
+          "symbol": "\u00a3",
+          "formatted": "\u00a31.71",
+          "shipping": 7.99
+        },
+        "AU": {
+          "price": 2.79,
+          "currency": "AUD",
+          "symbol": "$",
+          "formatted": "$2.79",
+          "shipping": 14.99
+        },
+        "CA": {
+          "price": 2.48,
+          "currency": "CAD",
+          "symbol": "$",
+          "formatted": "$2.48",
+          "shipping": 12.99
+        },
+        "DE": {
+          "price": 1.66,
+          "currency": "EUR",
+          "symbol": "\u20ac",
+          "formatted": "\u20ac1.66",
+          "shipping": 11.99
+        },
+        "FR": {
+          "price": 1.66,
+          "currency": "EUR",
+          "symbol": "\u20ac",
+          "formatted": "\u20ac1.66",
+          "shipping": 11.99
+        },
+        "IT": {
+          "price": 1.66,
+          "currency": "EUR",
+          "symbol": "\u20ac",
+          "formatted": "\u20ac1.66",
+          "shipping": 11.99
+        },
+        "ES": {
+          "price": 1.66,
+          "currency": "EUR",
+          "symbol": "\u20ac",
+          "formatted": "\u20ac1.66",
+          "shipping": 11.99
+        },
+        "AE": {
+          "price": 6.61,
+          "currency": "AED",
+          "symbol": "\u062f.\u0625",
+          "formatted": "\u062f.\u06256.61",
+          "shipping": 19.99
+        },
+        "SG": {
+          "price": 2.43,
+          "currency": "SGD",
+          "symbol": "$",
+          "formatted": "$2.43",
+          "shipping": 12.99
+        },
+        "NZ": {
+          "price": 3.02,
+          "currency": "NZD",
+          "symbol": "$",
+          "formatted": "$3.02",
+          "shipping": 15.99
+        },
+        "JP": {
+          "price": 277.2,
+          "currency": "JPY",
+          "symbol": "\u00a5",
+          "formatted": "\u00a5277.2",
+          "shipping": 1499
+        },
+        "IN": {
+          "price": 150.3,
+          "currency": "INR",
+          "symbol": "\u20b9",
+          "formatted": "\u20b9150.3",
+          "shipping": 99
+        }
+      }
     },
     {
       "id": 3,
@@ -359,7 +547,101 @@
         "https://images.unsplash.com/photo-1596040033229-a9821ebd058d?w=800&h=800&fit=crop&fm=jpg",
         "https://images.unsplash.com/photo-1474979266404-7eaacbcd87c5?w=800&h=800&fit=crop&fm=jpg",
         "https://images.unsplash.com/photo-1509358271058-aedd22b2da55?w=800&h=800&fit=crop&fm=jpg"
-      ]
+      ],
+      "usd_price": 3.84,
+      "regional_prices": {
+        "US": {
+          "price": 3.84,
+          "currency": "USD",
+          "symbol": "$",
+          "formatted": "$3.84",
+          "shipping": 9.99
+        },
+        "GB": {
+          "price": 3.65,
+          "currency": "GBP",
+          "symbol": "\u00a3",
+          "formatted": "\u00a33.65",
+          "shipping": 7.99
+        },
+        "AU": {
+          "price": 5.95,
+          "currency": "AUD",
+          "symbol": "$",
+          "formatted": "$5.95",
+          "shipping": 14.99
+        },
+        "CA": {
+          "price": 5.3,
+          "currency": "CAD",
+          "symbol": "$",
+          "formatted": "$5.3",
+          "shipping": 12.99
+        },
+        "DE": {
+          "price": 3.53,
+          "currency": "EUR",
+          "symbol": "\u20ac",
+          "formatted": "\u20ac3.53",
+          "shipping": 11.99
+        },
+        "FR": {
+          "price": 3.53,
+          "currency": "EUR",
+          "symbol": "\u20ac",
+          "formatted": "\u20ac3.53",
+          "shipping": 11.99
+        },
+        "IT": {
+          "price": 3.53,
+          "currency": "EUR",
+          "symbol": "\u20ac",
+          "formatted": "\u20ac3.53",
+          "shipping": 11.99
+        },
+        "ES": {
+          "price": 3.53,
+          "currency": "EUR",
+          "symbol": "\u20ac",
+          "formatted": "\u20ac3.53",
+          "shipping": 11.99
+        },
+        "AE": {
+          "price": 14.09,
+          "currency": "AED",
+          "symbol": "\u062f.\u0625",
+          "formatted": "\u062f.\u062514.09",
+          "shipping": 19.99
+        },
+        "SG": {
+          "price": 5.18,
+          "currency": "SGD",
+          "symbol": "$",
+          "formatted": "$5.18",
+          "shipping": 12.99
+        },
+        "NZ": {
+          "price": 6.45,
+          "currency": "NZD",
+          "symbol": "$",
+          "formatted": "$6.45",
+          "shipping": 15.99
+        },
+        "JP": {
+          "price": 591.36,
+          "currency": "JPY",
+          "symbol": "\u00a5",
+          "formatted": "\u00a5591.36",
+          "shipping": 1499
+        },
+        "IN": {
+          "price": 320.64,
+          "currency": "INR",
+          "symbol": "\u20b9",
+          "formatted": "\u20b9320.64",
+          "shipping": 99
+        }
+      }
     },
     {
       "id": 4,
@@ -459,7 +741,101 @@
         "https://images.unsplash.com/photo-1596040033229-a9821ebd058d?w=800&h=800&fit=crop&fm=jpg",
         "https://images.unsplash.com/photo-1606923829579-0cb981a83e2e?w=800&h=800&fit=crop&fm=jpg",
         "https://images.unsplash.com/photo-1505253716362-afaea1d3d1af?w=800&h=800&fit=crop&fm=jpg"
-      ]
+      ],
+      "usd_price": 1.44,
+      "regional_prices": {
+        "US": {
+          "price": 1.44,
+          "currency": "USD",
+          "symbol": "$",
+          "formatted": "$1.44",
+          "shipping": 9.99
+        },
+        "GB": {
+          "price": 1.37,
+          "currency": "GBP",
+          "symbol": "\u00a3",
+          "formatted": "\u00a31.37",
+          "shipping": 7.99
+        },
+        "AU": {
+          "price": 2.23,
+          "currency": "AUD",
+          "symbol": "$",
+          "formatted": "$2.23",
+          "shipping": 14.99
+        },
+        "CA": {
+          "price": 1.99,
+          "currency": "CAD",
+          "symbol": "$",
+          "formatted": "$1.99",
+          "shipping": 12.99
+        },
+        "DE": {
+          "price": 1.32,
+          "currency": "EUR",
+          "symbol": "\u20ac",
+          "formatted": "\u20ac1.32",
+          "shipping": 11.99
+        },
+        "FR": {
+          "price": 1.32,
+          "currency": "EUR",
+          "symbol": "\u20ac",
+          "formatted": "\u20ac1.32",
+          "shipping": 11.99
+        },
+        "IT": {
+          "price": 1.32,
+          "currency": "EUR",
+          "symbol": "\u20ac",
+          "formatted": "\u20ac1.32",
+          "shipping": 11.99
+        },
+        "ES": {
+          "price": 1.32,
+          "currency": "EUR",
+          "symbol": "\u20ac",
+          "formatted": "\u20ac1.32",
+          "shipping": 11.99
+        },
+        "AE": {
+          "price": 5.28,
+          "currency": "AED",
+          "symbol": "\u062f.\u0625",
+          "formatted": "\u062f.\u06255.28",
+          "shipping": 19.99
+        },
+        "SG": {
+          "price": 1.94,
+          "currency": "SGD",
+          "symbol": "$",
+          "formatted": "$1.94",
+          "shipping": 12.99
+        },
+        "NZ": {
+          "price": 2.42,
+          "currency": "NZD",
+          "symbol": "$",
+          "formatted": "$2.42",
+          "shipping": 15.99
+        },
+        "JP": {
+          "price": 221.76,
+          "currency": "JPY",
+          "symbol": "\u00a5",
+          "formatted": "\u00a5221.76",
+          "shipping": 1499
+        },
+        "IN": {
+          "price": 120.24,
+          "currency": "INR",
+          "symbol": "\u20b9",
+          "formatted": "\u20b9120.24",
+          "shipping": 99
+        }
+      }
     },
     {
       "id": 5,
@@ -586,7 +962,101 @@
         "https://images.unsplash.com/photo-1558642452-9d2a7deb7f62?w=800&h=800&fit=crop&fm=jpg",
         "https://images.unsplash.com/photo-1471943311424-646960669fbc?w=800&h=800&fit=crop&fm=jpg",
         "https://images.unsplash.com/photo-1598971639058-fab3c3109a00?w=800&h=800&fit=crop&fm=jpg"
-      ]
+      ],
+      "usd_price": 4.8,
+      "regional_prices": {
+        "US": {
+          "price": 4.8,
+          "currency": "USD",
+          "symbol": "$",
+          "formatted": "$4.8",
+          "shipping": 9.99
+        },
+        "GB": {
+          "price": 4.56,
+          "currency": "GBP",
+          "symbol": "\u00a3",
+          "formatted": "\u00a34.56",
+          "shipping": 7.99
+        },
+        "AU": {
+          "price": 7.44,
+          "currency": "AUD",
+          "symbol": "$",
+          "formatted": "$7.44",
+          "shipping": 14.99
+        },
+        "CA": {
+          "price": 6.62,
+          "currency": "CAD",
+          "symbol": "$",
+          "formatted": "$6.62",
+          "shipping": 12.99
+        },
+        "DE": {
+          "price": 4.42,
+          "currency": "EUR",
+          "symbol": "\u20ac",
+          "formatted": "\u20ac4.42",
+          "shipping": 11.99
+        },
+        "FR": {
+          "price": 4.42,
+          "currency": "EUR",
+          "symbol": "\u20ac",
+          "formatted": "\u20ac4.42",
+          "shipping": 11.99
+        },
+        "IT": {
+          "price": 4.42,
+          "currency": "EUR",
+          "symbol": "\u20ac",
+          "formatted": "\u20ac4.42",
+          "shipping": 11.99
+        },
+        "ES": {
+          "price": 4.42,
+          "currency": "EUR",
+          "symbol": "\u20ac",
+          "formatted": "\u20ac4.42",
+          "shipping": 11.99
+        },
+        "AE": {
+          "price": 17.62,
+          "currency": "AED",
+          "symbol": "\u062f.\u0625",
+          "formatted": "\u062f.\u062517.62",
+          "shipping": 19.99
+        },
+        "SG": {
+          "price": 6.48,
+          "currency": "SGD",
+          "symbol": "$",
+          "formatted": "$6.48",
+          "shipping": 12.99
+        },
+        "NZ": {
+          "price": 8.06,
+          "currency": "NZD",
+          "symbol": "$",
+          "formatted": "$8.06",
+          "shipping": 15.99
+        },
+        "JP": {
+          "price": 739.2,
+          "currency": "JPY",
+          "symbol": "\u00a5",
+          "formatted": "\u00a5739.2",
+          "shipping": 1499
+        },
+        "IN": {
+          "price": 400.8,
+          "currency": "INR",
+          "symbol": "\u20b9",
+          "formatted": "\u20b9400.8",
+          "shipping": 99
+        }
+      }
     },
     {
       "id": 6,
@@ -713,7 +1183,101 @@
         "https://images.unsplash.com/photo-1536304993881-ff6e9eefa2a6?w=800&h=800&fit=crop&fm=jpg",
         "https://images.unsplash.com/photo-1594756202469-9ff9799b2e4e?w=800&h=800&fit=crop&fm=jpg",
         "https://images.unsplash.com/photo-1550828520-4cb496926fc9?w=800&h=800&fit=crop&fm=jpg"
-      ]
+      ],
+      "usd_price": 3.6,
+      "regional_prices": {
+        "US": {
+          "price": 3.6,
+          "currency": "USD",
+          "symbol": "$",
+          "formatted": "$3.6",
+          "shipping": 9.99
+        },
+        "GB": {
+          "price": 3.42,
+          "currency": "GBP",
+          "symbol": "\u00a3",
+          "formatted": "\u00a33.42",
+          "shipping": 7.99
+        },
+        "AU": {
+          "price": 5.58,
+          "currency": "AUD",
+          "symbol": "$",
+          "formatted": "$5.58",
+          "shipping": 14.99
+        },
+        "CA": {
+          "price": 4.97,
+          "currency": "CAD",
+          "symbol": "$",
+          "formatted": "$4.97",
+          "shipping": 12.99
+        },
+        "DE": {
+          "price": 3.31,
+          "currency": "EUR",
+          "symbol": "\u20ac",
+          "formatted": "\u20ac3.31",
+          "shipping": 11.99
+        },
+        "FR": {
+          "price": 3.31,
+          "currency": "EUR",
+          "symbol": "\u20ac",
+          "formatted": "\u20ac3.31",
+          "shipping": 11.99
+        },
+        "IT": {
+          "price": 3.31,
+          "currency": "EUR",
+          "symbol": "\u20ac",
+          "formatted": "\u20ac3.31",
+          "shipping": 11.99
+        },
+        "ES": {
+          "price": 3.31,
+          "currency": "EUR",
+          "symbol": "\u20ac",
+          "formatted": "\u20ac3.31",
+          "shipping": 11.99
+        },
+        "AE": {
+          "price": 13.21,
+          "currency": "AED",
+          "symbol": "\u062f.\u0625",
+          "formatted": "\u062f.\u062513.21",
+          "shipping": 19.99
+        },
+        "SG": {
+          "price": 4.86,
+          "currency": "SGD",
+          "symbol": "$",
+          "formatted": "$4.86",
+          "shipping": 12.99
+        },
+        "NZ": {
+          "price": 6.05,
+          "currency": "NZD",
+          "symbol": "$",
+          "formatted": "$6.05",
+          "shipping": 15.99
+        },
+        "JP": {
+          "price": 554.4,
+          "currency": "JPY",
+          "symbol": "\u00a5",
+          "formatted": "\u00a5554.4",
+          "shipping": 1499
+        },
+        "IN": {
+          "price": 300.6,
+          "currency": "INR",
+          "symbol": "\u20b9",
+          "formatted": "\u20b9300.6",
+          "shipping": 99
+        }
+      }
     },
     {
       "id": 7,
@@ -813,7 +1377,101 @@
         "https://images.unsplash.com/photo-1544025162-d76978e8e5a4?w=800&h=800&fit=crop&fm=jpg",
         "https://images.unsplash.com/photo-1628627256541-a9eb3b1d1c4e?w=800&h=800&fit=crop&fm=jpg",
         "https://images.unsplash.com/photo-1599940824399-b87987ceb72a?w=800&h=800&fit=crop&fm=jpg"
-      ]
+      ],
+      "usd_price": 1.8,
+      "regional_prices": {
+        "US": {
+          "price": 1.8,
+          "currency": "USD",
+          "symbol": "$",
+          "formatted": "$1.8",
+          "shipping": 9.99
+        },
+        "GB": {
+          "price": 1.71,
+          "currency": "GBP",
+          "symbol": "\u00a3",
+          "formatted": "\u00a31.71",
+          "shipping": 7.99
+        },
+        "AU": {
+          "price": 2.79,
+          "currency": "AUD",
+          "symbol": "$",
+          "formatted": "$2.79",
+          "shipping": 14.99
+        },
+        "CA": {
+          "price": 2.48,
+          "currency": "CAD",
+          "symbol": "$",
+          "formatted": "$2.48",
+          "shipping": 12.99
+        },
+        "DE": {
+          "price": 1.66,
+          "currency": "EUR",
+          "symbol": "\u20ac",
+          "formatted": "\u20ac1.66",
+          "shipping": 11.99
+        },
+        "FR": {
+          "price": 1.66,
+          "currency": "EUR",
+          "symbol": "\u20ac",
+          "formatted": "\u20ac1.66",
+          "shipping": 11.99
+        },
+        "IT": {
+          "price": 1.66,
+          "currency": "EUR",
+          "symbol": "\u20ac",
+          "formatted": "\u20ac1.66",
+          "shipping": 11.99
+        },
+        "ES": {
+          "price": 1.66,
+          "currency": "EUR",
+          "symbol": "\u20ac",
+          "formatted": "\u20ac1.66",
+          "shipping": 11.99
+        },
+        "AE": {
+          "price": 6.61,
+          "currency": "AED",
+          "symbol": "\u062f.\u0625",
+          "formatted": "\u062f.\u06256.61",
+          "shipping": 19.99
+        },
+        "SG": {
+          "price": 2.43,
+          "currency": "SGD",
+          "symbol": "$",
+          "formatted": "$2.43",
+          "shipping": 12.99
+        },
+        "NZ": {
+          "price": 3.02,
+          "currency": "NZD",
+          "symbol": "$",
+          "formatted": "$3.02",
+          "shipping": 15.99
+        },
+        "JP": {
+          "price": 277.2,
+          "currency": "JPY",
+          "symbol": "\u00a5",
+          "formatted": "\u00a5277.2",
+          "shipping": 1499
+        },
+        "IN": {
+          "price": 150.3,
+          "currency": "INR",
+          "symbol": "\u20b9",
+          "formatted": "\u20b9150.3",
+          "shipping": 99
+        }
+      }
     },
     {
       "id": 8,
@@ -940,7 +1598,101 @@
         "https://images.unsplash.com/photo-1596040033229-a9821ebd058d?w=800&h=800&fit=crop&fm=jpg",
         "https://images.unsplash.com/photo-1474979266404-7eaacbcd87c5?w=800&h=800&fit=crop&fm=jpg",
         "https://images.unsplash.com/photo-1509358271058-aedd22b2da55?w=800&h=800&fit=crop&fm=jpg"
-      ]
+      ],
+      "usd_price": 3.84,
+      "regional_prices": {
+        "US": {
+          "price": 3.84,
+          "currency": "USD",
+          "symbol": "$",
+          "formatted": "$3.84",
+          "shipping": 9.99
+        },
+        "GB": {
+          "price": 3.65,
+          "currency": "GBP",
+          "symbol": "\u00a3",
+          "formatted": "\u00a33.65",
+          "shipping": 7.99
+        },
+        "AU": {
+          "price": 5.95,
+          "currency": "AUD",
+          "symbol": "$",
+          "formatted": "$5.95",
+          "shipping": 14.99
+        },
+        "CA": {
+          "price": 5.3,
+          "currency": "CAD",
+          "symbol": "$",
+          "formatted": "$5.3",
+          "shipping": 12.99
+        },
+        "DE": {
+          "price": 3.53,
+          "currency": "EUR",
+          "symbol": "\u20ac",
+          "formatted": "\u20ac3.53",
+          "shipping": 11.99
+        },
+        "FR": {
+          "price": 3.53,
+          "currency": "EUR",
+          "symbol": "\u20ac",
+          "formatted": "\u20ac3.53",
+          "shipping": 11.99
+        },
+        "IT": {
+          "price": 3.53,
+          "currency": "EUR",
+          "symbol": "\u20ac",
+          "formatted": "\u20ac3.53",
+          "shipping": 11.99
+        },
+        "ES": {
+          "price": 3.53,
+          "currency": "EUR",
+          "symbol": "\u20ac",
+          "formatted": "\u20ac3.53",
+          "shipping": 11.99
+        },
+        "AE": {
+          "price": 14.09,
+          "currency": "AED",
+          "symbol": "\u062f.\u0625",
+          "formatted": "\u062f.\u062514.09",
+          "shipping": 19.99
+        },
+        "SG": {
+          "price": 5.18,
+          "currency": "SGD",
+          "symbol": "$",
+          "formatted": "$5.18",
+          "shipping": 12.99
+        },
+        "NZ": {
+          "price": 6.45,
+          "currency": "NZD",
+          "symbol": "$",
+          "formatted": "$6.45",
+          "shipping": 15.99
+        },
+        "JP": {
+          "price": 591.36,
+          "currency": "JPY",
+          "symbol": "\u00a5",
+          "formatted": "\u00a5591.36",
+          "shipping": 1499
+        },
+        "IN": {
+          "price": 320.64,
+          "currency": "INR",
+          "symbol": "\u20b9",
+          "formatted": "\u20b9320.64",
+          "shipping": 99
+        }
+      }
     },
     {
       "id": 9,
@@ -1040,7 +1792,101 @@
         "https://images.unsplash.com/photo-1596040033229-a9821ebd058d?w=800&h=800&fit=crop&fm=jpg",
         "https://images.unsplash.com/photo-1606923829579-0cb981a83e2e?w=800&h=800&fit=crop&fm=jpg",
         "https://images.unsplash.com/photo-1505253716362-afaea1d3d1af?w=800&h=800&fit=crop&fm=jpg"
-      ]
+      ],
+      "usd_price": 1.44,
+      "regional_prices": {
+        "US": {
+          "price": 1.44,
+          "currency": "USD",
+          "symbol": "$",
+          "formatted": "$1.44",
+          "shipping": 9.99
+        },
+        "GB": {
+          "price": 1.37,
+          "currency": "GBP",
+          "symbol": "\u00a3",
+          "formatted": "\u00a31.37",
+          "shipping": 7.99
+        },
+        "AU": {
+          "price": 2.23,
+          "currency": "AUD",
+          "symbol": "$",
+          "formatted": "$2.23",
+          "shipping": 14.99
+        },
+        "CA": {
+          "price": 1.99,
+          "currency": "CAD",
+          "symbol": "$",
+          "formatted": "$1.99",
+          "shipping": 12.99
+        },
+        "DE": {
+          "price": 1.32,
+          "currency": "EUR",
+          "symbol": "\u20ac",
+          "formatted": "\u20ac1.32",
+          "shipping": 11.99
+        },
+        "FR": {
+          "price": 1.32,
+          "currency": "EUR",
+          "symbol": "\u20ac",
+          "formatted": "\u20ac1.32",
+          "shipping": 11.99
+        },
+        "IT": {
+          "price": 1.32,
+          "currency": "EUR",
+          "symbol": "\u20ac",
+          "formatted": "\u20ac1.32",
+          "shipping": 11.99
+        },
+        "ES": {
+          "price": 1.32,
+          "currency": "EUR",
+          "symbol": "\u20ac",
+          "formatted": "\u20ac1.32",
+          "shipping": 11.99
+        },
+        "AE": {
+          "price": 5.28,
+          "currency": "AED",
+          "symbol": "\u062f.\u0625",
+          "formatted": "\u062f.\u06255.28",
+          "shipping": 19.99
+        },
+        "SG": {
+          "price": 1.94,
+          "currency": "SGD",
+          "symbol": "$",
+          "formatted": "$1.94",
+          "shipping": 12.99
+        },
+        "NZ": {
+          "price": 2.42,
+          "currency": "NZD",
+          "symbol": "$",
+          "formatted": "$2.42",
+          "shipping": 15.99
+        },
+        "JP": {
+          "price": 221.76,
+          "currency": "JPY",
+          "symbol": "\u00a5",
+          "formatted": "\u00a5221.76",
+          "shipping": 1499
+        },
+        "IN": {
+          "price": 120.24,
+          "currency": "INR",
+          "symbol": "\u20b9",
+          "formatted": "\u20b9120.24",
+          "shipping": 99
+        }
+      }
     },
     {
       "id": 10,
@@ -1167,7 +2013,101 @@
         "https://images.unsplash.com/photo-1558642452-9d2a7deb7f62?w=800&h=800&fit=crop&fm=jpg",
         "https://images.unsplash.com/photo-1471943311424-646960669fbc?w=800&h=800&fit=crop&fm=jpg",
         "https://images.unsplash.com/photo-1598971639058-fab3c3109a00?w=800&h=800&fit=crop&fm=jpg"
-      ]
+      ],
+      "usd_price": 4.8,
+      "regional_prices": {
+        "US": {
+          "price": 4.8,
+          "currency": "USD",
+          "symbol": "$",
+          "formatted": "$4.8",
+          "shipping": 9.99
+        },
+        "GB": {
+          "price": 4.56,
+          "currency": "GBP",
+          "symbol": "\u00a3",
+          "formatted": "\u00a34.56",
+          "shipping": 7.99
+        },
+        "AU": {
+          "price": 7.44,
+          "currency": "AUD",
+          "symbol": "$",
+          "formatted": "$7.44",
+          "shipping": 14.99
+        },
+        "CA": {
+          "price": 6.62,
+          "currency": "CAD",
+          "symbol": "$",
+          "formatted": "$6.62",
+          "shipping": 12.99
+        },
+        "DE": {
+          "price": 4.42,
+          "currency": "EUR",
+          "symbol": "\u20ac",
+          "formatted": "\u20ac4.42",
+          "shipping": 11.99
+        },
+        "FR": {
+          "price": 4.42,
+          "currency": "EUR",
+          "symbol": "\u20ac",
+          "formatted": "\u20ac4.42",
+          "shipping": 11.99
+        },
+        "IT": {
+          "price": 4.42,
+          "currency": "EUR",
+          "symbol": "\u20ac",
+          "formatted": "\u20ac4.42",
+          "shipping": 11.99
+        },
+        "ES": {
+          "price": 4.42,
+          "currency": "EUR",
+          "symbol": "\u20ac",
+          "formatted": "\u20ac4.42",
+          "shipping": 11.99
+        },
+        "AE": {
+          "price": 17.62,
+          "currency": "AED",
+          "symbol": "\u062f.\u0625",
+          "formatted": "\u062f.\u062517.62",
+          "shipping": 19.99
+        },
+        "SG": {
+          "price": 6.48,
+          "currency": "SGD",
+          "symbol": "$",
+          "formatted": "$6.48",
+          "shipping": 12.99
+        },
+        "NZ": {
+          "price": 8.06,
+          "currency": "NZD",
+          "symbol": "$",
+          "formatted": "$8.06",
+          "shipping": 15.99
+        },
+        "JP": {
+          "price": 739.2,
+          "currency": "JPY",
+          "symbol": "\u00a5",
+          "formatted": "\u00a5739.2",
+          "shipping": 1499
+        },
+        "IN": {
+          "price": 400.8,
+          "currency": "INR",
+          "symbol": "\u20b9",
+          "formatted": "\u20b9400.8",
+          "shipping": 99
+        }
+      }
     },
     {
       "id": 11,
@@ -1294,7 +2234,101 @@
         "https://images.unsplash.com/photo-1536304993881-ff6e9eefa2a6?w=800&h=800&fit=crop&fm=jpg",
         "https://images.unsplash.com/photo-1594756202469-9ff9799b2e4e?w=800&h=800&fit=crop&fm=jpg",
         "https://images.unsplash.com/photo-1550828520-4cb496926fc9?w=800&h=800&fit=crop&fm=jpg"
-      ]
+      ],
+      "usd_price": 3.36,
+      "regional_prices": {
+        "US": {
+          "price": 3.36,
+          "currency": "USD",
+          "symbol": "$",
+          "formatted": "$3.36",
+          "shipping": 9.99
+        },
+        "GB": {
+          "price": 3.19,
+          "currency": "GBP",
+          "symbol": "\u00a3",
+          "formatted": "\u00a33.19",
+          "shipping": 7.99
+        },
+        "AU": {
+          "price": 5.21,
+          "currency": "AUD",
+          "symbol": "$",
+          "formatted": "$5.21",
+          "shipping": 14.99
+        },
+        "CA": {
+          "price": 4.64,
+          "currency": "CAD",
+          "symbol": "$",
+          "formatted": "$4.64",
+          "shipping": 12.99
+        },
+        "DE": {
+          "price": 3.09,
+          "currency": "EUR",
+          "symbol": "\u20ac",
+          "formatted": "\u20ac3.09",
+          "shipping": 11.99
+        },
+        "FR": {
+          "price": 3.09,
+          "currency": "EUR",
+          "symbol": "\u20ac",
+          "formatted": "\u20ac3.09",
+          "shipping": 11.99
+        },
+        "IT": {
+          "price": 3.09,
+          "currency": "EUR",
+          "symbol": "\u20ac",
+          "formatted": "\u20ac3.09",
+          "shipping": 11.99
+        },
+        "ES": {
+          "price": 3.09,
+          "currency": "EUR",
+          "symbol": "\u20ac",
+          "formatted": "\u20ac3.09",
+          "shipping": 11.99
+        },
+        "AE": {
+          "price": 12.33,
+          "currency": "AED",
+          "symbol": "\u062f.\u0625",
+          "formatted": "\u062f.\u062512.33",
+          "shipping": 19.99
+        },
+        "SG": {
+          "price": 4.54,
+          "currency": "SGD",
+          "symbol": "$",
+          "formatted": "$4.54",
+          "shipping": 12.99
+        },
+        "NZ": {
+          "price": 5.64,
+          "currency": "NZD",
+          "symbol": "$",
+          "formatted": "$5.64",
+          "shipping": 15.99
+        },
+        "JP": {
+          "price": 517.44,
+          "currency": "JPY",
+          "symbol": "\u00a5",
+          "formatted": "\u00a5517.44",
+          "shipping": 1499
+        },
+        "IN": {
+          "price": 280.56,
+          "currency": "INR",
+          "symbol": "\u20b9",
+          "formatted": "\u20b9280.56",
+          "shipping": 99
+        }
+      }
     },
     {
       "id": 12,
@@ -1394,7 +2428,101 @@
         "https://images.unsplash.com/photo-1544025162-d76978e8e5a4?w=800&h=800&fit=crop&fm=jpg",
         "https://images.unsplash.com/photo-1628627256541-a9eb3b1d1c4e?w=800&h=800&fit=crop&fm=jpg",
         "https://images.unsplash.com/photo-1599940824399-b87987ceb72a?w=800&h=800&fit=crop&fm=jpg"
-      ]
+      ],
+      "usd_price": 1.8,
+      "regional_prices": {
+        "US": {
+          "price": 1.8,
+          "currency": "USD",
+          "symbol": "$",
+          "formatted": "$1.8",
+          "shipping": 9.99
+        },
+        "GB": {
+          "price": 1.71,
+          "currency": "GBP",
+          "symbol": "\u00a3",
+          "formatted": "\u00a31.71",
+          "shipping": 7.99
+        },
+        "AU": {
+          "price": 2.79,
+          "currency": "AUD",
+          "symbol": "$",
+          "formatted": "$2.79",
+          "shipping": 14.99
+        },
+        "CA": {
+          "price": 2.48,
+          "currency": "CAD",
+          "symbol": "$",
+          "formatted": "$2.48",
+          "shipping": 12.99
+        },
+        "DE": {
+          "price": 1.66,
+          "currency": "EUR",
+          "symbol": "\u20ac",
+          "formatted": "\u20ac1.66",
+          "shipping": 11.99
+        },
+        "FR": {
+          "price": 1.66,
+          "currency": "EUR",
+          "symbol": "\u20ac",
+          "formatted": "\u20ac1.66",
+          "shipping": 11.99
+        },
+        "IT": {
+          "price": 1.66,
+          "currency": "EUR",
+          "symbol": "\u20ac",
+          "formatted": "\u20ac1.66",
+          "shipping": 11.99
+        },
+        "ES": {
+          "price": 1.66,
+          "currency": "EUR",
+          "symbol": "\u20ac",
+          "formatted": "\u20ac1.66",
+          "shipping": 11.99
+        },
+        "AE": {
+          "price": 6.61,
+          "currency": "AED",
+          "symbol": "\u062f.\u0625",
+          "formatted": "\u062f.\u06256.61",
+          "shipping": 19.99
+        },
+        "SG": {
+          "price": 2.43,
+          "currency": "SGD",
+          "symbol": "$",
+          "formatted": "$2.43",
+          "shipping": 12.99
+        },
+        "NZ": {
+          "price": 3.02,
+          "currency": "NZD",
+          "symbol": "$",
+          "formatted": "$3.02",
+          "shipping": 15.99
+        },
+        "JP": {
+          "price": 277.2,
+          "currency": "JPY",
+          "symbol": "\u00a5",
+          "formatted": "\u00a5277.2",
+          "shipping": 1499
+        },
+        "IN": {
+          "price": 150.3,
+          "currency": "INR",
+          "symbol": "\u20b9",
+          "formatted": "\u20b9150.3",
+          "shipping": 99
+        }
+      }
     },
     {
       "id": 13,
@@ -1521,7 +2649,101 @@
         "https://images.unsplash.com/photo-1596040033229-a9821ebd058d?w=800&h=800&fit=crop&fm=jpg",
         "https://images.unsplash.com/photo-1474979266404-7eaacbcd87c5?w=800&h=800&fit=crop&fm=jpg",
         "https://images.unsplash.com/photo-1509358271058-aedd22b2da55?w=800&h=800&fit=crop&fm=jpg"
-      ]
+      ],
+      "usd_price": 3.84,
+      "regional_prices": {
+        "US": {
+          "price": 3.84,
+          "currency": "USD",
+          "symbol": "$",
+          "formatted": "$3.84",
+          "shipping": 9.99
+        },
+        "GB": {
+          "price": 3.65,
+          "currency": "GBP",
+          "symbol": "\u00a3",
+          "formatted": "\u00a33.65",
+          "shipping": 7.99
+        },
+        "AU": {
+          "price": 5.95,
+          "currency": "AUD",
+          "symbol": "$",
+          "formatted": "$5.95",
+          "shipping": 14.99
+        },
+        "CA": {
+          "price": 5.3,
+          "currency": "CAD",
+          "symbol": "$",
+          "formatted": "$5.3",
+          "shipping": 12.99
+        },
+        "DE": {
+          "price": 3.53,
+          "currency": "EUR",
+          "symbol": "\u20ac",
+          "formatted": "\u20ac3.53",
+          "shipping": 11.99
+        },
+        "FR": {
+          "price": 3.53,
+          "currency": "EUR",
+          "symbol": "\u20ac",
+          "formatted": "\u20ac3.53",
+          "shipping": 11.99
+        },
+        "IT": {
+          "price": 3.53,
+          "currency": "EUR",
+          "symbol": "\u20ac",
+          "formatted": "\u20ac3.53",
+          "shipping": 11.99
+        },
+        "ES": {
+          "price": 3.53,
+          "currency": "EUR",
+          "symbol": "\u20ac",
+          "formatted": "\u20ac3.53",
+          "shipping": 11.99
+        },
+        "AE": {
+          "price": 14.09,
+          "currency": "AED",
+          "symbol": "\u062f.\u0625",
+          "formatted": "\u062f.\u062514.09",
+          "shipping": 19.99
+        },
+        "SG": {
+          "price": 5.18,
+          "currency": "SGD",
+          "symbol": "$",
+          "formatted": "$5.18",
+          "shipping": 12.99
+        },
+        "NZ": {
+          "price": 6.45,
+          "currency": "NZD",
+          "symbol": "$",
+          "formatted": "$6.45",
+          "shipping": 15.99
+        },
+        "JP": {
+          "price": 591.36,
+          "currency": "JPY",
+          "symbol": "\u00a5",
+          "formatted": "\u00a5591.36",
+          "shipping": 1499
+        },
+        "IN": {
+          "price": 320.64,
+          "currency": "INR",
+          "symbol": "\u20b9",
+          "formatted": "\u20b9320.64",
+          "shipping": 99
+        }
+      }
     },
     {
       "id": 14,
@@ -1621,7 +2843,101 @@
         "https://images.unsplash.com/photo-1596040033229-a9821ebd058d?w=800&h=800&fit=crop&fm=jpg",
         "https://images.unsplash.com/photo-1606923829579-0cb981a83e2e?w=800&h=800&fit=crop&fm=jpg",
         "https://images.unsplash.com/photo-1505253716362-afaea1d3d1af?w=800&h=800&fit=crop&fm=jpg"
-      ]
+      ],
+      "usd_price": 1.44,
+      "regional_prices": {
+        "US": {
+          "price": 1.44,
+          "currency": "USD",
+          "symbol": "$",
+          "formatted": "$1.44",
+          "shipping": 9.99
+        },
+        "GB": {
+          "price": 1.37,
+          "currency": "GBP",
+          "symbol": "\u00a3",
+          "formatted": "\u00a31.37",
+          "shipping": 7.99
+        },
+        "AU": {
+          "price": 2.23,
+          "currency": "AUD",
+          "symbol": "$",
+          "formatted": "$2.23",
+          "shipping": 14.99
+        },
+        "CA": {
+          "price": 1.99,
+          "currency": "CAD",
+          "symbol": "$",
+          "formatted": "$1.99",
+          "shipping": 12.99
+        },
+        "DE": {
+          "price": 1.32,
+          "currency": "EUR",
+          "symbol": "\u20ac",
+          "formatted": "\u20ac1.32",
+          "shipping": 11.99
+        },
+        "FR": {
+          "price": 1.32,
+          "currency": "EUR",
+          "symbol": "\u20ac",
+          "formatted": "\u20ac1.32",
+          "shipping": 11.99
+        },
+        "IT": {
+          "price": 1.32,
+          "currency": "EUR",
+          "symbol": "\u20ac",
+          "formatted": "\u20ac1.32",
+          "shipping": 11.99
+        },
+        "ES": {
+          "price": 1.32,
+          "currency": "EUR",
+          "symbol": "\u20ac",
+          "formatted": "\u20ac1.32",
+          "shipping": 11.99
+        },
+        "AE": {
+          "price": 5.28,
+          "currency": "AED",
+          "symbol": "\u062f.\u0625",
+          "formatted": "\u062f.\u06255.28",
+          "shipping": 19.99
+        },
+        "SG": {
+          "price": 1.94,
+          "currency": "SGD",
+          "symbol": "$",
+          "formatted": "$1.94",
+          "shipping": 12.99
+        },
+        "NZ": {
+          "price": 2.42,
+          "currency": "NZD",
+          "symbol": "$",
+          "formatted": "$2.42",
+          "shipping": 15.99
+        },
+        "JP": {
+          "price": 221.76,
+          "currency": "JPY",
+          "symbol": "\u00a5",
+          "formatted": "\u00a5221.76",
+          "shipping": 1499
+        },
+        "IN": {
+          "price": 120.24,
+          "currency": "INR",
+          "symbol": "\u20b9",
+          "formatted": "\u20b9120.24",
+          "shipping": 99
+        }
+      }
     },
     {
       "id": 15,
@@ -1748,7 +3064,101 @@
         "https://images.unsplash.com/photo-1558642452-9d2a7deb7f62?w=800&h=800&fit=crop&fm=jpg",
         "https://images.unsplash.com/photo-1471943311424-646960669fbc?w=800&h=800&fit=crop&fm=jpg",
         "https://images.unsplash.com/photo-1598971639058-fab3c3109a00?w=800&h=800&fit=crop&fm=jpg"
-      ]
+      ],
+      "usd_price": 4.8,
+      "regional_prices": {
+        "US": {
+          "price": 4.8,
+          "currency": "USD",
+          "symbol": "$",
+          "formatted": "$4.8",
+          "shipping": 9.99
+        },
+        "GB": {
+          "price": 4.56,
+          "currency": "GBP",
+          "symbol": "\u00a3",
+          "formatted": "\u00a34.56",
+          "shipping": 7.99
+        },
+        "AU": {
+          "price": 7.44,
+          "currency": "AUD",
+          "symbol": "$",
+          "formatted": "$7.44",
+          "shipping": 14.99
+        },
+        "CA": {
+          "price": 6.62,
+          "currency": "CAD",
+          "symbol": "$",
+          "formatted": "$6.62",
+          "shipping": 12.99
+        },
+        "DE": {
+          "price": 4.42,
+          "currency": "EUR",
+          "symbol": "\u20ac",
+          "formatted": "\u20ac4.42",
+          "shipping": 11.99
+        },
+        "FR": {
+          "price": 4.42,
+          "currency": "EUR",
+          "symbol": "\u20ac",
+          "formatted": "\u20ac4.42",
+          "shipping": 11.99
+        },
+        "IT": {
+          "price": 4.42,
+          "currency": "EUR",
+          "symbol": "\u20ac",
+          "formatted": "\u20ac4.42",
+          "shipping": 11.99
+        },
+        "ES": {
+          "price": 4.42,
+          "currency": "EUR",
+          "symbol": "\u20ac",
+          "formatted": "\u20ac4.42",
+          "shipping": 11.99
+        },
+        "AE": {
+          "price": 17.62,
+          "currency": "AED",
+          "symbol": "\u062f.\u0625",
+          "formatted": "\u062f.\u062517.62",
+          "shipping": 19.99
+        },
+        "SG": {
+          "price": 6.48,
+          "currency": "SGD",
+          "symbol": "$",
+          "formatted": "$6.48",
+          "shipping": 12.99
+        },
+        "NZ": {
+          "price": 8.06,
+          "currency": "NZD",
+          "symbol": "$",
+          "formatted": "$8.06",
+          "shipping": 15.99
+        },
+        "JP": {
+          "price": 739.2,
+          "currency": "JPY",
+          "symbol": "\u00a5",
+          "formatted": "\u00a5739.2",
+          "shipping": 1499
+        },
+        "IN": {
+          "price": 400.8,
+          "currency": "INR",
+          "symbol": "\u20b9",
+          "formatted": "\u20b9400.8",
+          "shipping": 99
+        }
+      }
     },
     {
       "id": 16,
@@ -1875,7 +3285,101 @@
         "https://images.unsplash.com/photo-1536304993881-ff6e9eefa2a6?w=800&h=800&fit=crop&fm=jpg",
         "https://images.unsplash.com/photo-1594756202469-9ff9799b2e4e?w=800&h=800&fit=crop&fm=jpg",
         "https://images.unsplash.com/photo-1550828520-4cb496926fc9?w=800&h=800&fit=crop&fm=jpg"
-      ]
+      ],
+      "usd_price": 3.36,
+      "regional_prices": {
+        "US": {
+          "price": 3.36,
+          "currency": "USD",
+          "symbol": "$",
+          "formatted": "$3.36",
+          "shipping": 9.99
+        },
+        "GB": {
+          "price": 3.19,
+          "currency": "GBP",
+          "symbol": "\u00a3",
+          "formatted": "\u00a33.19",
+          "shipping": 7.99
+        },
+        "AU": {
+          "price": 5.21,
+          "currency": "AUD",
+          "symbol": "$",
+          "formatted": "$5.21",
+          "shipping": 14.99
+        },
+        "CA": {
+          "price": 4.64,
+          "currency": "CAD",
+          "symbol": "$",
+          "formatted": "$4.64",
+          "shipping": 12.99
+        },
+        "DE": {
+          "price": 3.09,
+          "currency": "EUR",
+          "symbol": "\u20ac",
+          "formatted": "\u20ac3.09",
+          "shipping": 11.99
+        },
+        "FR": {
+          "price": 3.09,
+          "currency": "EUR",
+          "symbol": "\u20ac",
+          "formatted": "\u20ac3.09",
+          "shipping": 11.99
+        },
+        "IT": {
+          "price": 3.09,
+          "currency": "EUR",
+          "symbol": "\u20ac",
+          "formatted": "\u20ac3.09",
+          "shipping": 11.99
+        },
+        "ES": {
+          "price": 3.09,
+          "currency": "EUR",
+          "symbol": "\u20ac",
+          "formatted": "\u20ac3.09",
+          "shipping": 11.99
+        },
+        "AE": {
+          "price": 12.33,
+          "currency": "AED",
+          "symbol": "\u062f.\u0625",
+          "formatted": "\u062f.\u062512.33",
+          "shipping": 19.99
+        },
+        "SG": {
+          "price": 4.54,
+          "currency": "SGD",
+          "symbol": "$",
+          "formatted": "$4.54",
+          "shipping": 12.99
+        },
+        "NZ": {
+          "price": 5.64,
+          "currency": "NZD",
+          "symbol": "$",
+          "formatted": "$5.64",
+          "shipping": 15.99
+        },
+        "JP": {
+          "price": 517.44,
+          "currency": "JPY",
+          "symbol": "\u00a5",
+          "formatted": "\u00a5517.44",
+          "shipping": 1499
+        },
+        "IN": {
+          "price": 280.56,
+          "currency": "INR",
+          "symbol": "\u20b9",
+          "formatted": "\u20b9280.56",
+          "shipping": 99
+        }
+      }
     },
     {
       "id": 17,
@@ -1975,7 +3479,101 @@
         "https://images.unsplash.com/photo-1544025162-d76978e8e5a4?w=800&h=800&fit=crop&fm=jpg",
         "https://images.unsplash.com/photo-1628627256541-a9eb3b1d1c4e?w=800&h=800&fit=crop&fm=jpg",
         "https://images.unsplash.com/photo-1599940824399-b87987ceb72a?w=800&h=800&fit=crop&fm=jpg"
-      ]
+      ],
+      "usd_price": 1.8,
+      "regional_prices": {
+        "US": {
+          "price": 1.8,
+          "currency": "USD",
+          "symbol": "$",
+          "formatted": "$1.8",
+          "shipping": 9.99
+        },
+        "GB": {
+          "price": 1.71,
+          "currency": "GBP",
+          "symbol": "\u00a3",
+          "formatted": "\u00a31.71",
+          "shipping": 7.99
+        },
+        "AU": {
+          "price": 2.79,
+          "currency": "AUD",
+          "symbol": "$",
+          "formatted": "$2.79",
+          "shipping": 14.99
+        },
+        "CA": {
+          "price": 2.48,
+          "currency": "CAD",
+          "symbol": "$",
+          "formatted": "$2.48",
+          "shipping": 12.99
+        },
+        "DE": {
+          "price": 1.66,
+          "currency": "EUR",
+          "symbol": "\u20ac",
+          "formatted": "\u20ac1.66",
+          "shipping": 11.99
+        },
+        "FR": {
+          "price": 1.66,
+          "currency": "EUR",
+          "symbol": "\u20ac",
+          "formatted": "\u20ac1.66",
+          "shipping": 11.99
+        },
+        "IT": {
+          "price": 1.66,
+          "currency": "EUR",
+          "symbol": "\u20ac",
+          "formatted": "\u20ac1.66",
+          "shipping": 11.99
+        },
+        "ES": {
+          "price": 1.66,
+          "currency": "EUR",
+          "symbol": "\u20ac",
+          "formatted": "\u20ac1.66",
+          "shipping": 11.99
+        },
+        "AE": {
+          "price": 6.61,
+          "currency": "AED",
+          "symbol": "\u062f.\u0625",
+          "formatted": "\u062f.\u06256.61",
+          "shipping": 19.99
+        },
+        "SG": {
+          "price": 2.43,
+          "currency": "SGD",
+          "symbol": "$",
+          "formatted": "$2.43",
+          "shipping": 12.99
+        },
+        "NZ": {
+          "price": 3.02,
+          "currency": "NZD",
+          "symbol": "$",
+          "formatted": "$3.02",
+          "shipping": 15.99
+        },
+        "JP": {
+          "price": 277.2,
+          "currency": "JPY",
+          "symbol": "\u00a5",
+          "formatted": "\u00a5277.2",
+          "shipping": 1499
+        },
+        "IN": {
+          "price": 150.3,
+          "currency": "INR",
+          "symbol": "\u20b9",
+          "formatted": "\u20b9150.3",
+          "shipping": 99
+        }
+      }
     },
     {
       "id": 18,
@@ -2102,7 +3700,101 @@
         "https://images.unsplash.com/photo-1596040033229-a9821ebd058d?w=800&h=800&fit=crop&fm=jpg",
         "https://images.unsplash.com/photo-1474979266404-7eaacbcd87c5?w=800&h=800&fit=crop&fm=jpg",
         "https://images.unsplash.com/photo-1509358271058-aedd22b2da55?w=800&h=800&fit=crop&fm=jpg"
-      ]
+      ],
+      "usd_price": 3.84,
+      "regional_prices": {
+        "US": {
+          "price": 3.84,
+          "currency": "USD",
+          "symbol": "$",
+          "formatted": "$3.84",
+          "shipping": 9.99
+        },
+        "GB": {
+          "price": 3.65,
+          "currency": "GBP",
+          "symbol": "\u00a3",
+          "formatted": "\u00a33.65",
+          "shipping": 7.99
+        },
+        "AU": {
+          "price": 5.95,
+          "currency": "AUD",
+          "symbol": "$",
+          "formatted": "$5.95",
+          "shipping": 14.99
+        },
+        "CA": {
+          "price": 5.3,
+          "currency": "CAD",
+          "symbol": "$",
+          "formatted": "$5.3",
+          "shipping": 12.99
+        },
+        "DE": {
+          "price": 3.53,
+          "currency": "EUR",
+          "symbol": "\u20ac",
+          "formatted": "\u20ac3.53",
+          "shipping": 11.99
+        },
+        "FR": {
+          "price": 3.53,
+          "currency": "EUR",
+          "symbol": "\u20ac",
+          "formatted": "\u20ac3.53",
+          "shipping": 11.99
+        },
+        "IT": {
+          "price": 3.53,
+          "currency": "EUR",
+          "symbol": "\u20ac",
+          "formatted": "\u20ac3.53",
+          "shipping": 11.99
+        },
+        "ES": {
+          "price": 3.53,
+          "currency": "EUR",
+          "symbol": "\u20ac",
+          "formatted": "\u20ac3.53",
+          "shipping": 11.99
+        },
+        "AE": {
+          "price": 14.09,
+          "currency": "AED",
+          "symbol": "\u062f.\u0625",
+          "formatted": "\u062f.\u062514.09",
+          "shipping": 19.99
+        },
+        "SG": {
+          "price": 5.18,
+          "currency": "SGD",
+          "symbol": "$",
+          "formatted": "$5.18",
+          "shipping": 12.99
+        },
+        "NZ": {
+          "price": 6.45,
+          "currency": "NZD",
+          "symbol": "$",
+          "formatted": "$6.45",
+          "shipping": 15.99
+        },
+        "JP": {
+          "price": 591.36,
+          "currency": "JPY",
+          "symbol": "\u00a5",
+          "formatted": "\u00a5591.36",
+          "shipping": 1499
+        },
+        "IN": {
+          "price": 320.64,
+          "currency": "INR",
+          "symbol": "\u20b9",
+          "formatted": "\u20b9320.64",
+          "shipping": 99
+        }
+      }
     },
     {
       "id": 19,
@@ -2202,7 +3894,101 @@
         "https://images.unsplash.com/photo-1596040033229-a9821ebd058d?w=800&h=800&fit=crop&fm=jpg",
         "https://images.unsplash.com/photo-1606923829579-0cb981a83e2e?w=800&h=800&fit=crop&fm=jpg",
         "https://images.unsplash.com/photo-1505253716362-afaea1d3d1af?w=800&h=800&fit=crop&fm=jpg"
-      ]
+      ],
+      "usd_price": 1.44,
+      "regional_prices": {
+        "US": {
+          "price": 1.44,
+          "currency": "USD",
+          "symbol": "$",
+          "formatted": "$1.44",
+          "shipping": 9.99
+        },
+        "GB": {
+          "price": 1.37,
+          "currency": "GBP",
+          "symbol": "\u00a3",
+          "formatted": "\u00a31.37",
+          "shipping": 7.99
+        },
+        "AU": {
+          "price": 2.23,
+          "currency": "AUD",
+          "symbol": "$",
+          "formatted": "$2.23",
+          "shipping": 14.99
+        },
+        "CA": {
+          "price": 1.99,
+          "currency": "CAD",
+          "symbol": "$",
+          "formatted": "$1.99",
+          "shipping": 12.99
+        },
+        "DE": {
+          "price": 1.32,
+          "currency": "EUR",
+          "symbol": "\u20ac",
+          "formatted": "\u20ac1.32",
+          "shipping": 11.99
+        },
+        "FR": {
+          "price": 1.32,
+          "currency": "EUR",
+          "symbol": "\u20ac",
+          "formatted": "\u20ac1.32",
+          "shipping": 11.99
+        },
+        "IT": {
+          "price": 1.32,
+          "currency": "EUR",
+          "symbol": "\u20ac",
+          "formatted": "\u20ac1.32",
+          "shipping": 11.99
+        },
+        "ES": {
+          "price": 1.32,
+          "currency": "EUR",
+          "symbol": "\u20ac",
+          "formatted": "\u20ac1.32",
+          "shipping": 11.99
+        },
+        "AE": {
+          "price": 5.28,
+          "currency": "AED",
+          "symbol": "\u062f.\u0625",
+          "formatted": "\u062f.\u06255.28",
+          "shipping": 19.99
+        },
+        "SG": {
+          "price": 1.94,
+          "currency": "SGD",
+          "symbol": "$",
+          "formatted": "$1.94",
+          "shipping": 12.99
+        },
+        "NZ": {
+          "price": 2.42,
+          "currency": "NZD",
+          "symbol": "$",
+          "formatted": "$2.42",
+          "shipping": 15.99
+        },
+        "JP": {
+          "price": 221.76,
+          "currency": "JPY",
+          "symbol": "\u00a5",
+          "formatted": "\u00a5221.76",
+          "shipping": 1499
+        },
+        "IN": {
+          "price": 120.24,
+          "currency": "INR",
+          "symbol": "\u20b9",
+          "formatted": "\u20b9120.24",
+          "shipping": 99
+        }
+      }
     },
     {
       "id": 20,
@@ -2329,7 +4115,101 @@
         "https://images.unsplash.com/photo-1558642452-9d2a7deb7f62?w=800&h=800&fit=crop&fm=jpg",
         "https://images.unsplash.com/photo-1471943311424-646960669fbc?w=800&h=800&fit=crop&fm=jpg",
         "https://images.unsplash.com/photo-1598971639058-fab3c3109a00?w=800&h=800&fit=crop&fm=jpg"
-      ]
+      ],
+      "usd_price": 4.8,
+      "regional_prices": {
+        "US": {
+          "price": 4.8,
+          "currency": "USD",
+          "symbol": "$",
+          "formatted": "$4.8",
+          "shipping": 9.99
+        },
+        "GB": {
+          "price": 4.56,
+          "currency": "GBP",
+          "symbol": "\u00a3",
+          "formatted": "\u00a34.56",
+          "shipping": 7.99
+        },
+        "AU": {
+          "price": 7.44,
+          "currency": "AUD",
+          "symbol": "$",
+          "formatted": "$7.44",
+          "shipping": 14.99
+        },
+        "CA": {
+          "price": 6.62,
+          "currency": "CAD",
+          "symbol": "$",
+          "formatted": "$6.62",
+          "shipping": 12.99
+        },
+        "DE": {
+          "price": 4.42,
+          "currency": "EUR",
+          "symbol": "\u20ac",
+          "formatted": "\u20ac4.42",
+          "shipping": 11.99
+        },
+        "FR": {
+          "price": 4.42,
+          "currency": "EUR",
+          "symbol": "\u20ac",
+          "formatted": "\u20ac4.42",
+          "shipping": 11.99
+        },
+        "IT": {
+          "price": 4.42,
+          "currency": "EUR",
+          "symbol": "\u20ac",
+          "formatted": "\u20ac4.42",
+          "shipping": 11.99
+        },
+        "ES": {
+          "price": 4.42,
+          "currency": "EUR",
+          "symbol": "\u20ac",
+          "formatted": "\u20ac4.42",
+          "shipping": 11.99
+        },
+        "AE": {
+          "price": 17.62,
+          "currency": "AED",
+          "symbol": "\u062f.\u0625",
+          "formatted": "\u062f.\u062517.62",
+          "shipping": 19.99
+        },
+        "SG": {
+          "price": 6.48,
+          "currency": "SGD",
+          "symbol": "$",
+          "formatted": "$6.48",
+          "shipping": 12.99
+        },
+        "NZ": {
+          "price": 8.06,
+          "currency": "NZD",
+          "symbol": "$",
+          "formatted": "$8.06",
+          "shipping": 15.99
+        },
+        "JP": {
+          "price": 739.2,
+          "currency": "JPY",
+          "symbol": "\u00a5",
+          "formatted": "\u00a5739.2",
+          "shipping": 1499
+        },
+        "IN": {
+          "price": 400.8,
+          "currency": "INR",
+          "symbol": "\u20b9",
+          "formatted": "\u20b9400.8",
+          "shipping": 99
+        }
+      }
     },
     {
       "id": 21,
@@ -2456,7 +4336,101 @@
         "https://images.unsplash.com/photo-1536304993881-ff6e9eefa2a6?w=800&h=800&fit=crop&fm=jpg",
         "https://images.unsplash.com/photo-1594756202469-9ff9799b2e4e?w=800&h=800&fit=crop&fm=jpg",
         "https://images.unsplash.com/photo-1550828520-4cb496926fc9?w=800&h=800&fit=crop&fm=jpg"
-      ]
+      ],
+      "usd_price": 3.36,
+      "regional_prices": {
+        "US": {
+          "price": 3.36,
+          "currency": "USD",
+          "symbol": "$",
+          "formatted": "$3.36",
+          "shipping": 9.99
+        },
+        "GB": {
+          "price": 3.19,
+          "currency": "GBP",
+          "symbol": "\u00a3",
+          "formatted": "\u00a33.19",
+          "shipping": 7.99
+        },
+        "AU": {
+          "price": 5.21,
+          "currency": "AUD",
+          "symbol": "$",
+          "formatted": "$5.21",
+          "shipping": 14.99
+        },
+        "CA": {
+          "price": 4.64,
+          "currency": "CAD",
+          "symbol": "$",
+          "formatted": "$4.64",
+          "shipping": 12.99
+        },
+        "DE": {
+          "price": 3.09,
+          "currency": "EUR",
+          "symbol": "\u20ac",
+          "formatted": "\u20ac3.09",
+          "shipping": 11.99
+        },
+        "FR": {
+          "price": 3.09,
+          "currency": "EUR",
+          "symbol": "\u20ac",
+          "formatted": "\u20ac3.09",
+          "shipping": 11.99
+        },
+        "IT": {
+          "price": 3.09,
+          "currency": "EUR",
+          "symbol": "\u20ac",
+          "formatted": "\u20ac3.09",
+          "shipping": 11.99
+        },
+        "ES": {
+          "price": 3.09,
+          "currency": "EUR",
+          "symbol": "\u20ac",
+          "formatted": "\u20ac3.09",
+          "shipping": 11.99
+        },
+        "AE": {
+          "price": 12.33,
+          "currency": "AED",
+          "symbol": "\u062f.\u0625",
+          "formatted": "\u062f.\u062512.33",
+          "shipping": 19.99
+        },
+        "SG": {
+          "price": 4.54,
+          "currency": "SGD",
+          "symbol": "$",
+          "formatted": "$4.54",
+          "shipping": 12.99
+        },
+        "NZ": {
+          "price": 5.64,
+          "currency": "NZD",
+          "symbol": "$",
+          "formatted": "$5.64",
+          "shipping": 15.99
+        },
+        "JP": {
+          "price": 517.44,
+          "currency": "JPY",
+          "symbol": "\u00a5",
+          "formatted": "\u00a5517.44",
+          "shipping": 1499
+        },
+        "IN": {
+          "price": 280.56,
+          "currency": "INR",
+          "symbol": "\u20b9",
+          "formatted": "\u20b9280.56",
+          "shipping": 99
+        }
+      }
     },
     {
       "id": 22,
@@ -2556,7 +4530,101 @@
         "https://images.unsplash.com/photo-1544025162-d76978e8e5a4?w=800&h=800&fit=crop&fm=jpg",
         "https://images.unsplash.com/photo-1628627256541-a9eb3b1d1c4e?w=800&h=800&fit=crop&fm=jpg",
         "https://images.unsplash.com/photo-1599940824399-b87987ceb72a?w=800&h=800&fit=crop&fm=jpg"
-      ]
+      ],
+      "usd_price": 1.8,
+      "regional_prices": {
+        "US": {
+          "price": 1.8,
+          "currency": "USD",
+          "symbol": "$",
+          "formatted": "$1.8",
+          "shipping": 9.99
+        },
+        "GB": {
+          "price": 1.71,
+          "currency": "GBP",
+          "symbol": "\u00a3",
+          "formatted": "\u00a31.71",
+          "shipping": 7.99
+        },
+        "AU": {
+          "price": 2.79,
+          "currency": "AUD",
+          "symbol": "$",
+          "formatted": "$2.79",
+          "shipping": 14.99
+        },
+        "CA": {
+          "price": 2.48,
+          "currency": "CAD",
+          "symbol": "$",
+          "formatted": "$2.48",
+          "shipping": 12.99
+        },
+        "DE": {
+          "price": 1.66,
+          "currency": "EUR",
+          "symbol": "\u20ac",
+          "formatted": "\u20ac1.66",
+          "shipping": 11.99
+        },
+        "FR": {
+          "price": 1.66,
+          "currency": "EUR",
+          "symbol": "\u20ac",
+          "formatted": "\u20ac1.66",
+          "shipping": 11.99
+        },
+        "IT": {
+          "price": 1.66,
+          "currency": "EUR",
+          "symbol": "\u20ac",
+          "formatted": "\u20ac1.66",
+          "shipping": 11.99
+        },
+        "ES": {
+          "price": 1.66,
+          "currency": "EUR",
+          "symbol": "\u20ac",
+          "formatted": "\u20ac1.66",
+          "shipping": 11.99
+        },
+        "AE": {
+          "price": 6.61,
+          "currency": "AED",
+          "symbol": "\u062f.\u0625",
+          "formatted": "\u062f.\u06256.61",
+          "shipping": 19.99
+        },
+        "SG": {
+          "price": 2.43,
+          "currency": "SGD",
+          "symbol": "$",
+          "formatted": "$2.43",
+          "shipping": 12.99
+        },
+        "NZ": {
+          "price": 3.02,
+          "currency": "NZD",
+          "symbol": "$",
+          "formatted": "$3.02",
+          "shipping": 15.99
+        },
+        "JP": {
+          "price": 277.2,
+          "currency": "JPY",
+          "symbol": "\u00a5",
+          "formatted": "\u00a5277.2",
+          "shipping": 1499
+        },
+        "IN": {
+          "price": 150.3,
+          "currency": "INR",
+          "symbol": "\u20b9",
+          "formatted": "\u20b9150.3",
+          "shipping": 99
+        }
+      }
     },
     {
       "id": 23,
@@ -2683,7 +4751,101 @@
         "https://images.unsplash.com/photo-1596040033229-a9821ebd058d?w=800&h=800&fit=crop&fm=jpg",
         "https://images.unsplash.com/photo-1474979266404-7eaacbcd87c5?w=800&h=800&fit=crop&fm=jpg",
         "https://images.unsplash.com/photo-1509358271058-aedd22b2da55?w=800&h=800&fit=crop&fm=jpg"
-      ]
+      ],
+      "usd_price": 3.84,
+      "regional_prices": {
+        "US": {
+          "price": 3.84,
+          "currency": "USD",
+          "symbol": "$",
+          "formatted": "$3.84",
+          "shipping": 9.99
+        },
+        "GB": {
+          "price": 3.65,
+          "currency": "GBP",
+          "symbol": "\u00a3",
+          "formatted": "\u00a33.65",
+          "shipping": 7.99
+        },
+        "AU": {
+          "price": 5.95,
+          "currency": "AUD",
+          "symbol": "$",
+          "formatted": "$5.95",
+          "shipping": 14.99
+        },
+        "CA": {
+          "price": 5.3,
+          "currency": "CAD",
+          "symbol": "$",
+          "formatted": "$5.3",
+          "shipping": 12.99
+        },
+        "DE": {
+          "price": 3.53,
+          "currency": "EUR",
+          "symbol": "\u20ac",
+          "formatted": "\u20ac3.53",
+          "shipping": 11.99
+        },
+        "FR": {
+          "price": 3.53,
+          "currency": "EUR",
+          "symbol": "\u20ac",
+          "formatted": "\u20ac3.53",
+          "shipping": 11.99
+        },
+        "IT": {
+          "price": 3.53,
+          "currency": "EUR",
+          "symbol": "\u20ac",
+          "formatted": "\u20ac3.53",
+          "shipping": 11.99
+        },
+        "ES": {
+          "price": 3.53,
+          "currency": "EUR",
+          "symbol": "\u20ac",
+          "formatted": "\u20ac3.53",
+          "shipping": 11.99
+        },
+        "AE": {
+          "price": 14.09,
+          "currency": "AED",
+          "symbol": "\u062f.\u0625",
+          "formatted": "\u062f.\u062514.09",
+          "shipping": 19.99
+        },
+        "SG": {
+          "price": 5.18,
+          "currency": "SGD",
+          "symbol": "$",
+          "formatted": "$5.18",
+          "shipping": 12.99
+        },
+        "NZ": {
+          "price": 6.45,
+          "currency": "NZD",
+          "symbol": "$",
+          "formatted": "$6.45",
+          "shipping": 15.99
+        },
+        "JP": {
+          "price": 591.36,
+          "currency": "JPY",
+          "symbol": "\u00a5",
+          "formatted": "\u00a5591.36",
+          "shipping": 1499
+        },
+        "IN": {
+          "price": 320.64,
+          "currency": "INR",
+          "symbol": "\u20b9",
+          "formatted": "\u20b9320.64",
+          "shipping": 99
+        }
+      }
     },
     {
       "id": 24,
@@ -2783,7 +4945,101 @@
         "https://images.unsplash.com/photo-1596040033229-a9821ebd058d?w=800&h=800&fit=crop&fm=jpg",
         "https://images.unsplash.com/photo-1606923829579-0cb981a83e2e?w=800&h=800&fit=crop&fm=jpg",
         "https://images.unsplash.com/photo-1505253716362-afaea1d3d1af?w=800&h=800&fit=crop&fm=jpg"
-      ]
+      ],
+      "usd_price": 1.44,
+      "regional_prices": {
+        "US": {
+          "price": 1.44,
+          "currency": "USD",
+          "symbol": "$",
+          "formatted": "$1.44",
+          "shipping": 9.99
+        },
+        "GB": {
+          "price": 1.37,
+          "currency": "GBP",
+          "symbol": "\u00a3",
+          "formatted": "\u00a31.37",
+          "shipping": 7.99
+        },
+        "AU": {
+          "price": 2.23,
+          "currency": "AUD",
+          "symbol": "$",
+          "formatted": "$2.23",
+          "shipping": 14.99
+        },
+        "CA": {
+          "price": 1.99,
+          "currency": "CAD",
+          "symbol": "$",
+          "formatted": "$1.99",
+          "shipping": 12.99
+        },
+        "DE": {
+          "price": 1.32,
+          "currency": "EUR",
+          "symbol": "\u20ac",
+          "formatted": "\u20ac1.32",
+          "shipping": 11.99
+        },
+        "FR": {
+          "price": 1.32,
+          "currency": "EUR",
+          "symbol": "\u20ac",
+          "formatted": "\u20ac1.32",
+          "shipping": 11.99
+        },
+        "IT": {
+          "price": 1.32,
+          "currency": "EUR",
+          "symbol": "\u20ac",
+          "formatted": "\u20ac1.32",
+          "shipping": 11.99
+        },
+        "ES": {
+          "price": 1.32,
+          "currency": "EUR",
+          "symbol": "\u20ac",
+          "formatted": "\u20ac1.32",
+          "shipping": 11.99
+        },
+        "AE": {
+          "price": 5.28,
+          "currency": "AED",
+          "symbol": "\u062f.\u0625",
+          "formatted": "\u062f.\u06255.28",
+          "shipping": 19.99
+        },
+        "SG": {
+          "price": 1.94,
+          "currency": "SGD",
+          "symbol": "$",
+          "formatted": "$1.94",
+          "shipping": 12.99
+        },
+        "NZ": {
+          "price": 2.42,
+          "currency": "NZD",
+          "symbol": "$",
+          "formatted": "$2.42",
+          "shipping": 15.99
+        },
+        "JP": {
+          "price": 221.76,
+          "currency": "JPY",
+          "symbol": "\u00a5",
+          "formatted": "\u00a5221.76",
+          "shipping": 1499
+        },
+        "IN": {
+          "price": 120.24,
+          "currency": "INR",
+          "symbol": "\u20b9",
+          "formatted": "\u20b9120.24",
+          "shipping": 99
+        }
+      }
     },
     {
       "id": 25,
@@ -2910,7 +5166,101 @@
         "https://images.unsplash.com/photo-1558642452-9d2a7deb7f62?w=800&h=800&fit=crop&fm=jpg",
         "https://images.unsplash.com/photo-1471943311424-646960669fbc?w=800&h=800&fit=crop&fm=jpg",
         "https://images.unsplash.com/photo-1598971639058-fab3c3109a00?w=800&h=800&fit=crop&fm=jpg"
-      ]
+      ],
+      "usd_price": 4.8,
+      "regional_prices": {
+        "US": {
+          "price": 4.8,
+          "currency": "USD",
+          "symbol": "$",
+          "formatted": "$4.8",
+          "shipping": 9.99
+        },
+        "GB": {
+          "price": 4.56,
+          "currency": "GBP",
+          "symbol": "\u00a3",
+          "formatted": "\u00a34.56",
+          "shipping": 7.99
+        },
+        "AU": {
+          "price": 7.44,
+          "currency": "AUD",
+          "symbol": "$",
+          "formatted": "$7.44",
+          "shipping": 14.99
+        },
+        "CA": {
+          "price": 6.62,
+          "currency": "CAD",
+          "symbol": "$",
+          "formatted": "$6.62",
+          "shipping": 12.99
+        },
+        "DE": {
+          "price": 4.42,
+          "currency": "EUR",
+          "symbol": "\u20ac",
+          "formatted": "\u20ac4.42",
+          "shipping": 11.99
+        },
+        "FR": {
+          "price": 4.42,
+          "currency": "EUR",
+          "symbol": "\u20ac",
+          "formatted": "\u20ac4.42",
+          "shipping": 11.99
+        },
+        "IT": {
+          "price": 4.42,
+          "currency": "EUR",
+          "symbol": "\u20ac",
+          "formatted": "\u20ac4.42",
+          "shipping": 11.99
+        },
+        "ES": {
+          "price": 4.42,
+          "currency": "EUR",
+          "symbol": "\u20ac",
+          "formatted": "\u20ac4.42",
+          "shipping": 11.99
+        },
+        "AE": {
+          "price": 17.62,
+          "currency": "AED",
+          "symbol": "\u062f.\u0625",
+          "formatted": "\u062f.\u062517.62",
+          "shipping": 19.99
+        },
+        "SG": {
+          "price": 6.48,
+          "currency": "SGD",
+          "symbol": "$",
+          "formatted": "$6.48",
+          "shipping": 12.99
+        },
+        "NZ": {
+          "price": 8.06,
+          "currency": "NZD",
+          "symbol": "$",
+          "formatted": "$8.06",
+          "shipping": 15.99
+        },
+        "JP": {
+          "price": 739.2,
+          "currency": "JPY",
+          "symbol": "\u00a5",
+          "formatted": "\u00a5739.2",
+          "shipping": 1499
+        },
+        "IN": {
+          "price": 400.8,
+          "currency": "INR",
+          "symbol": "\u20b9",
+          "formatted": "\u20b9400.8",
+          "shipping": 99
+        }
+      }
     },
     {
       "id": 26,
@@ -3037,7 +5387,101 @@
         "https://images.unsplash.com/photo-1536304993881-ff6e9eefa2a6?w=800&h=800&fit=crop&fm=jpg",
         "https://images.unsplash.com/photo-1594756202469-9ff9799b2e4e?w=800&h=800&fit=crop&fm=jpg",
         "https://images.unsplash.com/photo-1550828520-4cb496926fc9?w=800&h=800&fit=crop&fm=jpg"
-      ]
+      ],
+      "usd_price": 3.36,
+      "regional_prices": {
+        "US": {
+          "price": 3.36,
+          "currency": "USD",
+          "symbol": "$",
+          "formatted": "$3.36",
+          "shipping": 9.99
+        },
+        "GB": {
+          "price": 3.19,
+          "currency": "GBP",
+          "symbol": "\u00a3",
+          "formatted": "\u00a33.19",
+          "shipping": 7.99
+        },
+        "AU": {
+          "price": 5.21,
+          "currency": "AUD",
+          "symbol": "$",
+          "formatted": "$5.21",
+          "shipping": 14.99
+        },
+        "CA": {
+          "price": 4.64,
+          "currency": "CAD",
+          "symbol": "$",
+          "formatted": "$4.64",
+          "shipping": 12.99
+        },
+        "DE": {
+          "price": 3.09,
+          "currency": "EUR",
+          "symbol": "\u20ac",
+          "formatted": "\u20ac3.09",
+          "shipping": 11.99
+        },
+        "FR": {
+          "price": 3.09,
+          "currency": "EUR",
+          "symbol": "\u20ac",
+          "formatted": "\u20ac3.09",
+          "shipping": 11.99
+        },
+        "IT": {
+          "price": 3.09,
+          "currency": "EUR",
+          "symbol": "\u20ac",
+          "formatted": "\u20ac3.09",
+          "shipping": 11.99
+        },
+        "ES": {
+          "price": 3.09,
+          "currency": "EUR",
+          "symbol": "\u20ac",
+          "formatted": "\u20ac3.09",
+          "shipping": 11.99
+        },
+        "AE": {
+          "price": 12.33,
+          "currency": "AED",
+          "symbol": "\u062f.\u0625",
+          "formatted": "\u062f.\u062512.33",
+          "shipping": 19.99
+        },
+        "SG": {
+          "price": 4.54,
+          "currency": "SGD",
+          "symbol": "$",
+          "formatted": "$4.54",
+          "shipping": 12.99
+        },
+        "NZ": {
+          "price": 5.64,
+          "currency": "NZD",
+          "symbol": "$",
+          "formatted": "$5.64",
+          "shipping": 15.99
+        },
+        "JP": {
+          "price": 517.44,
+          "currency": "JPY",
+          "symbol": "\u00a5",
+          "formatted": "\u00a5517.44",
+          "shipping": 1499
+        },
+        "IN": {
+          "price": 280.56,
+          "currency": "INR",
+          "symbol": "\u20b9",
+          "formatted": "\u20b9280.56",
+          "shipping": 99
+        }
+      }
     },
     {
       "id": 27,
@@ -3137,7 +5581,101 @@
         "https://images.unsplash.com/photo-1544025162-d76978e8e5a4?w=800&h=800&fit=crop&fm=jpg",
         "https://images.unsplash.com/photo-1628627256541-a9eb3b1d1c4e?w=800&h=800&fit=crop&fm=jpg",
         "https://images.unsplash.com/photo-1599940824399-b87987ceb72a?w=800&h=800&fit=crop&fm=jpg"
-      ]
+      ],
+      "usd_price": 1.8,
+      "regional_prices": {
+        "US": {
+          "price": 1.8,
+          "currency": "USD",
+          "symbol": "$",
+          "formatted": "$1.8",
+          "shipping": 9.99
+        },
+        "GB": {
+          "price": 1.71,
+          "currency": "GBP",
+          "symbol": "\u00a3",
+          "formatted": "\u00a31.71",
+          "shipping": 7.99
+        },
+        "AU": {
+          "price": 2.79,
+          "currency": "AUD",
+          "symbol": "$",
+          "formatted": "$2.79",
+          "shipping": 14.99
+        },
+        "CA": {
+          "price": 2.48,
+          "currency": "CAD",
+          "symbol": "$",
+          "formatted": "$2.48",
+          "shipping": 12.99
+        },
+        "DE": {
+          "price": 1.66,
+          "currency": "EUR",
+          "symbol": "\u20ac",
+          "formatted": "\u20ac1.66",
+          "shipping": 11.99
+        },
+        "FR": {
+          "price": 1.66,
+          "currency": "EUR",
+          "symbol": "\u20ac",
+          "formatted": "\u20ac1.66",
+          "shipping": 11.99
+        },
+        "IT": {
+          "price": 1.66,
+          "currency": "EUR",
+          "symbol": "\u20ac",
+          "formatted": "\u20ac1.66",
+          "shipping": 11.99
+        },
+        "ES": {
+          "price": 1.66,
+          "currency": "EUR",
+          "symbol": "\u20ac",
+          "formatted": "\u20ac1.66",
+          "shipping": 11.99
+        },
+        "AE": {
+          "price": 6.61,
+          "currency": "AED",
+          "symbol": "\u062f.\u0625",
+          "formatted": "\u062f.\u06256.61",
+          "shipping": 19.99
+        },
+        "SG": {
+          "price": 2.43,
+          "currency": "SGD",
+          "symbol": "$",
+          "formatted": "$2.43",
+          "shipping": 12.99
+        },
+        "NZ": {
+          "price": 3.02,
+          "currency": "NZD",
+          "symbol": "$",
+          "formatted": "$3.02",
+          "shipping": 15.99
+        },
+        "JP": {
+          "price": 277.2,
+          "currency": "JPY",
+          "symbol": "\u00a5",
+          "formatted": "\u00a5277.2",
+          "shipping": 1499
+        },
+        "IN": {
+          "price": 150.3,
+          "currency": "INR",
+          "symbol": "\u20b9",
+          "formatted": "\u20b9150.3",
+          "shipping": 99
+        }
+      }
     },
     {
       "id": 28,
@@ -3264,7 +5802,101 @@
         "https://images.unsplash.com/photo-1596040033229-a9821ebd058d?w=800&h=800&fit=crop&fm=jpg",
         "https://images.unsplash.com/photo-1474979266404-7eaacbcd87c5?w=800&h=800&fit=crop&fm=jpg",
         "https://images.unsplash.com/photo-1509358271058-aedd22b2da55?w=800&h=800&fit=crop&fm=jpg"
-      ]
+      ],
+      "usd_price": 3.84,
+      "regional_prices": {
+        "US": {
+          "price": 3.84,
+          "currency": "USD",
+          "symbol": "$",
+          "formatted": "$3.84",
+          "shipping": 9.99
+        },
+        "GB": {
+          "price": 3.65,
+          "currency": "GBP",
+          "symbol": "\u00a3",
+          "formatted": "\u00a33.65",
+          "shipping": 7.99
+        },
+        "AU": {
+          "price": 5.95,
+          "currency": "AUD",
+          "symbol": "$",
+          "formatted": "$5.95",
+          "shipping": 14.99
+        },
+        "CA": {
+          "price": 5.3,
+          "currency": "CAD",
+          "symbol": "$",
+          "formatted": "$5.3",
+          "shipping": 12.99
+        },
+        "DE": {
+          "price": 3.53,
+          "currency": "EUR",
+          "symbol": "\u20ac",
+          "formatted": "\u20ac3.53",
+          "shipping": 11.99
+        },
+        "FR": {
+          "price": 3.53,
+          "currency": "EUR",
+          "symbol": "\u20ac",
+          "formatted": "\u20ac3.53",
+          "shipping": 11.99
+        },
+        "IT": {
+          "price": 3.53,
+          "currency": "EUR",
+          "symbol": "\u20ac",
+          "formatted": "\u20ac3.53",
+          "shipping": 11.99
+        },
+        "ES": {
+          "price": 3.53,
+          "currency": "EUR",
+          "symbol": "\u20ac",
+          "formatted": "\u20ac3.53",
+          "shipping": 11.99
+        },
+        "AE": {
+          "price": 14.09,
+          "currency": "AED",
+          "symbol": "\u062f.\u0625",
+          "formatted": "\u062f.\u062514.09",
+          "shipping": 19.99
+        },
+        "SG": {
+          "price": 5.18,
+          "currency": "SGD",
+          "symbol": "$",
+          "formatted": "$5.18",
+          "shipping": 12.99
+        },
+        "NZ": {
+          "price": 6.45,
+          "currency": "NZD",
+          "symbol": "$",
+          "formatted": "$6.45",
+          "shipping": 15.99
+        },
+        "JP": {
+          "price": 591.36,
+          "currency": "JPY",
+          "symbol": "\u00a5",
+          "formatted": "\u00a5591.36",
+          "shipping": 1499
+        },
+        "IN": {
+          "price": 320.64,
+          "currency": "INR",
+          "symbol": "\u20b9",
+          "formatted": "\u20b9320.64",
+          "shipping": 99
+        }
+      }
     },
     {
       "id": 29,
@@ -3364,7 +5996,101 @@
         "https://images.unsplash.com/photo-1596040033229-a9821ebd058d?w=800&h=800&fit=crop&fm=jpg",
         "https://images.unsplash.com/photo-1606923829579-0cb981a83e2e?w=800&h=800&fit=crop&fm=jpg",
         "https://images.unsplash.com/photo-1505253716362-afaea1d3d1af?w=800&h=800&fit=crop&fm=jpg"
-      ]
+      ],
+      "usd_price": 1.44,
+      "regional_prices": {
+        "US": {
+          "price": 1.44,
+          "currency": "USD",
+          "symbol": "$",
+          "formatted": "$1.44",
+          "shipping": 9.99
+        },
+        "GB": {
+          "price": 1.37,
+          "currency": "GBP",
+          "symbol": "\u00a3",
+          "formatted": "\u00a31.37",
+          "shipping": 7.99
+        },
+        "AU": {
+          "price": 2.23,
+          "currency": "AUD",
+          "symbol": "$",
+          "formatted": "$2.23",
+          "shipping": 14.99
+        },
+        "CA": {
+          "price": 1.99,
+          "currency": "CAD",
+          "symbol": "$",
+          "formatted": "$1.99",
+          "shipping": 12.99
+        },
+        "DE": {
+          "price": 1.32,
+          "currency": "EUR",
+          "symbol": "\u20ac",
+          "formatted": "\u20ac1.32",
+          "shipping": 11.99
+        },
+        "FR": {
+          "price": 1.32,
+          "currency": "EUR",
+          "symbol": "\u20ac",
+          "formatted": "\u20ac1.32",
+          "shipping": 11.99
+        },
+        "IT": {
+          "price": 1.32,
+          "currency": "EUR",
+          "symbol": "\u20ac",
+          "formatted": "\u20ac1.32",
+          "shipping": 11.99
+        },
+        "ES": {
+          "price": 1.32,
+          "currency": "EUR",
+          "symbol": "\u20ac",
+          "formatted": "\u20ac1.32",
+          "shipping": 11.99
+        },
+        "AE": {
+          "price": 5.28,
+          "currency": "AED",
+          "symbol": "\u062f.\u0625",
+          "formatted": "\u062f.\u06255.28",
+          "shipping": 19.99
+        },
+        "SG": {
+          "price": 1.94,
+          "currency": "SGD",
+          "symbol": "$",
+          "formatted": "$1.94",
+          "shipping": 12.99
+        },
+        "NZ": {
+          "price": 2.42,
+          "currency": "NZD",
+          "symbol": "$",
+          "formatted": "$2.42",
+          "shipping": 15.99
+        },
+        "JP": {
+          "price": 221.76,
+          "currency": "JPY",
+          "symbol": "\u00a5",
+          "formatted": "\u00a5221.76",
+          "shipping": 1499
+        },
+        "IN": {
+          "price": 120.24,
+          "currency": "INR",
+          "symbol": "\u20b9",
+          "formatted": "\u20b9120.24",
+          "shipping": 99
+        }
+      }
     },
     {
       "id": 30,
@@ -3491,7 +6217,101 @@
         "https://images.unsplash.com/photo-1558642452-9d2a7deb7f62?w=800&h=800&fit=crop&fm=jpg",
         "https://images.unsplash.com/photo-1471943311424-646960669fbc?w=800&h=800&fit=crop&fm=jpg",
         "https://images.unsplash.com/photo-1598971639058-fab3c3109a00?w=800&h=800&fit=crop&fm=jpg"
-      ]
+      ],
+      "usd_price": 4.8,
+      "regional_prices": {
+        "US": {
+          "price": 4.8,
+          "currency": "USD",
+          "symbol": "$",
+          "formatted": "$4.8",
+          "shipping": 9.99
+        },
+        "GB": {
+          "price": 4.56,
+          "currency": "GBP",
+          "symbol": "\u00a3",
+          "formatted": "\u00a34.56",
+          "shipping": 7.99
+        },
+        "AU": {
+          "price": 7.44,
+          "currency": "AUD",
+          "symbol": "$",
+          "formatted": "$7.44",
+          "shipping": 14.99
+        },
+        "CA": {
+          "price": 6.62,
+          "currency": "CAD",
+          "symbol": "$",
+          "formatted": "$6.62",
+          "shipping": 12.99
+        },
+        "DE": {
+          "price": 4.42,
+          "currency": "EUR",
+          "symbol": "\u20ac",
+          "formatted": "\u20ac4.42",
+          "shipping": 11.99
+        },
+        "FR": {
+          "price": 4.42,
+          "currency": "EUR",
+          "symbol": "\u20ac",
+          "formatted": "\u20ac4.42",
+          "shipping": 11.99
+        },
+        "IT": {
+          "price": 4.42,
+          "currency": "EUR",
+          "symbol": "\u20ac",
+          "formatted": "\u20ac4.42",
+          "shipping": 11.99
+        },
+        "ES": {
+          "price": 4.42,
+          "currency": "EUR",
+          "symbol": "\u20ac",
+          "formatted": "\u20ac4.42",
+          "shipping": 11.99
+        },
+        "AE": {
+          "price": 17.62,
+          "currency": "AED",
+          "symbol": "\u062f.\u0625",
+          "formatted": "\u062f.\u062517.62",
+          "shipping": 19.99
+        },
+        "SG": {
+          "price": 6.48,
+          "currency": "SGD",
+          "symbol": "$",
+          "formatted": "$6.48",
+          "shipping": 12.99
+        },
+        "NZ": {
+          "price": 8.06,
+          "currency": "NZD",
+          "symbol": "$",
+          "formatted": "$8.06",
+          "shipping": 15.99
+        },
+        "JP": {
+          "price": 739.2,
+          "currency": "JPY",
+          "symbol": "\u00a5",
+          "formatted": "\u00a5739.2",
+          "shipping": 1499
+        },
+        "IN": {
+          "price": 400.8,
+          "currency": "INR",
+          "symbol": "\u20b9",
+          "formatted": "\u20b9400.8",
+          "shipping": 99
+        }
+      }
     },
     {
       "id": 31,
@@ -3618,7 +6438,101 @@
         "https://images.unsplash.com/photo-1536304993881-ff6e9eefa2a6?w=800&h=800&fit=crop&fm=jpg",
         "https://images.unsplash.com/photo-1594756202469-9ff9799b2e4e?w=800&h=800&fit=crop&fm=jpg",
         "https://images.unsplash.com/photo-1550828520-4cb496926fc9?w=800&h=800&fit=crop&fm=jpg"
-      ]
+      ],
+      "usd_price": 3.36,
+      "regional_prices": {
+        "US": {
+          "price": 3.36,
+          "currency": "USD",
+          "symbol": "$",
+          "formatted": "$3.36",
+          "shipping": 9.99
+        },
+        "GB": {
+          "price": 3.19,
+          "currency": "GBP",
+          "symbol": "\u00a3",
+          "formatted": "\u00a33.19",
+          "shipping": 7.99
+        },
+        "AU": {
+          "price": 5.21,
+          "currency": "AUD",
+          "symbol": "$",
+          "formatted": "$5.21",
+          "shipping": 14.99
+        },
+        "CA": {
+          "price": 4.64,
+          "currency": "CAD",
+          "symbol": "$",
+          "formatted": "$4.64",
+          "shipping": 12.99
+        },
+        "DE": {
+          "price": 3.09,
+          "currency": "EUR",
+          "symbol": "\u20ac",
+          "formatted": "\u20ac3.09",
+          "shipping": 11.99
+        },
+        "FR": {
+          "price": 3.09,
+          "currency": "EUR",
+          "symbol": "\u20ac",
+          "formatted": "\u20ac3.09",
+          "shipping": 11.99
+        },
+        "IT": {
+          "price": 3.09,
+          "currency": "EUR",
+          "symbol": "\u20ac",
+          "formatted": "\u20ac3.09",
+          "shipping": 11.99
+        },
+        "ES": {
+          "price": 3.09,
+          "currency": "EUR",
+          "symbol": "\u20ac",
+          "formatted": "\u20ac3.09",
+          "shipping": 11.99
+        },
+        "AE": {
+          "price": 12.33,
+          "currency": "AED",
+          "symbol": "\u062f.\u0625",
+          "formatted": "\u062f.\u062512.33",
+          "shipping": 19.99
+        },
+        "SG": {
+          "price": 4.54,
+          "currency": "SGD",
+          "symbol": "$",
+          "formatted": "$4.54",
+          "shipping": 12.99
+        },
+        "NZ": {
+          "price": 5.64,
+          "currency": "NZD",
+          "symbol": "$",
+          "formatted": "$5.64",
+          "shipping": 15.99
+        },
+        "JP": {
+          "price": 517.44,
+          "currency": "JPY",
+          "symbol": "\u00a5",
+          "formatted": "\u00a5517.44",
+          "shipping": 1499
+        },
+        "IN": {
+          "price": 280.56,
+          "currency": "INR",
+          "symbol": "\u20b9",
+          "formatted": "\u20b9280.56",
+          "shipping": 99
+        }
+      }
     },
     {
       "id": 32,
@@ -3718,7 +6632,101 @@
         "https://images.unsplash.com/photo-1544025162-d76978e8e5a4?w=800&h=800&fit=crop&fm=jpg",
         "https://images.unsplash.com/photo-1628627256541-a9eb3b1d1c4e?w=800&h=800&fit=crop&fm=jpg",
         "https://images.unsplash.com/photo-1599940824399-b87987ceb72a?w=800&h=800&fit=crop&fm=jpg"
-      ]
+      ],
+      "usd_price": 1.8,
+      "regional_prices": {
+        "US": {
+          "price": 1.8,
+          "currency": "USD",
+          "symbol": "$",
+          "formatted": "$1.8",
+          "shipping": 9.99
+        },
+        "GB": {
+          "price": 1.71,
+          "currency": "GBP",
+          "symbol": "\u00a3",
+          "formatted": "\u00a31.71",
+          "shipping": 7.99
+        },
+        "AU": {
+          "price": 2.79,
+          "currency": "AUD",
+          "symbol": "$",
+          "formatted": "$2.79",
+          "shipping": 14.99
+        },
+        "CA": {
+          "price": 2.48,
+          "currency": "CAD",
+          "symbol": "$",
+          "formatted": "$2.48",
+          "shipping": 12.99
+        },
+        "DE": {
+          "price": 1.66,
+          "currency": "EUR",
+          "symbol": "\u20ac",
+          "formatted": "\u20ac1.66",
+          "shipping": 11.99
+        },
+        "FR": {
+          "price": 1.66,
+          "currency": "EUR",
+          "symbol": "\u20ac",
+          "formatted": "\u20ac1.66",
+          "shipping": 11.99
+        },
+        "IT": {
+          "price": 1.66,
+          "currency": "EUR",
+          "symbol": "\u20ac",
+          "formatted": "\u20ac1.66",
+          "shipping": 11.99
+        },
+        "ES": {
+          "price": 1.66,
+          "currency": "EUR",
+          "symbol": "\u20ac",
+          "formatted": "\u20ac1.66",
+          "shipping": 11.99
+        },
+        "AE": {
+          "price": 6.61,
+          "currency": "AED",
+          "symbol": "\u062f.\u0625",
+          "formatted": "\u062f.\u06256.61",
+          "shipping": 19.99
+        },
+        "SG": {
+          "price": 2.43,
+          "currency": "SGD",
+          "symbol": "$",
+          "formatted": "$2.43",
+          "shipping": 12.99
+        },
+        "NZ": {
+          "price": 3.02,
+          "currency": "NZD",
+          "symbol": "$",
+          "formatted": "$3.02",
+          "shipping": 15.99
+        },
+        "JP": {
+          "price": 277.2,
+          "currency": "JPY",
+          "symbol": "\u00a5",
+          "formatted": "\u00a5277.2",
+          "shipping": 1499
+        },
+        "IN": {
+          "price": 150.3,
+          "currency": "INR",
+          "symbol": "\u20b9",
+          "formatted": "\u20b9150.3",
+          "shipping": 99
+        }
+      }
     },
     {
       "id": 33,
@@ -3845,7 +6853,101 @@
         "https://images.unsplash.com/photo-1596040033229-a9821ebd058d?w=800&h=800&fit=crop&fm=jpg",
         "https://images.unsplash.com/photo-1474979266404-7eaacbcd87c5?w=800&h=800&fit=crop&fm=jpg",
         "https://images.unsplash.com/photo-1509358271058-aedd22b2da55?w=800&h=800&fit=crop&fm=jpg"
-      ]
+      ],
+      "usd_price": 3.84,
+      "regional_prices": {
+        "US": {
+          "price": 3.84,
+          "currency": "USD",
+          "symbol": "$",
+          "formatted": "$3.84",
+          "shipping": 9.99
+        },
+        "GB": {
+          "price": 3.65,
+          "currency": "GBP",
+          "symbol": "\u00a3",
+          "formatted": "\u00a33.65",
+          "shipping": 7.99
+        },
+        "AU": {
+          "price": 5.95,
+          "currency": "AUD",
+          "symbol": "$",
+          "formatted": "$5.95",
+          "shipping": 14.99
+        },
+        "CA": {
+          "price": 5.3,
+          "currency": "CAD",
+          "symbol": "$",
+          "formatted": "$5.3",
+          "shipping": 12.99
+        },
+        "DE": {
+          "price": 3.53,
+          "currency": "EUR",
+          "symbol": "\u20ac",
+          "formatted": "\u20ac3.53",
+          "shipping": 11.99
+        },
+        "FR": {
+          "price": 3.53,
+          "currency": "EUR",
+          "symbol": "\u20ac",
+          "formatted": "\u20ac3.53",
+          "shipping": 11.99
+        },
+        "IT": {
+          "price": 3.53,
+          "currency": "EUR",
+          "symbol": "\u20ac",
+          "formatted": "\u20ac3.53",
+          "shipping": 11.99
+        },
+        "ES": {
+          "price": 3.53,
+          "currency": "EUR",
+          "symbol": "\u20ac",
+          "formatted": "\u20ac3.53",
+          "shipping": 11.99
+        },
+        "AE": {
+          "price": 14.09,
+          "currency": "AED",
+          "symbol": "\u062f.\u0625",
+          "formatted": "\u062f.\u062514.09",
+          "shipping": 19.99
+        },
+        "SG": {
+          "price": 5.18,
+          "currency": "SGD",
+          "symbol": "$",
+          "formatted": "$5.18",
+          "shipping": 12.99
+        },
+        "NZ": {
+          "price": 6.45,
+          "currency": "NZD",
+          "symbol": "$",
+          "formatted": "$6.45",
+          "shipping": 15.99
+        },
+        "JP": {
+          "price": 591.36,
+          "currency": "JPY",
+          "symbol": "\u00a5",
+          "formatted": "\u00a5591.36",
+          "shipping": 1499
+        },
+        "IN": {
+          "price": 320.64,
+          "currency": "INR",
+          "symbol": "\u20b9",
+          "formatted": "\u20b9320.64",
+          "shipping": 99
+        }
+      }
     },
     {
       "id": 34,
@@ -3945,7 +7047,101 @@
         "https://images.unsplash.com/photo-1596040033229-a9821ebd058d?w=800&h=800&fit=crop&fm=jpg",
         "https://images.unsplash.com/photo-1606923829579-0cb981a83e2e?w=800&h=800&fit=crop&fm=jpg",
         "https://images.unsplash.com/photo-1505253716362-afaea1d3d1af?w=800&h=800&fit=crop&fm=jpg"
-      ]
+      ],
+      "usd_price": 1.44,
+      "regional_prices": {
+        "US": {
+          "price": 1.44,
+          "currency": "USD",
+          "symbol": "$",
+          "formatted": "$1.44",
+          "shipping": 9.99
+        },
+        "GB": {
+          "price": 1.37,
+          "currency": "GBP",
+          "symbol": "\u00a3",
+          "formatted": "\u00a31.37",
+          "shipping": 7.99
+        },
+        "AU": {
+          "price": 2.23,
+          "currency": "AUD",
+          "symbol": "$",
+          "formatted": "$2.23",
+          "shipping": 14.99
+        },
+        "CA": {
+          "price": 1.99,
+          "currency": "CAD",
+          "symbol": "$",
+          "formatted": "$1.99",
+          "shipping": 12.99
+        },
+        "DE": {
+          "price": 1.32,
+          "currency": "EUR",
+          "symbol": "\u20ac",
+          "formatted": "\u20ac1.32",
+          "shipping": 11.99
+        },
+        "FR": {
+          "price": 1.32,
+          "currency": "EUR",
+          "symbol": "\u20ac",
+          "formatted": "\u20ac1.32",
+          "shipping": 11.99
+        },
+        "IT": {
+          "price": 1.32,
+          "currency": "EUR",
+          "symbol": "\u20ac",
+          "formatted": "\u20ac1.32",
+          "shipping": 11.99
+        },
+        "ES": {
+          "price": 1.32,
+          "currency": "EUR",
+          "symbol": "\u20ac",
+          "formatted": "\u20ac1.32",
+          "shipping": 11.99
+        },
+        "AE": {
+          "price": 5.28,
+          "currency": "AED",
+          "symbol": "\u062f.\u0625",
+          "formatted": "\u062f.\u06255.28",
+          "shipping": 19.99
+        },
+        "SG": {
+          "price": 1.94,
+          "currency": "SGD",
+          "symbol": "$",
+          "formatted": "$1.94",
+          "shipping": 12.99
+        },
+        "NZ": {
+          "price": 2.42,
+          "currency": "NZD",
+          "symbol": "$",
+          "formatted": "$2.42",
+          "shipping": 15.99
+        },
+        "JP": {
+          "price": 221.76,
+          "currency": "JPY",
+          "symbol": "\u00a5",
+          "formatted": "\u00a5221.76",
+          "shipping": 1499
+        },
+        "IN": {
+          "price": 120.24,
+          "currency": "INR",
+          "symbol": "\u20b9",
+          "formatted": "\u20b9120.24",
+          "shipping": 99
+        }
+      }
     },
     {
       "id": 35,
@@ -4072,7 +7268,101 @@
         "https://images.unsplash.com/photo-1558642452-9d2a7deb7f62?w=800&h=800&fit=crop&fm=jpg",
         "https://images.unsplash.com/photo-1471943311424-646960669fbc?w=800&h=800&fit=crop&fm=jpg",
         "https://images.unsplash.com/photo-1598971639058-fab3c3109a00?w=800&h=800&fit=crop&fm=jpg"
-      ]
+      ],
+      "usd_price": 4.8,
+      "regional_prices": {
+        "US": {
+          "price": 4.8,
+          "currency": "USD",
+          "symbol": "$",
+          "formatted": "$4.8",
+          "shipping": 9.99
+        },
+        "GB": {
+          "price": 4.56,
+          "currency": "GBP",
+          "symbol": "\u00a3",
+          "formatted": "\u00a34.56",
+          "shipping": 7.99
+        },
+        "AU": {
+          "price": 7.44,
+          "currency": "AUD",
+          "symbol": "$",
+          "formatted": "$7.44",
+          "shipping": 14.99
+        },
+        "CA": {
+          "price": 6.62,
+          "currency": "CAD",
+          "symbol": "$",
+          "formatted": "$6.62",
+          "shipping": 12.99
+        },
+        "DE": {
+          "price": 4.42,
+          "currency": "EUR",
+          "symbol": "\u20ac",
+          "formatted": "\u20ac4.42",
+          "shipping": 11.99
+        },
+        "FR": {
+          "price": 4.42,
+          "currency": "EUR",
+          "symbol": "\u20ac",
+          "formatted": "\u20ac4.42",
+          "shipping": 11.99
+        },
+        "IT": {
+          "price": 4.42,
+          "currency": "EUR",
+          "symbol": "\u20ac",
+          "formatted": "\u20ac4.42",
+          "shipping": 11.99
+        },
+        "ES": {
+          "price": 4.42,
+          "currency": "EUR",
+          "symbol": "\u20ac",
+          "formatted": "\u20ac4.42",
+          "shipping": 11.99
+        },
+        "AE": {
+          "price": 17.62,
+          "currency": "AED",
+          "symbol": "\u062f.\u0625",
+          "formatted": "\u062f.\u062517.62",
+          "shipping": 19.99
+        },
+        "SG": {
+          "price": 6.48,
+          "currency": "SGD",
+          "symbol": "$",
+          "formatted": "$6.48",
+          "shipping": 12.99
+        },
+        "NZ": {
+          "price": 8.06,
+          "currency": "NZD",
+          "symbol": "$",
+          "formatted": "$8.06",
+          "shipping": 15.99
+        },
+        "JP": {
+          "price": 739.2,
+          "currency": "JPY",
+          "symbol": "\u00a5",
+          "formatted": "\u00a5739.2",
+          "shipping": 1499
+        },
+        "IN": {
+          "price": 400.8,
+          "currency": "INR",
+          "symbol": "\u20b9",
+          "formatted": "\u20b9400.8",
+          "shipping": 99
+        }
+      }
     },
     {
       "id": 36,
@@ -4199,7 +7489,101 @@
         "https://images.unsplash.com/photo-1536304993881-ff6e9eefa2a6?w=800&h=800&fit=crop&fm=jpg",
         "https://images.unsplash.com/photo-1594756202469-9ff9799b2e4e?w=800&h=800&fit=crop&fm=jpg",
         "https://images.unsplash.com/photo-1550828520-4cb496926fc9?w=800&h=800&fit=crop&fm=jpg"
-      ]
+      ],
+      "usd_price": 3.36,
+      "regional_prices": {
+        "US": {
+          "price": 3.36,
+          "currency": "USD",
+          "symbol": "$",
+          "formatted": "$3.36",
+          "shipping": 9.99
+        },
+        "GB": {
+          "price": 3.19,
+          "currency": "GBP",
+          "symbol": "\u00a3",
+          "formatted": "\u00a33.19",
+          "shipping": 7.99
+        },
+        "AU": {
+          "price": 5.21,
+          "currency": "AUD",
+          "symbol": "$",
+          "formatted": "$5.21",
+          "shipping": 14.99
+        },
+        "CA": {
+          "price": 4.64,
+          "currency": "CAD",
+          "symbol": "$",
+          "formatted": "$4.64",
+          "shipping": 12.99
+        },
+        "DE": {
+          "price": 3.09,
+          "currency": "EUR",
+          "symbol": "\u20ac",
+          "formatted": "\u20ac3.09",
+          "shipping": 11.99
+        },
+        "FR": {
+          "price": 3.09,
+          "currency": "EUR",
+          "symbol": "\u20ac",
+          "formatted": "\u20ac3.09",
+          "shipping": 11.99
+        },
+        "IT": {
+          "price": 3.09,
+          "currency": "EUR",
+          "symbol": "\u20ac",
+          "formatted": "\u20ac3.09",
+          "shipping": 11.99
+        },
+        "ES": {
+          "price": 3.09,
+          "currency": "EUR",
+          "symbol": "\u20ac",
+          "formatted": "\u20ac3.09",
+          "shipping": 11.99
+        },
+        "AE": {
+          "price": 12.33,
+          "currency": "AED",
+          "symbol": "\u062f.\u0625",
+          "formatted": "\u062f.\u062512.33",
+          "shipping": 19.99
+        },
+        "SG": {
+          "price": 4.54,
+          "currency": "SGD",
+          "symbol": "$",
+          "formatted": "$4.54",
+          "shipping": 12.99
+        },
+        "NZ": {
+          "price": 5.64,
+          "currency": "NZD",
+          "symbol": "$",
+          "formatted": "$5.64",
+          "shipping": 15.99
+        },
+        "JP": {
+          "price": 517.44,
+          "currency": "JPY",
+          "symbol": "\u00a5",
+          "formatted": "\u00a5517.44",
+          "shipping": 1499
+        },
+        "IN": {
+          "price": 280.56,
+          "currency": "INR",
+          "symbol": "\u20b9",
+          "formatted": "\u20b9280.56",
+          "shipping": 99
+        }
+      }
     },
     {
       "id": 37,
@@ -4299,7 +7683,101 @@
         "https://images.unsplash.com/photo-1544025162-d76978e8e5a4?w=800&h=800&fit=crop&fm=jpg",
         "https://images.unsplash.com/photo-1628627256541-a9eb3b1d1c4e?w=800&h=800&fit=crop&fm=jpg",
         "https://images.unsplash.com/photo-1599940824399-b87987ceb72a?w=800&h=800&fit=crop&fm=jpg"
-      ]
+      ],
+      "usd_price": 1.8,
+      "regional_prices": {
+        "US": {
+          "price": 1.8,
+          "currency": "USD",
+          "symbol": "$",
+          "formatted": "$1.8",
+          "shipping": 9.99
+        },
+        "GB": {
+          "price": 1.71,
+          "currency": "GBP",
+          "symbol": "\u00a3",
+          "formatted": "\u00a31.71",
+          "shipping": 7.99
+        },
+        "AU": {
+          "price": 2.79,
+          "currency": "AUD",
+          "symbol": "$",
+          "formatted": "$2.79",
+          "shipping": 14.99
+        },
+        "CA": {
+          "price": 2.48,
+          "currency": "CAD",
+          "symbol": "$",
+          "formatted": "$2.48",
+          "shipping": 12.99
+        },
+        "DE": {
+          "price": 1.66,
+          "currency": "EUR",
+          "symbol": "\u20ac",
+          "formatted": "\u20ac1.66",
+          "shipping": 11.99
+        },
+        "FR": {
+          "price": 1.66,
+          "currency": "EUR",
+          "symbol": "\u20ac",
+          "formatted": "\u20ac1.66",
+          "shipping": 11.99
+        },
+        "IT": {
+          "price": 1.66,
+          "currency": "EUR",
+          "symbol": "\u20ac",
+          "formatted": "\u20ac1.66",
+          "shipping": 11.99
+        },
+        "ES": {
+          "price": 1.66,
+          "currency": "EUR",
+          "symbol": "\u20ac",
+          "formatted": "\u20ac1.66",
+          "shipping": 11.99
+        },
+        "AE": {
+          "price": 6.61,
+          "currency": "AED",
+          "symbol": "\u062f.\u0625",
+          "formatted": "\u062f.\u06256.61",
+          "shipping": 19.99
+        },
+        "SG": {
+          "price": 2.43,
+          "currency": "SGD",
+          "symbol": "$",
+          "formatted": "$2.43",
+          "shipping": 12.99
+        },
+        "NZ": {
+          "price": 3.02,
+          "currency": "NZD",
+          "symbol": "$",
+          "formatted": "$3.02",
+          "shipping": 15.99
+        },
+        "JP": {
+          "price": 277.2,
+          "currency": "JPY",
+          "symbol": "\u00a5",
+          "formatted": "\u00a5277.2",
+          "shipping": 1499
+        },
+        "IN": {
+          "price": 150.3,
+          "currency": "INR",
+          "symbol": "\u20b9",
+          "formatted": "\u20b9150.3",
+          "shipping": 99
+        }
+      }
     },
     {
       "id": 38,
@@ -4426,7 +7904,101 @@
         "https://images.unsplash.com/photo-1596040033229-a9821ebd058d?w=800&h=800&fit=crop&fm=jpg",
         "https://images.unsplash.com/photo-1474979266404-7eaacbcd87c5?w=800&h=800&fit=crop&fm=jpg",
         "https://images.unsplash.com/photo-1509358271058-aedd22b2da55?w=800&h=800&fit=crop&fm=jpg"
-      ]
+      ],
+      "usd_price": 3.84,
+      "regional_prices": {
+        "US": {
+          "price": 3.84,
+          "currency": "USD",
+          "symbol": "$",
+          "formatted": "$3.84",
+          "shipping": 9.99
+        },
+        "GB": {
+          "price": 3.65,
+          "currency": "GBP",
+          "symbol": "\u00a3",
+          "formatted": "\u00a33.65",
+          "shipping": 7.99
+        },
+        "AU": {
+          "price": 5.95,
+          "currency": "AUD",
+          "symbol": "$",
+          "formatted": "$5.95",
+          "shipping": 14.99
+        },
+        "CA": {
+          "price": 5.3,
+          "currency": "CAD",
+          "symbol": "$",
+          "formatted": "$5.3",
+          "shipping": 12.99
+        },
+        "DE": {
+          "price": 3.53,
+          "currency": "EUR",
+          "symbol": "\u20ac",
+          "formatted": "\u20ac3.53",
+          "shipping": 11.99
+        },
+        "FR": {
+          "price": 3.53,
+          "currency": "EUR",
+          "symbol": "\u20ac",
+          "formatted": "\u20ac3.53",
+          "shipping": 11.99
+        },
+        "IT": {
+          "price": 3.53,
+          "currency": "EUR",
+          "symbol": "\u20ac",
+          "formatted": "\u20ac3.53",
+          "shipping": 11.99
+        },
+        "ES": {
+          "price": 3.53,
+          "currency": "EUR",
+          "symbol": "\u20ac",
+          "formatted": "\u20ac3.53",
+          "shipping": 11.99
+        },
+        "AE": {
+          "price": 14.09,
+          "currency": "AED",
+          "symbol": "\u062f.\u0625",
+          "formatted": "\u062f.\u062514.09",
+          "shipping": 19.99
+        },
+        "SG": {
+          "price": 5.18,
+          "currency": "SGD",
+          "symbol": "$",
+          "formatted": "$5.18",
+          "shipping": 12.99
+        },
+        "NZ": {
+          "price": 6.45,
+          "currency": "NZD",
+          "symbol": "$",
+          "formatted": "$6.45",
+          "shipping": 15.99
+        },
+        "JP": {
+          "price": 591.36,
+          "currency": "JPY",
+          "symbol": "\u00a5",
+          "formatted": "\u00a5591.36",
+          "shipping": 1499
+        },
+        "IN": {
+          "price": 320.64,
+          "currency": "INR",
+          "symbol": "\u20b9",
+          "formatted": "\u20b9320.64",
+          "shipping": 99
+        }
+      }
     },
     {
       "id": 39,
@@ -4526,7 +8098,101 @@
         "https://images.unsplash.com/photo-1596040033229-a9821ebd058d?w=800&h=800&fit=crop&fm=jpg",
         "https://images.unsplash.com/photo-1606923829579-0cb981a83e2e?w=800&h=800&fit=crop&fm=jpg",
         "https://images.unsplash.com/photo-1505253716362-afaea1d3d1af?w=800&h=800&fit=crop&fm=jpg"
-      ]
+      ],
+      "usd_price": 1.44,
+      "regional_prices": {
+        "US": {
+          "price": 1.44,
+          "currency": "USD",
+          "symbol": "$",
+          "formatted": "$1.44",
+          "shipping": 9.99
+        },
+        "GB": {
+          "price": 1.37,
+          "currency": "GBP",
+          "symbol": "\u00a3",
+          "formatted": "\u00a31.37",
+          "shipping": 7.99
+        },
+        "AU": {
+          "price": 2.23,
+          "currency": "AUD",
+          "symbol": "$",
+          "formatted": "$2.23",
+          "shipping": 14.99
+        },
+        "CA": {
+          "price": 1.99,
+          "currency": "CAD",
+          "symbol": "$",
+          "formatted": "$1.99",
+          "shipping": 12.99
+        },
+        "DE": {
+          "price": 1.32,
+          "currency": "EUR",
+          "symbol": "\u20ac",
+          "formatted": "\u20ac1.32",
+          "shipping": 11.99
+        },
+        "FR": {
+          "price": 1.32,
+          "currency": "EUR",
+          "symbol": "\u20ac",
+          "formatted": "\u20ac1.32",
+          "shipping": 11.99
+        },
+        "IT": {
+          "price": 1.32,
+          "currency": "EUR",
+          "symbol": "\u20ac",
+          "formatted": "\u20ac1.32",
+          "shipping": 11.99
+        },
+        "ES": {
+          "price": 1.32,
+          "currency": "EUR",
+          "symbol": "\u20ac",
+          "formatted": "\u20ac1.32",
+          "shipping": 11.99
+        },
+        "AE": {
+          "price": 5.28,
+          "currency": "AED",
+          "symbol": "\u062f.\u0625",
+          "formatted": "\u062f.\u06255.28",
+          "shipping": 19.99
+        },
+        "SG": {
+          "price": 1.94,
+          "currency": "SGD",
+          "symbol": "$",
+          "formatted": "$1.94",
+          "shipping": 12.99
+        },
+        "NZ": {
+          "price": 2.42,
+          "currency": "NZD",
+          "symbol": "$",
+          "formatted": "$2.42",
+          "shipping": 15.99
+        },
+        "JP": {
+          "price": 221.76,
+          "currency": "JPY",
+          "symbol": "\u00a5",
+          "formatted": "\u00a5221.76",
+          "shipping": 1499
+        },
+        "IN": {
+          "price": 120.24,
+          "currency": "INR",
+          "symbol": "\u20b9",
+          "formatted": "\u20b9120.24",
+          "shipping": 99
+        }
+      }
     },
     {
       "id": 40,
@@ -4653,7 +8319,101 @@
         "https://images.unsplash.com/photo-1558642452-9d2a7deb7f62?w=800&h=800&fit=crop&fm=jpg",
         "https://images.unsplash.com/photo-1471943311424-646960669fbc?w=800&h=800&fit=crop&fm=jpg",
         "https://images.unsplash.com/photo-1598971639058-fab3c3109a00?w=800&h=800&fit=crop&fm=jpg"
-      ]
+      ],
+      "usd_price": 4.8,
+      "regional_prices": {
+        "US": {
+          "price": 4.8,
+          "currency": "USD",
+          "symbol": "$",
+          "formatted": "$4.8",
+          "shipping": 9.99
+        },
+        "GB": {
+          "price": 4.56,
+          "currency": "GBP",
+          "symbol": "\u00a3",
+          "formatted": "\u00a34.56",
+          "shipping": 7.99
+        },
+        "AU": {
+          "price": 7.44,
+          "currency": "AUD",
+          "symbol": "$",
+          "formatted": "$7.44",
+          "shipping": 14.99
+        },
+        "CA": {
+          "price": 6.62,
+          "currency": "CAD",
+          "symbol": "$",
+          "formatted": "$6.62",
+          "shipping": 12.99
+        },
+        "DE": {
+          "price": 4.42,
+          "currency": "EUR",
+          "symbol": "\u20ac",
+          "formatted": "\u20ac4.42",
+          "shipping": 11.99
+        },
+        "FR": {
+          "price": 4.42,
+          "currency": "EUR",
+          "symbol": "\u20ac",
+          "formatted": "\u20ac4.42",
+          "shipping": 11.99
+        },
+        "IT": {
+          "price": 4.42,
+          "currency": "EUR",
+          "symbol": "\u20ac",
+          "formatted": "\u20ac4.42",
+          "shipping": 11.99
+        },
+        "ES": {
+          "price": 4.42,
+          "currency": "EUR",
+          "symbol": "\u20ac",
+          "formatted": "\u20ac4.42",
+          "shipping": 11.99
+        },
+        "AE": {
+          "price": 17.62,
+          "currency": "AED",
+          "symbol": "\u062f.\u0625",
+          "formatted": "\u062f.\u062517.62",
+          "shipping": 19.99
+        },
+        "SG": {
+          "price": 6.48,
+          "currency": "SGD",
+          "symbol": "$",
+          "formatted": "$6.48",
+          "shipping": 12.99
+        },
+        "NZ": {
+          "price": 8.06,
+          "currency": "NZD",
+          "symbol": "$",
+          "formatted": "$8.06",
+          "shipping": 15.99
+        },
+        "JP": {
+          "price": 739.2,
+          "currency": "JPY",
+          "symbol": "\u00a5",
+          "formatted": "\u00a5739.2",
+          "shipping": 1499
+        },
+        "IN": {
+          "price": 400.8,
+          "currency": "INR",
+          "symbol": "\u20b9",
+          "formatted": "\u20b9400.8",
+          "shipping": 99
+        }
+      }
     },
     {
       "id": 41,
@@ -4780,7 +8540,101 @@
         "https://images.unsplash.com/photo-1536304993881-ff6e9eefa2a6?w=800&h=800&fit=crop&fm=jpg",
         "https://images.unsplash.com/photo-1594756202469-9ff9799b2e4e?w=800&h=800&fit=crop&fm=jpg",
         "https://images.unsplash.com/photo-1550828520-4cb496926fc9?w=800&h=800&fit=crop&fm=jpg"
-      ]
+      ],
+      "usd_price": 3.36,
+      "regional_prices": {
+        "US": {
+          "price": 3.36,
+          "currency": "USD",
+          "symbol": "$",
+          "formatted": "$3.36",
+          "shipping": 9.99
+        },
+        "GB": {
+          "price": 3.19,
+          "currency": "GBP",
+          "symbol": "\u00a3",
+          "formatted": "\u00a33.19",
+          "shipping": 7.99
+        },
+        "AU": {
+          "price": 5.21,
+          "currency": "AUD",
+          "symbol": "$",
+          "formatted": "$5.21",
+          "shipping": 14.99
+        },
+        "CA": {
+          "price": 4.64,
+          "currency": "CAD",
+          "symbol": "$",
+          "formatted": "$4.64",
+          "shipping": 12.99
+        },
+        "DE": {
+          "price": 3.09,
+          "currency": "EUR",
+          "symbol": "\u20ac",
+          "formatted": "\u20ac3.09",
+          "shipping": 11.99
+        },
+        "FR": {
+          "price": 3.09,
+          "currency": "EUR",
+          "symbol": "\u20ac",
+          "formatted": "\u20ac3.09",
+          "shipping": 11.99
+        },
+        "IT": {
+          "price": 3.09,
+          "currency": "EUR",
+          "symbol": "\u20ac",
+          "formatted": "\u20ac3.09",
+          "shipping": 11.99
+        },
+        "ES": {
+          "price": 3.09,
+          "currency": "EUR",
+          "symbol": "\u20ac",
+          "formatted": "\u20ac3.09",
+          "shipping": 11.99
+        },
+        "AE": {
+          "price": 12.33,
+          "currency": "AED",
+          "symbol": "\u062f.\u0625",
+          "formatted": "\u062f.\u062512.33",
+          "shipping": 19.99
+        },
+        "SG": {
+          "price": 4.54,
+          "currency": "SGD",
+          "symbol": "$",
+          "formatted": "$4.54",
+          "shipping": 12.99
+        },
+        "NZ": {
+          "price": 5.64,
+          "currency": "NZD",
+          "symbol": "$",
+          "formatted": "$5.64",
+          "shipping": 15.99
+        },
+        "JP": {
+          "price": 517.44,
+          "currency": "JPY",
+          "symbol": "\u00a5",
+          "formatted": "\u00a5517.44",
+          "shipping": 1499
+        },
+        "IN": {
+          "price": 280.56,
+          "currency": "INR",
+          "symbol": "\u20b9",
+          "formatted": "\u20b9280.56",
+          "shipping": 99
+        }
+      }
     },
     {
       "id": 42,
@@ -4880,7 +8734,101 @@
         "https://images.unsplash.com/photo-1544025162-d76978e8e5a4?w=800&h=800&fit=crop&fm=jpg",
         "https://images.unsplash.com/photo-1628627256541-a9eb3b1d1c4e?w=800&h=800&fit=crop&fm=jpg",
         "https://images.unsplash.com/photo-1599940824399-b87987ceb72a?w=800&h=800&fit=crop&fm=jpg"
-      ]
+      ],
+      "usd_price": 1.8,
+      "regional_prices": {
+        "US": {
+          "price": 1.8,
+          "currency": "USD",
+          "symbol": "$",
+          "formatted": "$1.8",
+          "shipping": 9.99
+        },
+        "GB": {
+          "price": 1.71,
+          "currency": "GBP",
+          "symbol": "\u00a3",
+          "formatted": "\u00a31.71",
+          "shipping": 7.99
+        },
+        "AU": {
+          "price": 2.79,
+          "currency": "AUD",
+          "symbol": "$",
+          "formatted": "$2.79",
+          "shipping": 14.99
+        },
+        "CA": {
+          "price": 2.48,
+          "currency": "CAD",
+          "symbol": "$",
+          "formatted": "$2.48",
+          "shipping": 12.99
+        },
+        "DE": {
+          "price": 1.66,
+          "currency": "EUR",
+          "symbol": "\u20ac",
+          "formatted": "\u20ac1.66",
+          "shipping": 11.99
+        },
+        "FR": {
+          "price": 1.66,
+          "currency": "EUR",
+          "symbol": "\u20ac",
+          "formatted": "\u20ac1.66",
+          "shipping": 11.99
+        },
+        "IT": {
+          "price": 1.66,
+          "currency": "EUR",
+          "symbol": "\u20ac",
+          "formatted": "\u20ac1.66",
+          "shipping": 11.99
+        },
+        "ES": {
+          "price": 1.66,
+          "currency": "EUR",
+          "symbol": "\u20ac",
+          "formatted": "\u20ac1.66",
+          "shipping": 11.99
+        },
+        "AE": {
+          "price": 6.61,
+          "currency": "AED",
+          "symbol": "\u062f.\u0625",
+          "formatted": "\u062f.\u06256.61",
+          "shipping": 19.99
+        },
+        "SG": {
+          "price": 2.43,
+          "currency": "SGD",
+          "symbol": "$",
+          "formatted": "$2.43",
+          "shipping": 12.99
+        },
+        "NZ": {
+          "price": 3.02,
+          "currency": "NZD",
+          "symbol": "$",
+          "formatted": "$3.02",
+          "shipping": 15.99
+        },
+        "JP": {
+          "price": 277.2,
+          "currency": "JPY",
+          "symbol": "\u00a5",
+          "formatted": "\u00a5277.2",
+          "shipping": 1499
+        },
+        "IN": {
+          "price": 150.3,
+          "currency": "INR",
+          "symbol": "\u20b9",
+          "formatted": "\u20b9150.3",
+          "shipping": 99
+        }
+      }
     },
     {
       "id": 43,
@@ -5007,7 +8955,101 @@
         "https://images.unsplash.com/photo-1596040033229-a9821ebd058d?w=800&h=800&fit=crop&fm=jpg",
         "https://images.unsplash.com/photo-1474979266404-7eaacbcd87c5?w=800&h=800&fit=crop&fm=jpg",
         "https://images.unsplash.com/photo-1509358271058-aedd22b2da55?w=800&h=800&fit=crop&fm=jpg"
-      ]
+      ],
+      "usd_price": 3.84,
+      "regional_prices": {
+        "US": {
+          "price": 3.84,
+          "currency": "USD",
+          "symbol": "$",
+          "formatted": "$3.84",
+          "shipping": 9.99
+        },
+        "GB": {
+          "price": 3.65,
+          "currency": "GBP",
+          "symbol": "\u00a3",
+          "formatted": "\u00a33.65",
+          "shipping": 7.99
+        },
+        "AU": {
+          "price": 5.95,
+          "currency": "AUD",
+          "symbol": "$",
+          "formatted": "$5.95",
+          "shipping": 14.99
+        },
+        "CA": {
+          "price": 5.3,
+          "currency": "CAD",
+          "symbol": "$",
+          "formatted": "$5.3",
+          "shipping": 12.99
+        },
+        "DE": {
+          "price": 3.53,
+          "currency": "EUR",
+          "symbol": "\u20ac",
+          "formatted": "\u20ac3.53",
+          "shipping": 11.99
+        },
+        "FR": {
+          "price": 3.53,
+          "currency": "EUR",
+          "symbol": "\u20ac",
+          "formatted": "\u20ac3.53",
+          "shipping": 11.99
+        },
+        "IT": {
+          "price": 3.53,
+          "currency": "EUR",
+          "symbol": "\u20ac",
+          "formatted": "\u20ac3.53",
+          "shipping": 11.99
+        },
+        "ES": {
+          "price": 3.53,
+          "currency": "EUR",
+          "symbol": "\u20ac",
+          "formatted": "\u20ac3.53",
+          "shipping": 11.99
+        },
+        "AE": {
+          "price": 14.09,
+          "currency": "AED",
+          "symbol": "\u062f.\u0625",
+          "formatted": "\u062f.\u062514.09",
+          "shipping": 19.99
+        },
+        "SG": {
+          "price": 5.18,
+          "currency": "SGD",
+          "symbol": "$",
+          "formatted": "$5.18",
+          "shipping": 12.99
+        },
+        "NZ": {
+          "price": 6.45,
+          "currency": "NZD",
+          "symbol": "$",
+          "formatted": "$6.45",
+          "shipping": 15.99
+        },
+        "JP": {
+          "price": 591.36,
+          "currency": "JPY",
+          "symbol": "\u00a5",
+          "formatted": "\u00a5591.36",
+          "shipping": 1499
+        },
+        "IN": {
+          "price": 320.64,
+          "currency": "INR",
+          "symbol": "\u20b9",
+          "formatted": "\u20b9320.64",
+          "shipping": 99
+        }
+      }
     },
     {
       "id": 44,
@@ -5107,7 +9149,101 @@
         "https://images.unsplash.com/photo-1596040033229-a9821ebd058d?w=800&h=800&fit=crop&fm=jpg",
         "https://images.unsplash.com/photo-1606923829579-0cb981a83e2e?w=800&h=800&fit=crop&fm=jpg",
         "https://images.unsplash.com/photo-1505253716362-afaea1d3d1af?w=800&h=800&fit=crop&fm=jpg"
-      ]
+      ],
+      "usd_price": 1.44,
+      "regional_prices": {
+        "US": {
+          "price": 1.44,
+          "currency": "USD",
+          "symbol": "$",
+          "formatted": "$1.44",
+          "shipping": 9.99
+        },
+        "GB": {
+          "price": 1.37,
+          "currency": "GBP",
+          "symbol": "\u00a3",
+          "formatted": "\u00a31.37",
+          "shipping": 7.99
+        },
+        "AU": {
+          "price": 2.23,
+          "currency": "AUD",
+          "symbol": "$",
+          "formatted": "$2.23",
+          "shipping": 14.99
+        },
+        "CA": {
+          "price": 1.99,
+          "currency": "CAD",
+          "symbol": "$",
+          "formatted": "$1.99",
+          "shipping": 12.99
+        },
+        "DE": {
+          "price": 1.32,
+          "currency": "EUR",
+          "symbol": "\u20ac",
+          "formatted": "\u20ac1.32",
+          "shipping": 11.99
+        },
+        "FR": {
+          "price": 1.32,
+          "currency": "EUR",
+          "symbol": "\u20ac",
+          "formatted": "\u20ac1.32",
+          "shipping": 11.99
+        },
+        "IT": {
+          "price": 1.32,
+          "currency": "EUR",
+          "symbol": "\u20ac",
+          "formatted": "\u20ac1.32",
+          "shipping": 11.99
+        },
+        "ES": {
+          "price": 1.32,
+          "currency": "EUR",
+          "symbol": "\u20ac",
+          "formatted": "\u20ac1.32",
+          "shipping": 11.99
+        },
+        "AE": {
+          "price": 5.28,
+          "currency": "AED",
+          "symbol": "\u062f.\u0625",
+          "formatted": "\u062f.\u06255.28",
+          "shipping": 19.99
+        },
+        "SG": {
+          "price": 1.94,
+          "currency": "SGD",
+          "symbol": "$",
+          "formatted": "$1.94",
+          "shipping": 12.99
+        },
+        "NZ": {
+          "price": 2.42,
+          "currency": "NZD",
+          "symbol": "$",
+          "formatted": "$2.42",
+          "shipping": 15.99
+        },
+        "JP": {
+          "price": 221.76,
+          "currency": "JPY",
+          "symbol": "\u00a5",
+          "formatted": "\u00a5221.76",
+          "shipping": 1499
+        },
+        "IN": {
+          "price": 120.24,
+          "currency": "INR",
+          "symbol": "\u20b9",
+          "formatted": "\u20b9120.24",
+          "shipping": 99
+        }
+      }
     },
     {
       "id": 45,
@@ -5234,7 +9370,101 @@
         "https://images.unsplash.com/photo-1558642452-9d2a7deb7f62?w=800&h=800&fit=crop&fm=jpg",
         "https://images.unsplash.com/photo-1471943311424-646960669fbc?w=800&h=800&fit=crop&fm=jpg",
         "https://images.unsplash.com/photo-1598971639058-fab3c3109a00?w=800&h=800&fit=crop&fm=jpg"
-      ]
+      ],
+      "usd_price": 4.8,
+      "regional_prices": {
+        "US": {
+          "price": 4.8,
+          "currency": "USD",
+          "symbol": "$",
+          "formatted": "$4.8",
+          "shipping": 9.99
+        },
+        "GB": {
+          "price": 4.56,
+          "currency": "GBP",
+          "symbol": "\u00a3",
+          "formatted": "\u00a34.56",
+          "shipping": 7.99
+        },
+        "AU": {
+          "price": 7.44,
+          "currency": "AUD",
+          "symbol": "$",
+          "formatted": "$7.44",
+          "shipping": 14.99
+        },
+        "CA": {
+          "price": 6.62,
+          "currency": "CAD",
+          "symbol": "$",
+          "formatted": "$6.62",
+          "shipping": 12.99
+        },
+        "DE": {
+          "price": 4.42,
+          "currency": "EUR",
+          "symbol": "\u20ac",
+          "formatted": "\u20ac4.42",
+          "shipping": 11.99
+        },
+        "FR": {
+          "price": 4.42,
+          "currency": "EUR",
+          "symbol": "\u20ac",
+          "formatted": "\u20ac4.42",
+          "shipping": 11.99
+        },
+        "IT": {
+          "price": 4.42,
+          "currency": "EUR",
+          "symbol": "\u20ac",
+          "formatted": "\u20ac4.42",
+          "shipping": 11.99
+        },
+        "ES": {
+          "price": 4.42,
+          "currency": "EUR",
+          "symbol": "\u20ac",
+          "formatted": "\u20ac4.42",
+          "shipping": 11.99
+        },
+        "AE": {
+          "price": 17.62,
+          "currency": "AED",
+          "symbol": "\u062f.\u0625",
+          "formatted": "\u062f.\u062517.62",
+          "shipping": 19.99
+        },
+        "SG": {
+          "price": 6.48,
+          "currency": "SGD",
+          "symbol": "$",
+          "formatted": "$6.48",
+          "shipping": 12.99
+        },
+        "NZ": {
+          "price": 8.06,
+          "currency": "NZD",
+          "symbol": "$",
+          "formatted": "$8.06",
+          "shipping": 15.99
+        },
+        "JP": {
+          "price": 739.2,
+          "currency": "JPY",
+          "symbol": "\u00a5",
+          "formatted": "\u00a5739.2",
+          "shipping": 1499
+        },
+        "IN": {
+          "price": 400.8,
+          "currency": "INR",
+          "symbol": "\u20b9",
+          "formatted": "\u20b9400.8",
+          "shipping": 99
+        }
+      }
     },
     {
       "id": 46,
@@ -5361,7 +9591,101 @@
         "https://images.unsplash.com/photo-1536304993881-ff6e9eefa2a6?w=800&h=800&fit=crop&fm=jpg",
         "https://images.unsplash.com/photo-1594756202469-9ff9799b2e4e?w=800&h=800&fit=crop&fm=jpg",
         "https://images.unsplash.com/photo-1550828520-4cb496926fc9?w=800&h=800&fit=crop&fm=jpg"
-      ]
+      ],
+      "usd_price": 3.36,
+      "regional_prices": {
+        "US": {
+          "price": 3.36,
+          "currency": "USD",
+          "symbol": "$",
+          "formatted": "$3.36",
+          "shipping": 9.99
+        },
+        "GB": {
+          "price": 3.19,
+          "currency": "GBP",
+          "symbol": "\u00a3",
+          "formatted": "\u00a33.19",
+          "shipping": 7.99
+        },
+        "AU": {
+          "price": 5.21,
+          "currency": "AUD",
+          "symbol": "$",
+          "formatted": "$5.21",
+          "shipping": 14.99
+        },
+        "CA": {
+          "price": 4.64,
+          "currency": "CAD",
+          "symbol": "$",
+          "formatted": "$4.64",
+          "shipping": 12.99
+        },
+        "DE": {
+          "price": 3.09,
+          "currency": "EUR",
+          "symbol": "\u20ac",
+          "formatted": "\u20ac3.09",
+          "shipping": 11.99
+        },
+        "FR": {
+          "price": 3.09,
+          "currency": "EUR",
+          "symbol": "\u20ac",
+          "formatted": "\u20ac3.09",
+          "shipping": 11.99
+        },
+        "IT": {
+          "price": 3.09,
+          "currency": "EUR",
+          "symbol": "\u20ac",
+          "formatted": "\u20ac3.09",
+          "shipping": 11.99
+        },
+        "ES": {
+          "price": 3.09,
+          "currency": "EUR",
+          "symbol": "\u20ac",
+          "formatted": "\u20ac3.09",
+          "shipping": 11.99
+        },
+        "AE": {
+          "price": 12.33,
+          "currency": "AED",
+          "symbol": "\u062f.\u0625",
+          "formatted": "\u062f.\u062512.33",
+          "shipping": 19.99
+        },
+        "SG": {
+          "price": 4.54,
+          "currency": "SGD",
+          "symbol": "$",
+          "formatted": "$4.54",
+          "shipping": 12.99
+        },
+        "NZ": {
+          "price": 5.64,
+          "currency": "NZD",
+          "symbol": "$",
+          "formatted": "$5.64",
+          "shipping": 15.99
+        },
+        "JP": {
+          "price": 517.44,
+          "currency": "JPY",
+          "symbol": "\u00a5",
+          "formatted": "\u00a5517.44",
+          "shipping": 1499
+        },
+        "IN": {
+          "price": 280.56,
+          "currency": "INR",
+          "symbol": "\u20b9",
+          "formatted": "\u20b9280.56",
+          "shipping": 99
+        }
+      }
     },
     {
       "id": 47,
@@ -5461,7 +9785,101 @@
         "https://images.unsplash.com/photo-1544025162-d76978e8e5a4?w=800&h=800&fit=crop&fm=jpg",
         "https://images.unsplash.com/photo-1628627256541-a9eb3b1d1c4e?w=800&h=800&fit=crop&fm=jpg",
         "https://images.unsplash.com/photo-1599940824399-b87987ceb72a?w=800&h=800&fit=crop&fm=jpg"
-      ]
+      ],
+      "usd_price": 1.8,
+      "regional_prices": {
+        "US": {
+          "price": 1.8,
+          "currency": "USD",
+          "symbol": "$",
+          "formatted": "$1.8",
+          "shipping": 9.99
+        },
+        "GB": {
+          "price": 1.71,
+          "currency": "GBP",
+          "symbol": "\u00a3",
+          "formatted": "\u00a31.71",
+          "shipping": 7.99
+        },
+        "AU": {
+          "price": 2.79,
+          "currency": "AUD",
+          "symbol": "$",
+          "formatted": "$2.79",
+          "shipping": 14.99
+        },
+        "CA": {
+          "price": 2.48,
+          "currency": "CAD",
+          "symbol": "$",
+          "formatted": "$2.48",
+          "shipping": 12.99
+        },
+        "DE": {
+          "price": 1.66,
+          "currency": "EUR",
+          "symbol": "\u20ac",
+          "formatted": "\u20ac1.66",
+          "shipping": 11.99
+        },
+        "FR": {
+          "price": 1.66,
+          "currency": "EUR",
+          "symbol": "\u20ac",
+          "formatted": "\u20ac1.66",
+          "shipping": 11.99
+        },
+        "IT": {
+          "price": 1.66,
+          "currency": "EUR",
+          "symbol": "\u20ac",
+          "formatted": "\u20ac1.66",
+          "shipping": 11.99
+        },
+        "ES": {
+          "price": 1.66,
+          "currency": "EUR",
+          "symbol": "\u20ac",
+          "formatted": "\u20ac1.66",
+          "shipping": 11.99
+        },
+        "AE": {
+          "price": 6.61,
+          "currency": "AED",
+          "symbol": "\u062f.\u0625",
+          "formatted": "\u062f.\u06256.61",
+          "shipping": 19.99
+        },
+        "SG": {
+          "price": 2.43,
+          "currency": "SGD",
+          "symbol": "$",
+          "formatted": "$2.43",
+          "shipping": 12.99
+        },
+        "NZ": {
+          "price": 3.02,
+          "currency": "NZD",
+          "symbol": "$",
+          "formatted": "$3.02",
+          "shipping": 15.99
+        },
+        "JP": {
+          "price": 277.2,
+          "currency": "JPY",
+          "symbol": "\u00a5",
+          "formatted": "\u00a5277.2",
+          "shipping": 1499
+        },
+        "IN": {
+          "price": 150.3,
+          "currency": "INR",
+          "symbol": "\u20b9",
+          "formatted": "\u20b9150.3",
+          "shipping": 99
+        }
+      }
     },
     {
       "id": 48,
@@ -5588,7 +10006,101 @@
         "https://images.unsplash.com/photo-1596040033229-a9821ebd058d?w=800&h=800&fit=crop&fm=jpg",
         "https://images.unsplash.com/photo-1474979266404-7eaacbcd87c5?w=800&h=800&fit=crop&fm=jpg",
         "https://images.unsplash.com/photo-1509358271058-aedd22b2da55?w=800&h=800&fit=crop&fm=jpg"
-      ]
+      ],
+      "usd_price": 3.84,
+      "regional_prices": {
+        "US": {
+          "price": 3.84,
+          "currency": "USD",
+          "symbol": "$",
+          "formatted": "$3.84",
+          "shipping": 9.99
+        },
+        "GB": {
+          "price": 3.65,
+          "currency": "GBP",
+          "symbol": "\u00a3",
+          "formatted": "\u00a33.65",
+          "shipping": 7.99
+        },
+        "AU": {
+          "price": 5.95,
+          "currency": "AUD",
+          "symbol": "$",
+          "formatted": "$5.95",
+          "shipping": 14.99
+        },
+        "CA": {
+          "price": 5.3,
+          "currency": "CAD",
+          "symbol": "$",
+          "formatted": "$5.3",
+          "shipping": 12.99
+        },
+        "DE": {
+          "price": 3.53,
+          "currency": "EUR",
+          "symbol": "\u20ac",
+          "formatted": "\u20ac3.53",
+          "shipping": 11.99
+        },
+        "FR": {
+          "price": 3.53,
+          "currency": "EUR",
+          "symbol": "\u20ac",
+          "formatted": "\u20ac3.53",
+          "shipping": 11.99
+        },
+        "IT": {
+          "price": 3.53,
+          "currency": "EUR",
+          "symbol": "\u20ac",
+          "formatted": "\u20ac3.53",
+          "shipping": 11.99
+        },
+        "ES": {
+          "price": 3.53,
+          "currency": "EUR",
+          "symbol": "\u20ac",
+          "formatted": "\u20ac3.53",
+          "shipping": 11.99
+        },
+        "AE": {
+          "price": 14.09,
+          "currency": "AED",
+          "symbol": "\u062f.\u0625",
+          "formatted": "\u062f.\u062514.09",
+          "shipping": 19.99
+        },
+        "SG": {
+          "price": 5.18,
+          "currency": "SGD",
+          "symbol": "$",
+          "formatted": "$5.18",
+          "shipping": 12.99
+        },
+        "NZ": {
+          "price": 6.45,
+          "currency": "NZD",
+          "symbol": "$",
+          "formatted": "$6.45",
+          "shipping": 15.99
+        },
+        "JP": {
+          "price": 591.36,
+          "currency": "JPY",
+          "symbol": "\u00a5",
+          "formatted": "\u00a5591.36",
+          "shipping": 1499
+        },
+        "IN": {
+          "price": 320.64,
+          "currency": "INR",
+          "symbol": "\u20b9",
+          "formatted": "\u20b9320.64",
+          "shipping": 99
+        }
+      }
     },
     {
       "id": 49,
@@ -5688,7 +10200,101 @@
         "https://images.unsplash.com/photo-1596040033229-a9821ebd058d?w=800&h=800&fit=crop&fm=jpg",
         "https://images.unsplash.com/photo-1606923829579-0cb981a83e2e?w=800&h=800&fit=crop&fm=jpg",
         "https://images.unsplash.com/photo-1505253716362-afaea1d3d1af?w=800&h=800&fit=crop&fm=jpg"
-      ]
+      ],
+      "usd_price": 1.44,
+      "regional_prices": {
+        "US": {
+          "price": 1.44,
+          "currency": "USD",
+          "symbol": "$",
+          "formatted": "$1.44",
+          "shipping": 9.99
+        },
+        "GB": {
+          "price": 1.37,
+          "currency": "GBP",
+          "symbol": "\u00a3",
+          "formatted": "\u00a31.37",
+          "shipping": 7.99
+        },
+        "AU": {
+          "price": 2.23,
+          "currency": "AUD",
+          "symbol": "$",
+          "formatted": "$2.23",
+          "shipping": 14.99
+        },
+        "CA": {
+          "price": 1.99,
+          "currency": "CAD",
+          "symbol": "$",
+          "formatted": "$1.99",
+          "shipping": 12.99
+        },
+        "DE": {
+          "price": 1.32,
+          "currency": "EUR",
+          "symbol": "\u20ac",
+          "formatted": "\u20ac1.32",
+          "shipping": 11.99
+        },
+        "FR": {
+          "price": 1.32,
+          "currency": "EUR",
+          "symbol": "\u20ac",
+          "formatted": "\u20ac1.32",
+          "shipping": 11.99
+        },
+        "IT": {
+          "price": 1.32,
+          "currency": "EUR",
+          "symbol": "\u20ac",
+          "formatted": "\u20ac1.32",
+          "shipping": 11.99
+        },
+        "ES": {
+          "price": 1.32,
+          "currency": "EUR",
+          "symbol": "\u20ac",
+          "formatted": "\u20ac1.32",
+          "shipping": 11.99
+        },
+        "AE": {
+          "price": 5.28,
+          "currency": "AED",
+          "symbol": "\u062f.\u0625",
+          "formatted": "\u062f.\u06255.28",
+          "shipping": 19.99
+        },
+        "SG": {
+          "price": 1.94,
+          "currency": "SGD",
+          "symbol": "$",
+          "formatted": "$1.94",
+          "shipping": 12.99
+        },
+        "NZ": {
+          "price": 2.42,
+          "currency": "NZD",
+          "symbol": "$",
+          "formatted": "$2.42",
+          "shipping": 15.99
+        },
+        "JP": {
+          "price": 221.76,
+          "currency": "JPY",
+          "symbol": "\u00a5",
+          "formatted": "\u00a5221.76",
+          "shipping": 1499
+        },
+        "IN": {
+          "price": 120.24,
+          "currency": "INR",
+          "symbol": "\u20b9",
+          "formatted": "\u20b9120.24",
+          "shipping": 99
+        }
+      }
     },
     {
       "id": 50,
@@ -5815,7 +10421,101 @@
         "https://images.unsplash.com/photo-1558642452-9d2a7deb7f62?w=800&h=800&fit=crop&fm=jpg",
         "https://images.unsplash.com/photo-1471943311424-646960669fbc?w=800&h=800&fit=crop&fm=jpg",
         "https://images.unsplash.com/photo-1598971639058-fab3c3109a00?w=800&h=800&fit=crop&fm=jpg"
-      ]
+      ],
+      "usd_price": 4.8,
+      "regional_prices": {
+        "US": {
+          "price": 4.8,
+          "currency": "USD",
+          "symbol": "$",
+          "formatted": "$4.8",
+          "shipping": 9.99
+        },
+        "GB": {
+          "price": 4.56,
+          "currency": "GBP",
+          "symbol": "\u00a3",
+          "formatted": "\u00a34.56",
+          "shipping": 7.99
+        },
+        "AU": {
+          "price": 7.44,
+          "currency": "AUD",
+          "symbol": "$",
+          "formatted": "$7.44",
+          "shipping": 14.99
+        },
+        "CA": {
+          "price": 6.62,
+          "currency": "CAD",
+          "symbol": "$",
+          "formatted": "$6.62",
+          "shipping": 12.99
+        },
+        "DE": {
+          "price": 4.42,
+          "currency": "EUR",
+          "symbol": "\u20ac",
+          "formatted": "\u20ac4.42",
+          "shipping": 11.99
+        },
+        "FR": {
+          "price": 4.42,
+          "currency": "EUR",
+          "symbol": "\u20ac",
+          "formatted": "\u20ac4.42",
+          "shipping": 11.99
+        },
+        "IT": {
+          "price": 4.42,
+          "currency": "EUR",
+          "symbol": "\u20ac",
+          "formatted": "\u20ac4.42",
+          "shipping": 11.99
+        },
+        "ES": {
+          "price": 4.42,
+          "currency": "EUR",
+          "symbol": "\u20ac",
+          "formatted": "\u20ac4.42",
+          "shipping": 11.99
+        },
+        "AE": {
+          "price": 17.62,
+          "currency": "AED",
+          "symbol": "\u062f.\u0625",
+          "formatted": "\u062f.\u062517.62",
+          "shipping": 19.99
+        },
+        "SG": {
+          "price": 6.48,
+          "currency": "SGD",
+          "symbol": "$",
+          "formatted": "$6.48",
+          "shipping": 12.99
+        },
+        "NZ": {
+          "price": 8.06,
+          "currency": "NZD",
+          "symbol": "$",
+          "formatted": "$8.06",
+          "shipping": 15.99
+        },
+        "JP": {
+          "price": 739.2,
+          "currency": "JPY",
+          "symbol": "\u00a5",
+          "formatted": "\u00a5739.2",
+          "shipping": 1499
+        },
+        "IN": {
+          "price": 400.8,
+          "currency": "INR",
+          "symbol": "\u20b9",
+          "formatted": "\u20b9400.8",
+          "shipping": 99
+        }
+      }
     },
     {
       "id": 51,
@@ -5942,7 +10642,101 @@
         "https://images.unsplash.com/photo-1536304993881-ff6e9eefa2a6?w=800&h=800&fit=crop&fm=jpg",
         "https://images.unsplash.com/photo-1509358271058-aedd22b2da55?w=800&h=800&fit=crop&fm=jpg",
         "https://images.unsplash.com/photo-1599940824399-b87987ceb72a?w=800&h=800&fit=crop&fm=jpg"
-      ]
+      ],
+      "usd_price": 1.81,
+      "regional_prices": {
+        "US": {
+          "price": 1.81,
+          "currency": "USD",
+          "symbol": "$",
+          "formatted": "$1.81",
+          "shipping": 9.99
+        },
+        "GB": {
+          "price": 1.72,
+          "currency": "GBP",
+          "symbol": "\u00a3",
+          "formatted": "\u00a31.72",
+          "shipping": 7.99
+        },
+        "AU": {
+          "price": 2.81,
+          "currency": "AUD",
+          "symbol": "$",
+          "formatted": "$2.81",
+          "shipping": 14.99
+        },
+        "CA": {
+          "price": 2.5,
+          "currency": "CAD",
+          "symbol": "$",
+          "formatted": "$2.5",
+          "shipping": 12.99
+        },
+        "DE": {
+          "price": 1.67,
+          "currency": "EUR",
+          "symbol": "\u20ac",
+          "formatted": "\u20ac1.67",
+          "shipping": 11.99
+        },
+        "FR": {
+          "price": 1.67,
+          "currency": "EUR",
+          "symbol": "\u20ac",
+          "formatted": "\u20ac1.67",
+          "shipping": 11.99
+        },
+        "IT": {
+          "price": 1.67,
+          "currency": "EUR",
+          "symbol": "\u20ac",
+          "formatted": "\u20ac1.67",
+          "shipping": 11.99
+        },
+        "ES": {
+          "price": 1.67,
+          "currency": "EUR",
+          "symbol": "\u20ac",
+          "formatted": "\u20ac1.67",
+          "shipping": 11.99
+        },
+        "AE": {
+          "price": 6.64,
+          "currency": "AED",
+          "symbol": "\u062f.\u0625",
+          "formatted": "\u062f.\u06256.64",
+          "shipping": 19.99
+        },
+        "SG": {
+          "price": 2.44,
+          "currency": "SGD",
+          "symbol": "$",
+          "formatted": "$2.44",
+          "shipping": 12.99
+        },
+        "NZ": {
+          "price": 3.04,
+          "currency": "NZD",
+          "symbol": "$",
+          "formatted": "$3.04",
+          "shipping": 15.99
+        },
+        "JP": {
+          "price": 278.74,
+          "currency": "JPY",
+          "symbol": "\u00a5",
+          "formatted": "\u00a5278.74",
+          "shipping": 1499
+        },
+        "IN": {
+          "price": 151.13,
+          "currency": "INR",
+          "symbol": "\u20b9",
+          "formatted": "\u20b9151.13",
+          "shipping": 99
+        }
+      }
     },
     {
       "id": 52,
@@ -6069,7 +10863,101 @@
         "https://images.unsplash.com/photo-1536304993881-ff6e9eefa2a6?w=800&h=800&fit=crop&fm=jpg",
         "https://images.unsplash.com/photo-1509358271058-aedd22b2da55?w=800&h=800&fit=crop&fm=jpg",
         "https://images.unsplash.com/photo-1599940824399-b87987ceb72a?w=800&h=800&fit=crop&fm=jpg"
-      ]
+      ],
+      "usd_price": 1.82,
+      "regional_prices": {
+        "US": {
+          "price": 1.82,
+          "currency": "USD",
+          "symbol": "$",
+          "formatted": "$1.82",
+          "shipping": 9.99
+        },
+        "GB": {
+          "price": 1.73,
+          "currency": "GBP",
+          "symbol": "\u00a3",
+          "formatted": "\u00a31.73",
+          "shipping": 7.99
+        },
+        "AU": {
+          "price": 2.82,
+          "currency": "AUD",
+          "symbol": "$",
+          "formatted": "$2.82",
+          "shipping": 14.99
+        },
+        "CA": {
+          "price": 2.51,
+          "currency": "CAD",
+          "symbol": "$",
+          "formatted": "$2.51",
+          "shipping": 12.99
+        },
+        "DE": {
+          "price": 1.67,
+          "currency": "EUR",
+          "symbol": "\u20ac",
+          "formatted": "\u20ac1.67",
+          "shipping": 11.99
+        },
+        "FR": {
+          "price": 1.67,
+          "currency": "EUR",
+          "symbol": "\u20ac",
+          "formatted": "\u20ac1.67",
+          "shipping": 11.99
+        },
+        "IT": {
+          "price": 1.67,
+          "currency": "EUR",
+          "symbol": "\u20ac",
+          "formatted": "\u20ac1.67",
+          "shipping": 11.99
+        },
+        "ES": {
+          "price": 1.67,
+          "currency": "EUR",
+          "symbol": "\u20ac",
+          "formatted": "\u20ac1.67",
+          "shipping": 11.99
+        },
+        "AE": {
+          "price": 6.68,
+          "currency": "AED",
+          "symbol": "\u062f.\u0625",
+          "formatted": "\u062f.\u06256.68",
+          "shipping": 19.99
+        },
+        "SG": {
+          "price": 2.46,
+          "currency": "SGD",
+          "symbol": "$",
+          "formatted": "$2.46",
+          "shipping": 12.99
+        },
+        "NZ": {
+          "price": 3.06,
+          "currency": "NZD",
+          "symbol": "$",
+          "formatted": "$3.06",
+          "shipping": 15.99
+        },
+        "JP": {
+          "price": 280.28,
+          "currency": "JPY",
+          "symbol": "\u00a5",
+          "formatted": "\u00a5280.28",
+          "shipping": 1499
+        },
+        "IN": {
+          "price": 151.97,
+          "currency": "INR",
+          "symbol": "\u20b9",
+          "formatted": "\u20b9151.97",
+          "shipping": 99
+        }
+      }
     },
     {
       "id": 53,
@@ -6196,7 +11084,101 @@
         "https://images.unsplash.com/photo-1536304993881-ff6e9eefa2a6?w=800&h=800&fit=crop&fm=jpg",
         "https://images.unsplash.com/photo-1509358271058-aedd22b2da55?w=800&h=800&fit=crop&fm=jpg",
         "https://images.unsplash.com/photo-1599940824399-b87987ceb72a?w=800&h=800&fit=crop&fm=jpg"
-      ]
+      ],
+      "usd_price": 1.84,
+      "regional_prices": {
+        "US": {
+          "price": 1.84,
+          "currency": "USD",
+          "symbol": "$",
+          "formatted": "$1.84",
+          "shipping": 9.99
+        },
+        "GB": {
+          "price": 1.75,
+          "currency": "GBP",
+          "symbol": "\u00a3",
+          "formatted": "\u00a31.75",
+          "shipping": 7.99
+        },
+        "AU": {
+          "price": 2.85,
+          "currency": "AUD",
+          "symbol": "$",
+          "formatted": "$2.85",
+          "shipping": 14.99
+        },
+        "CA": {
+          "price": 2.54,
+          "currency": "CAD",
+          "symbol": "$",
+          "formatted": "$2.54",
+          "shipping": 12.99
+        },
+        "DE": {
+          "price": 1.69,
+          "currency": "EUR",
+          "symbol": "\u20ac",
+          "formatted": "\u20ac1.69",
+          "shipping": 11.99
+        },
+        "FR": {
+          "price": 1.69,
+          "currency": "EUR",
+          "symbol": "\u20ac",
+          "formatted": "\u20ac1.69",
+          "shipping": 11.99
+        },
+        "IT": {
+          "price": 1.69,
+          "currency": "EUR",
+          "symbol": "\u20ac",
+          "formatted": "\u20ac1.69",
+          "shipping": 11.99
+        },
+        "ES": {
+          "price": 1.69,
+          "currency": "EUR",
+          "symbol": "\u20ac",
+          "formatted": "\u20ac1.69",
+          "shipping": 11.99
+        },
+        "AE": {
+          "price": 6.75,
+          "currency": "AED",
+          "symbol": "\u062f.\u0625",
+          "formatted": "\u062f.\u06256.75",
+          "shipping": 19.99
+        },
+        "SG": {
+          "price": 2.48,
+          "currency": "SGD",
+          "symbol": "$",
+          "formatted": "$2.48",
+          "shipping": 12.99
+        },
+        "NZ": {
+          "price": 3.09,
+          "currency": "NZD",
+          "symbol": "$",
+          "formatted": "$3.09",
+          "shipping": 15.99
+        },
+        "JP": {
+          "price": 283.36,
+          "currency": "JPY",
+          "symbol": "\u00a5",
+          "formatted": "\u00a5283.36",
+          "shipping": 1499
+        },
+        "IN": {
+          "price": 153.64,
+          "currency": "INR",
+          "symbol": "\u20b9",
+          "formatted": "\u20b9153.64",
+          "shipping": 99
+        }
+      }
     },
     {
       "id": 54,
@@ -6323,7 +11305,101 @@
         "https://images.unsplash.com/photo-1536304993881-ff6e9eefa2a6?w=800&h=800&fit=crop&fm=jpg",
         "https://images.unsplash.com/photo-1509358271058-aedd22b2da55?w=800&h=800&fit=crop&fm=jpg",
         "https://images.unsplash.com/photo-1599940824399-b87987ceb72a?w=800&h=800&fit=crop&fm=jpg"
-      ]
+      ],
+      "usd_price": 1.85,
+      "regional_prices": {
+        "US": {
+          "price": 1.85,
+          "currency": "USD",
+          "symbol": "$",
+          "formatted": "$1.85",
+          "shipping": 9.99
+        },
+        "GB": {
+          "price": 1.76,
+          "currency": "GBP",
+          "symbol": "\u00a3",
+          "formatted": "\u00a31.76",
+          "shipping": 7.99
+        },
+        "AU": {
+          "price": 2.87,
+          "currency": "AUD",
+          "symbol": "$",
+          "formatted": "$2.87",
+          "shipping": 14.99
+        },
+        "CA": {
+          "price": 2.55,
+          "currency": "CAD",
+          "symbol": "$",
+          "formatted": "$2.55",
+          "shipping": 12.99
+        },
+        "DE": {
+          "price": 1.7,
+          "currency": "EUR",
+          "symbol": "\u20ac",
+          "formatted": "\u20ac1.7",
+          "shipping": 11.99
+        },
+        "FR": {
+          "price": 1.7,
+          "currency": "EUR",
+          "symbol": "\u20ac",
+          "formatted": "\u20ac1.7",
+          "shipping": 11.99
+        },
+        "IT": {
+          "price": 1.7,
+          "currency": "EUR",
+          "symbol": "\u20ac",
+          "formatted": "\u20ac1.7",
+          "shipping": 11.99
+        },
+        "ES": {
+          "price": 1.7,
+          "currency": "EUR",
+          "symbol": "\u20ac",
+          "formatted": "\u20ac1.7",
+          "shipping": 11.99
+        },
+        "AE": {
+          "price": 6.79,
+          "currency": "AED",
+          "symbol": "\u062f.\u0625",
+          "formatted": "\u062f.\u06256.79",
+          "shipping": 19.99
+        },
+        "SG": {
+          "price": 2.5,
+          "currency": "SGD",
+          "symbol": "$",
+          "formatted": "$2.5",
+          "shipping": 12.99
+        },
+        "NZ": {
+          "price": 3.11,
+          "currency": "NZD",
+          "symbol": "$",
+          "formatted": "$3.11",
+          "shipping": 15.99
+        },
+        "JP": {
+          "price": 284.9,
+          "currency": "JPY",
+          "symbol": "\u00a5",
+          "formatted": "\u00a5284.9",
+          "shipping": 1499
+        },
+        "IN": {
+          "price": 154.47,
+          "currency": "INR",
+          "symbol": "\u20b9",
+          "formatted": "\u20b9154.47",
+          "shipping": 99
+        }
+      }
     },
     {
       "id": 55,
@@ -6450,7 +11526,101 @@
         "https://images.unsplash.com/photo-1536304993881-ff6e9eefa2a6?w=800&h=800&fit=crop&fm=jpg",
         "https://images.unsplash.com/photo-1509358271058-aedd22b2da55?w=800&h=800&fit=crop&fm=jpg",
         "https://images.unsplash.com/photo-1599940824399-b87987ceb72a?w=800&h=800&fit=crop&fm=jpg"
-      ]
+      ],
+      "usd_price": 1.86,
+      "regional_prices": {
+        "US": {
+          "price": 1.86,
+          "currency": "USD",
+          "symbol": "$",
+          "formatted": "$1.86",
+          "shipping": 9.99
+        },
+        "GB": {
+          "price": 1.77,
+          "currency": "GBP",
+          "symbol": "\u00a3",
+          "formatted": "\u00a31.77",
+          "shipping": 7.99
+        },
+        "AU": {
+          "price": 2.88,
+          "currency": "AUD",
+          "symbol": "$",
+          "formatted": "$2.88",
+          "shipping": 14.99
+        },
+        "CA": {
+          "price": 2.57,
+          "currency": "CAD",
+          "symbol": "$",
+          "formatted": "$2.57",
+          "shipping": 12.99
+        },
+        "DE": {
+          "price": 1.71,
+          "currency": "EUR",
+          "symbol": "\u20ac",
+          "formatted": "\u20ac1.71",
+          "shipping": 11.99
+        },
+        "FR": {
+          "price": 1.71,
+          "currency": "EUR",
+          "symbol": "\u20ac",
+          "formatted": "\u20ac1.71",
+          "shipping": 11.99
+        },
+        "IT": {
+          "price": 1.71,
+          "currency": "EUR",
+          "symbol": "\u20ac",
+          "formatted": "\u20ac1.71",
+          "shipping": 11.99
+        },
+        "ES": {
+          "price": 1.71,
+          "currency": "EUR",
+          "symbol": "\u20ac",
+          "formatted": "\u20ac1.71",
+          "shipping": 11.99
+        },
+        "AE": {
+          "price": 6.83,
+          "currency": "AED",
+          "symbol": "\u062f.\u0625",
+          "formatted": "\u062f.\u06256.83",
+          "shipping": 19.99
+        },
+        "SG": {
+          "price": 2.51,
+          "currency": "SGD",
+          "symbol": "$",
+          "formatted": "$2.51",
+          "shipping": 12.99
+        },
+        "NZ": {
+          "price": 3.12,
+          "currency": "NZD",
+          "symbol": "$",
+          "formatted": "$3.12",
+          "shipping": 15.99
+        },
+        "JP": {
+          "price": 286.44,
+          "currency": "JPY",
+          "symbol": "\u00a5",
+          "formatted": "\u00a5286.44",
+          "shipping": 1499
+        },
+        "IN": {
+          "price": 155.31,
+          "currency": "INR",
+          "symbol": "\u20b9",
+          "formatted": "\u20b9155.31",
+          "shipping": 99
+        }
+      }
     },
     {
       "code": "PRD-NEW-01",
@@ -6478,7 +11648,101 @@
         "https://images.unsplash.com/photo-1536304993881-ff6e9eefa2a6?w=800&h=800&fit=crop&fm=jpg",
         "https://images.unsplash.com/photo-1509358271058-aedd22b2da55?w=800&h=800&fit=crop&fm=jpg",
         "https://images.unsplash.com/photo-1599940824399-b87987ceb72a?w=800&h=800&fit=crop&fm=jpg"
-      ]
+      ],
+      "usd_price": 0.18,
+      "regional_prices": {
+        "US": {
+          "price": 0.18,
+          "currency": "USD",
+          "symbol": "$",
+          "formatted": "$0.18",
+          "shipping": 9.99
+        },
+        "GB": {
+          "price": 0.17,
+          "currency": "GBP",
+          "symbol": "\u00a3",
+          "formatted": "\u00a30.17",
+          "shipping": 7.99
+        },
+        "AU": {
+          "price": 0.28,
+          "currency": "AUD",
+          "symbol": "$",
+          "formatted": "$0.28",
+          "shipping": 14.99
+        },
+        "CA": {
+          "price": 0.25,
+          "currency": "CAD",
+          "symbol": "$",
+          "formatted": "$0.25",
+          "shipping": 12.99
+        },
+        "DE": {
+          "price": 0.17,
+          "currency": "EUR",
+          "symbol": "\u20ac",
+          "formatted": "\u20ac0.17",
+          "shipping": 11.99
+        },
+        "FR": {
+          "price": 0.17,
+          "currency": "EUR",
+          "symbol": "\u20ac",
+          "formatted": "\u20ac0.17",
+          "shipping": 11.99
+        },
+        "IT": {
+          "price": 0.17,
+          "currency": "EUR",
+          "symbol": "\u20ac",
+          "formatted": "\u20ac0.17",
+          "shipping": 11.99
+        },
+        "ES": {
+          "price": 0.17,
+          "currency": "EUR",
+          "symbol": "\u20ac",
+          "formatted": "\u20ac0.17",
+          "shipping": 11.99
+        },
+        "AE": {
+          "price": 0.66,
+          "currency": "AED",
+          "symbol": "\u062f.\u0625",
+          "formatted": "\u062f.\u06250.66",
+          "shipping": 19.99
+        },
+        "SG": {
+          "price": 0.24,
+          "currency": "SGD",
+          "symbol": "$",
+          "formatted": "$0.24",
+          "shipping": 12.99
+        },
+        "NZ": {
+          "price": 0.3,
+          "currency": "NZD",
+          "symbol": "$",
+          "formatted": "$0.3",
+          "shipping": 15.99
+        },
+        "JP": {
+          "price": 27.72,
+          "currency": "JPY",
+          "symbol": "\u00a5",
+          "formatted": "\u00a527.72",
+          "shipping": 1499
+        },
+        "IN": {
+          "price": 15.03,
+          "currency": "INR",
+          "symbol": "\u20b9",
+          "formatted": "\u20b915.03",
+          "shipping": 99
+        }
+      }
     },
     {
       "code": "PRD-NEW-02",
@@ -6506,7 +11770,101 @@
         "https://images.unsplash.com/photo-1536304993881-ff6e9eefa2a6?w=800&h=800&fit=crop&fm=jpg",
         "https://images.unsplash.com/photo-1509358271058-aedd22b2da55?w=800&h=800&fit=crop&fm=jpg",
         "https://images.unsplash.com/photo-1599940824399-b87987ceb72a?w=800&h=800&fit=crop&fm=jpg"
-      ]
+      ],
+      "usd_price": 0.15,
+      "regional_prices": {
+        "US": {
+          "price": 0.15,
+          "currency": "USD",
+          "symbol": "$",
+          "formatted": "$0.15",
+          "shipping": 9.99
+        },
+        "GB": {
+          "price": 0.14,
+          "currency": "GBP",
+          "symbol": "\u00a3",
+          "formatted": "\u00a30.14",
+          "shipping": 7.99
+        },
+        "AU": {
+          "price": 0.23,
+          "currency": "AUD",
+          "symbol": "$",
+          "formatted": "$0.23",
+          "shipping": 14.99
+        },
+        "CA": {
+          "price": 0.21,
+          "currency": "CAD",
+          "symbol": "$",
+          "formatted": "$0.21",
+          "shipping": 12.99
+        },
+        "DE": {
+          "price": 0.14,
+          "currency": "EUR",
+          "symbol": "\u20ac",
+          "formatted": "\u20ac0.14",
+          "shipping": 11.99
+        },
+        "FR": {
+          "price": 0.14,
+          "currency": "EUR",
+          "symbol": "\u20ac",
+          "formatted": "\u20ac0.14",
+          "shipping": 11.99
+        },
+        "IT": {
+          "price": 0.14,
+          "currency": "EUR",
+          "symbol": "\u20ac",
+          "formatted": "\u20ac0.14",
+          "shipping": 11.99
+        },
+        "ES": {
+          "price": 0.14,
+          "currency": "EUR",
+          "symbol": "\u20ac",
+          "formatted": "\u20ac0.14",
+          "shipping": 11.99
+        },
+        "AE": {
+          "price": 0.55,
+          "currency": "AED",
+          "symbol": "\u062f.\u0625",
+          "formatted": "\u062f.\u06250.55",
+          "shipping": 19.99
+        },
+        "SG": {
+          "price": 0.2,
+          "currency": "SGD",
+          "symbol": "$",
+          "formatted": "$0.2",
+          "shipping": 12.99
+        },
+        "NZ": {
+          "price": 0.25,
+          "currency": "NZD",
+          "symbol": "$",
+          "formatted": "$0.25",
+          "shipping": 15.99
+        },
+        "JP": {
+          "price": 23.1,
+          "currency": "JPY",
+          "symbol": "\u00a5",
+          "formatted": "\u00a523.1",
+          "shipping": 1499
+        },
+        "IN": {
+          "price": 12.53,
+          "currency": "INR",
+          "symbol": "\u20b9",
+          "formatted": "\u20b912.53",
+          "shipping": 99
+        }
+      }
     },
     {
       "code": "PRD-NEW-03",
@@ -6534,7 +11892,116 @@
         "https://images.unsplash.com/photo-1536304993881-ff6e9eefa2a6?w=800&h=800&fit=crop&fm=jpg",
         "https://images.unsplash.com/photo-1509358271058-aedd22b2da55?w=800&h=800&fit=crop&fm=jpg",
         "https://images.unsplash.com/photo-1599940824399-b87987ceb72a?w=800&h=800&fit=crop&fm=jpg"
-      ]
+      ],
+      "usd_price": 0.06,
+      "regional_prices": {
+        "US": {
+          "price": 0.06,
+          "currency": "USD",
+          "symbol": "$",
+          "formatted": "$0.06",
+          "shipping": 9.99
+        },
+        "GB": {
+          "price": 0.06,
+          "currency": "GBP",
+          "symbol": "\u00a3",
+          "formatted": "\u00a30.06",
+          "shipping": 7.99
+        },
+        "AU": {
+          "price": 0.09,
+          "currency": "AUD",
+          "symbol": "$",
+          "formatted": "$0.09",
+          "shipping": 14.99
+        },
+        "CA": {
+          "price": 0.08,
+          "currency": "CAD",
+          "symbol": "$",
+          "formatted": "$0.08",
+          "shipping": 12.99
+        },
+        "DE": {
+          "price": 0.06,
+          "currency": "EUR",
+          "symbol": "\u20ac",
+          "formatted": "\u20ac0.06",
+          "shipping": 11.99
+        },
+        "FR": {
+          "price": 0.06,
+          "currency": "EUR",
+          "symbol": "\u20ac",
+          "formatted": "\u20ac0.06",
+          "shipping": 11.99
+        },
+        "IT": {
+          "price": 0.06,
+          "currency": "EUR",
+          "symbol": "\u20ac",
+          "formatted": "\u20ac0.06",
+          "shipping": 11.99
+        },
+        "ES": {
+          "price": 0.06,
+          "currency": "EUR",
+          "symbol": "\u20ac",
+          "formatted": "\u20ac0.06",
+          "shipping": 11.99
+        },
+        "AE": {
+          "price": 0.22,
+          "currency": "AED",
+          "symbol": "\u062f.\u0625",
+          "formatted": "\u062f.\u06250.22",
+          "shipping": 19.99
+        },
+        "SG": {
+          "price": 0.08,
+          "currency": "SGD",
+          "symbol": "$",
+          "formatted": "$0.08",
+          "shipping": 12.99
+        },
+        "NZ": {
+          "price": 0.1,
+          "currency": "NZD",
+          "symbol": "$",
+          "formatted": "$0.1",
+          "shipping": 15.99
+        },
+        "JP": {
+          "price": 9.24,
+          "currency": "JPY",
+          "symbol": "\u00a5",
+          "formatted": "\u00a59.24",
+          "shipping": 1499
+        },
+        "IN": {
+          "price": 5.01,
+          "currency": "INR",
+          "symbol": "\u20b9",
+          "formatted": "\u20b95.01",
+          "shipping": 99
+        }
+      }
     }
-  ]
+  ],
+  "pricing_metadata": {
+    "last_updated": "2026-01-28T16:29:00.694411",
+    "base_currency": "USD",
+    "inr_to_usd_rate": 0.012,
+    "enabled_countries": [
+      "US",
+      "GB",
+      "AU",
+      "CA",
+      "DE",
+      "FR",
+      "AE"
+    ],
+    "total_countries_configured": 13
+  }
 }

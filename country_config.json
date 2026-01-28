@@ -1,0 +1,118 @@
+{
+    "base_currency": "USD",
+    "base_exchange_from_inr": 0.012,
+    "countries": {
+        "US": {
+            "currency": "USD",
+            "symbol": "$",
+            "multiplier": 1.0,
+            "shipping_cost": 9.99,
+            "enabled": true,
+            "notes": "Base market - no adjustment"
+        },
+        "GB": {
+            "currency": "GBP",
+            "symbol": "£",
+            "multiplier": 0.95,
+            "shipping_cost": 7.99,
+            "enabled": true,
+            "notes": "UK market - 1.2x INR then convert to GBP"
+        },
+        "AU": {
+            "currency": "AUD",
+            "symbol": "$",
+            "multiplier": 1.55,
+            "shipping_cost": 14.99,
+            "enabled": true,
+            "notes": "Australia"
+        },
+        "CA": {
+            "currency": "CAD",
+            "symbol": "$",
+            "multiplier": 1.38,
+            "shipping_cost": 12.99,
+            "enabled": true,
+            "notes": "Canada"
+        },
+        "DE": {
+            "currency": "EUR",
+            "symbol": "€",
+            "multiplier": 0.92,
+            "shipping_cost": 11.99,
+            "enabled": true,
+            "notes": "Germany"
+        },
+        "FR": {
+            "currency": "EUR",
+            "symbol": "€",
+            "multiplier": 0.92,
+            "shipping_cost": 11.99,
+            "enabled": true,
+            "notes": "France"
+        },
+        "IT": {
+            "currency": "EUR",
+            "symbol": "€",
+            "multiplier": 0.92,
+            "shipping_cost": 11.99,
+            "enabled": false,
+            "notes": "Italy - disabled for now"
+        },
+        "ES": {
+            "currency": "EUR",
+            "symbol": "€",
+            "multiplier": 0.92,
+            "shipping_cost": 11.99,
+            "enabled": false,
+            "notes": "Spain - disabled for now"
+        },
+        "AE": {
+            "currency": "AED",
+            "symbol": "د.إ",
+            "multiplier": 3.67,
+            "shipping_cost": 19.99,
+            "enabled": true,
+            "notes": "UAE/Dubai"
+        },
+        "SG": {
+            "currency": "SGD",
+            "symbol": "$",
+            "multiplier": 1.35,
+            "shipping_cost": 12.99,
+            "enabled": false,
+            "notes": "Singapore"
+        },
+        "NZ": {
+            "currency": "NZD",
+            "symbol": "$",
+            "multiplier": 1.68,
+            "shipping_cost": 15.99,
+            "enabled": false,
+            "notes": "New Zealand"
+        },
+        "JP": {
+            "currency": "JPY",
+            "symbol": "¥",
+            "multiplier": 154.0,
+            "shipping_cost": 1499,
+            "enabled": false,
+            "notes": "Japan - prices in Yen"
+        },
+        "IN": {
+            "currency": "INR",
+            "symbol": "₹",
+            "multiplier": 83.5,
+            "shipping_cost": 99,
+            "enabled": false,
+            "notes": "India - domestic market"
+        }
+    },
+    "margin_buffers": {
+        "description": "Additional margin adjustments by region",
+        "default": 1.0,
+        "high_import_tax": 1.05,
+        "premium_market": 1.10
+    },
+    "last_updated": "2026-01-28",
+    "notes": "Set enabled=true for countries you want to push to GMC. Multiplier converts from USD base price."
+}
