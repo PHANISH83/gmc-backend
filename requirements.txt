@@ -2,6 +2,7 @@ flask
 flask-cors
 google-auth
 google-api-python-client
+google-shopping-merchant-products
 python-dotenv
 requests
 pandas
